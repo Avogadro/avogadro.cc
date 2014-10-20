@@ -1,0 +1,10 @@
+name: ""
+description: "Avogadro - the advanced molecular editor and visualizer"
+
+url: "http://avogadro.cc/"
+
+pygments: true
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
