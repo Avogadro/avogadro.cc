@@ -1,11 +1,32 @@
 ---
 layout: page
-title: Latest Posts
-excerpt: "A simple and clean responsive Jekyll theme for words and photos."
+title: Avogadro - Free cross-platform molecular editor
+excerpt: "Avogadro is an advanced molecular editor and visualizer."
 ---
 
+Avogadro is an advanced molecule editor and visualizer designed for cross-platform use in computational chemistry, molecular modeling, bioinformatics, materials science, and related areas. It offers flexible high quality rendering and a powerful plugin architecture.
+
+<ul>
+<li>Cross-Platform: Molecular builder/editor for Windows, Linux, and Mac OS X.</li>
+<li>Free, Open Source: Easy to install and all source code is available under the GNU GPL.</li>
+<li>International: Translations into Chinese, French, German, Italian,
+Russian, Spanish, and others, with <a href="https://translations.launchpad.net/avogadro/trunk/+translations">more languages to come.</a></li>
+<li>Intuitive: Built to work easily for students and advanced researchers both.</li>
+<li>Fast: Supports multi-threaded rendering and computation.</li>
+<li>Extensible: Plugin architecture for developers, including rendering, interactive tools, commands, and Python scripts.</li>
+<li>Flexible: Features include <a href="http://openbabel.org/">Open Babel</a> import of chemical files, input generation for multiple computational chemistry packages, crystallography, and biomolecules.</li>
+<li>How to cite Avogadro: <a href="http://dx.doi.org/10.1186/1758-2946-4-17">The Avogadro Paper</a></li>
+<li>Tell others: <!-- AddThis Button BEGIN -->
+<a class="addthis_button_compact"><span>Bookmark and Share"</span></a>
+<script type="text/javascript">var addthis_config =
+{"data_track_clickback":true; ui_508_compliant:true};</script>
+<script type="text/javascript"
+src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5006c6d451609ed2&domready=1"
+async="async"></script>
+<!-- AddThis Button END -->. <a href="http://dx.doi.org/10.1186/1758-2946-4-17">Share the paper</a></li>
+
 <ul class="post-list">
-{% for post in site.posts limit:10 %} 
+{% for post in site.posts limit:10 %}
   <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
 {% endfor %}
 </ul>

@@ -3,7 +3,7 @@
 title: Avogadro
 locale: en_US
 description: Avogadro - the advanced molecular editor and visualizer
-logo: avogadro.png
+logo: logo.png
 search: true
 #url: http://avogadro.cc
 url: 
@@ -34,7 +34,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 # Site owner
 owner:
   name: Avogadro
-  avatar: avogadro.png
+  avatar: logo.png
   email: avogadro-devel@lists.sourceforge.net
   twitter: #AvogadroChem
   github: #avogadro
