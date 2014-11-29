@@ -21,12 +21,3 @@ Russian, Spanish, and others, with <a href="https://translations.launchpad.net/a
 <li><strong>Tell others</strong>:
 <a class="addthis_button_compact" href="http://www.addthis.com/bookmark.php?v=300&amp;pubid=ra-5006c6d451609ed2"><span>Bookmark and Share</span></a>
 <a href="http://dx.doi.org/10.1186/1758-2946-4-17">Share the paper</a></li>
-
-<ul class="post-list">
-{% for node in site.pages %}
-	{% if node.title != nil and node.url != '/' and node.url != "404" %}
-	{% capture nodediff %}{{ page.url | remove:node.url }}{% endcapture %}
-	<li><a {% if nodediff != page.url %}class="active" {% endif %}href="{{ node.url }}">{{ node.title }}</a></li>
-	{% endif %}
-{% endfor %}
-</ul>
