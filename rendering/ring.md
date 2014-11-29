@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Ring
+category: rendering
 ---
 
-# Ring
+
 
 The ring display type will color closed rings.
 
@@ -13,13 +14,13 @@ The ring display type will color closed rings.
 -   Six-membered rings are pink/purple.
 -   Seven-membered rings are yellow.
 
-### Settings
+
 
 You can control the transparency / opacity of the rings.
 
-### Screenshot
+
 
 ![](Rings.png "Rings.png")
 
-<Category:Display>
+
 

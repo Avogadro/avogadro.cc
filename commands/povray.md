@@ -1,11 +1,12 @@
 ---
 layout: default
 title: POV-Ray
+tags: commands
 ---
 
-# POV-Ray
+
 
 ![](POVRayExport.png "POVRayExport.png")
 
-<Category:Commands>
+
 

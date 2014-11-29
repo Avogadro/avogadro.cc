@@ -3,13 +3,9 @@ layout: default
 title: Get Avogadro
 ---
 
-# Get Avogadro
-
 The latest and greatest release of Avogadro is **[Avogadro 1.1.1](http://sourceforge.net/projects/avogadro/files/avogadro/1.1.1/)** as of 11 December 2013, a **[Changelog](Avogadro 1.1.1 "wikilink")** is available. The Avogadro 2 code is a complete rewrite, and can be downloaded [here](https://sourceforge.net/projects/avogadro/files/avogadro2/0.7.2/). Avogadro 1 and 2 install to different locations, and can be installed on the same system without issues.
 
 Since we moved to **[GitHub](http://github.com/)** you can now download the source code of **[development branch](http://github.com/cryos/avogadro/archives/master)** or **[stable 1.0.x branch](http://github.com/cryos/avogadro/archives/1.0)** to check out the very latest developments in Avogadro.
-
-\_\_NOTOC\_\_
 
 <table>
 <colgroup>
@@ -55,4 +51,3 @@ Since we moved to **[GitHub](http://github.com/)** you can now download the sour
 </tr>
 </tbody>
 </table>
-

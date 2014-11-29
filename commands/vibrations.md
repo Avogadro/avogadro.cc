@@ -1,11 +1,9 @@
 ---
 layout: default
 title: Vibrations
+tags: commands
 ---
 
-# Vibrations
+
 
 ![](VibrationsDialog.png "VibrationsDialog.png")
-
-<Category:Commands>
-

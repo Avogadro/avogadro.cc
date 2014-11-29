@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Cartoon
+category: rendering
 ---
 
-# Cartoon
 
-### Screenshot
+
+
 
 ![](Cartoon.png "Cartoon.png")
 
-<Category:Display>
+
 

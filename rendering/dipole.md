@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Dipole
+category: rendering
 ---
 
-# Dipole
 
-### Screenshot
+
+
 
 ![](Dipole.png "Dipole.png")
 
-<Category:Display>
+
 

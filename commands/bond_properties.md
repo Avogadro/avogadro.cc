@@ -1,11 +1,12 @@
 ---
 layout: default
 title: Bond Properties
+tags: commands
 ---
 
-# Bond Properties
+
 
 ![](BondProp.png "BondProp.png")
 
-<Category:Commands>
+
 

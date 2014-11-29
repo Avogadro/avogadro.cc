@@ -1,8 +1,7 @@
 # Site navigation links
 
-- title: Download 
-  url: /download/
+- title: Download
+  url: https://sourceforge.net/projects/avogadro/files/latest/download
 
-- title: Tutorial 
+- title: Tutorial
   url: /tutorial/
-

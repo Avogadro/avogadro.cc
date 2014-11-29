@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Simple Wireframe
+category: rendering
 ---
 
-# Simple Wireframe
 
-### Screenshot
+
+
 
 ![](SimpleWire.png "SimpleWire.png")
 
-<Category:Display>
+
 

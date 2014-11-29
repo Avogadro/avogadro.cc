@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Hydrogen Bond
+category: rendering
 ---
 
-# Hydrogen Bond
+
 
 The hydrogen bonding display will dynamically compute hydrogen-bonding interactions.
 
@@ -11,15 +12,15 @@ The hydrogen bonding display will dynamically compute hydrogen-bonding interacti
 
 Future work will also allow configuration of the pattern matching used to determine bonding sets.
 
-### Settings
+
 
 -   Width controls the thickness of the displayed bond.
 -   Cut-off radius will consider donor-hydrogen-acceptor sets within this distance.
 -   Cut-off angle will consider donor-hydrogen-acceptor sets within this constraint.
 
-### Screenshot
+
 
 ![](HydrogenBonds.png "HydrogenBonds.png")
 
-<Category:Display>
+
 

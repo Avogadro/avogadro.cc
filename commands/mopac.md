@@ -1,11 +1,12 @@
 ---
 layout: default
 title: MOPAC
+tags: commands
 ---
 
-# MOPAC
+
 
 ![](MOPACInput.png "MOPACInput.png")
 
-<Category:Commands>
+
 

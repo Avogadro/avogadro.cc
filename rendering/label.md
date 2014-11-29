@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Label
+category: rendering
 ---
 
-# Label
+
 
 Label display will attach text annotations to atoms and bonds. Both atoms and bonds will be labelled. Labels will disappear from objects when they are too far from the camera to be legible.
 
-### Settings
+
 
 Atom labels:
 
@@ -25,9 +26,9 @@ Bond labels:
 -   Bond order
 -   None
 
-### Screenshot
+
 
 ![](Labels.png "Labels.png")
 
-<Category:Display>
+
 

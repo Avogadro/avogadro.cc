@@ -1,11 +1,12 @@
 ---
 layout: default
 title: Insert Fragment
+tags: commands
 ---
 
-# Insert Fragment
+
 
 ![](InsertFragment.png "InsertFragment.png")
 
-<Category:Commands>
+
 

@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Settings
+tags: commands
 ---
 
-# Settings
+
 
 ![](SettingsGeneral.png "SettingsGeneral.png")
 
@@ -11,5 +12,5 @@ title: Settings
 
 ![](SettingsProjectTree.png "SettingsProjectTree.png")
 
-<Category:Commands>
+
 

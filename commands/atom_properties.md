@@ -1,11 +1,12 @@
 ---
 layout: default
 title: Atom Properties
+tags: commands
 ---
 
-# Atom Properties
+
 
 ![](AtomProp.png "AtomProp.png")
 
-<Category:Commands>
+
 

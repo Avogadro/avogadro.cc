@@ -6,7 +6,7 @@ description: Avogadro - the advanced molecular editor and visualizer
 logo: logo.png
 search: true
 #url: http://avogadro.cc
-url: 
+url:
 
 # Jekyll configuration
 
@@ -17,7 +17,7 @@ sass:
   sass_dir: _sass
   style: compressed
 gems:
-  - jekyll-redirect-from
+#  - jekyll-redirect-from
   - jekyll-sitemap
 
 kramdown:
@@ -34,10 +34,11 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 # Site owner
 owner:
   name: Avogadro
+  twitter: AvogadroChem
+  github: avogadro
   avatar: logo.png
-  email: avogadro-devel@lists.sourceforge.net
-  twitter: #AvogadroChem
-  github: #avogadro
-  google:
-    verify:
-  bing-verify:
+#  email: avogadro-devel@lists.sourceforge.net
+#  google:
+#    analytics:
+#    verify:
+#  bing-verify:

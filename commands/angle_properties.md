@@ -1,11 +1,12 @@
 ---
 layout: default
 title: Angle Properties
+tags: commands
 ---
 
-# Angle Properties
+
 
 ![](AngleProp.png "AngleProp.png")
 
-<Category:Commands>
+
 

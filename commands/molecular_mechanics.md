@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Molecular Mechanics
+tags: commands
 ---
 
-# Molecular Mechanics
+
 
 ![](SetupForceField.png "SetupForceField.png")
 
 ![](ConformerSearch.png "ConformerSearch.png")
 
-<Category:Commands>
+
 

@@ -1,13 +1,14 @@
 ---
 layout: default
 title: GAMESS
+tags: commands
 ---
 
-# GAMESS
+
 
 ![](GAMESSBasic.png "GAMESSBasic.png")
 
 ![](GAMESSAdvanced.png "GAMESSAdvanced.png")
 
-<Category:Commands>
+
 

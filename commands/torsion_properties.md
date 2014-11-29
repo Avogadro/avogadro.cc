@@ -1,11 +1,12 @@
 ---
 layout: default
 title: Torsion Properties
+tags: commands
 ---
 
-# Torsion Properties
+
 
 ![](TorsionProp.png "TorsionProp.png")
 
-<Category:Commands>
+
 

@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Overlay
+category: rendering
 ---
 
-# Overlay
 
-### Screenshot
+
+
 
 ![](Overlay.png "Overlay.png")
 
-<Category:Display>
+
 
