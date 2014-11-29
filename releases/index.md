@@ -1,11 +1,8 @@
 ---
-layout: default
+layout: category
 title: Releases
+categories: Releases
 ---
 
-# Releases
-
-There have been several releases of Avogadro so far. The most recent is:
-
-[Avogadro 1.1.0](Avogadro 1.1.0 "wikilink") released on October 12, 2012.
-
+There have been several releases of Avogadro so far. The most recent
+is: [Avogadro 1.1.1](avogadro_111.html) released on {{ site.latest.date }}.

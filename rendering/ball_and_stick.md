@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ball and Stick
-category: rendering
+categories: Rendering
 ---
 
 
@@ -16,7 +16,7 @@ The ball and stick rendering type is a standard for chemistry. It shows atoms as
 
 
 
-![](BallsAndSticks.png "BallsAndSticks.png")
+![](/images/BallsAndSticks.png)
 
 
 

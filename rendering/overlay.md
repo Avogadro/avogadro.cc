@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Overlay
-category: rendering
+categories: Rendering
 ---
 
 
 
 
 
-![](Overlay.png "Overlay.png")
+![](/images/Overlay.png)
 
 
 

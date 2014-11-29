@@ -1,3 +1,9 @@
+---
+layout: default
+title: Markovnikov's Rules
+categories: Teaching
+---
+
 Task
 ----
 

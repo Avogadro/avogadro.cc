@@ -1,11 +1,13 @@
 ---
 layout: default
 title: AutoOptimization Tool
+categories: Tools
+image: /images/Autoopttool.png
 ---
 
-# AutoOptimization Tool
 
-![](Autoopttool.png "fig:Autoopttool.png") The AutoOptimization tool allows you to optimize the geometry of a molecule while manipulating it (e.g., continuing to use the Draw tool).
+
+![]({{ page.image }}).
 
 In general, the default settings should be sufficient for most users:
 
@@ -20,7 +22,7 @@ Once started, the optimization will occur in the background while you continue t
 Settings
 --------
 
-![](AutoOptSettings.png "AutoOptSettings.png")
+![](/images/AutoOptSettings.png)
 
-<Category:Tools>
+
 

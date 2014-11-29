@@ -1,11 +1,13 @@
 ---
 layout: default
 title: Select Tool
+categories: Tools
+image: /images/Select.png
 ---
 
-# Select Tool
 
-![](Select.png "fig:Select.png") The select tool allows you to operate on sections of molecules.
+
+![]({{page.image}}) The select tool allows you to operate on sections of molecules.
 
 -   Selection mode allows you to select individual atoms when clicked, biomolecular residues (e.g., amino acids, nucleic acids) or an entire connected molecule.
 -   Click on an atom or fragment to select it.
@@ -17,7 +19,4 @@ title: Select Tool
 Settings
 --------
 
-![](SelectToolSettings.png "SelectToolSettings.png")
-
-<Category:Tools>
-
+![](/images/SelectToolSettings.png)

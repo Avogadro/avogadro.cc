@@ -1,15 +1,10 @@
 ---
-layout: default
+layout: category
 title: Tutorials
+categories: Tutorials
 ---
 
-# Tutorials
-
-1.  REDIRECT [:Category:Tutorials](:Category:Tutorials "wikilink")
-
- Avogadro efficiently.
-
-<table>
+<table valign="top">
 <colgroup>
 <col width="50%" />
 <col width="50%" />
@@ -176,12 +171,3 @@ title: Tutorials
 </tr>
 </tbody>
 </table>
-
-<css>
-
-1.  mw-pages { display: none; }
-
-</css>
-
-<Category:Documentation>
-

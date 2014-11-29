@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Avogadro 0.2.0
+categories: Releases
 ---
 
-# Avogadro 0.2.0
+
 
 Avogadro version 0.2.0 was released on October 23, 2007.
 
@@ -12,7 +13,7 @@ What's New
 
 The following list includes some of the changes since [Avogadro 0.1.0](Avogadro 0.1.0 "wikilink").
 
-### Rendering
+
 
 -   Support for rendering crystallographic cells and editing unit cell parameters.
 -   Flexible rendering, including multiple overlays, and per-atom and per-bond custom rendering.
@@ -24,7 +25,7 @@ The following list includes some of the changes since [Avogadro 0.1.0](Avogadro 
 -   A new flexible "painter" architecture, now allowing export to POV-Ray. In the future, support for PDF and SVG are planned.
 -   Multi-threaded rendering.
 
-### Editing Tools
+
 
 -   A full periodic table for drawing and editing.
 -   New autorotate tool which will animate rotation of the molecule.
@@ -32,7 +33,7 @@ The following list includes some of the changes since [Avogadro 0.1.0](Avogadro 
 -   New "bond-centric" manipulation tool, which facilitates changing the bond length, angle, or dihedral angle of parts of a molecule.
 -   More visual feedback when using the mouse tools.
 
-### Commands
+
 
 -   Improved force field options, including calculating the energy, and conformational searching.
 -   Geometry optimization is threaded with a progress dialog.
@@ -44,7 +45,7 @@ The following list includes some of the changes since [Avogadro 0.1.0](Avogadro 
 -   Improved support for GAMESS advanced input generation (EFP and QM/MM).
 -   Command extensions can now go into any menu or submenu.
 
-### General
+
 
 -   Initial support for internationalization and translation.
     -   Partial translations for French and German.
@@ -99,26 +100,26 @@ The code currently expects to be editing one 3D molecule per file with one coord
 -   Opening a 2D file will not result in 3D coordinates. Opening a SMILES file will not create 3D coordinates either.
 -   Saving to a 2D format will not necessarily produce correct 2D stereochemistry.
 
-### Rendering
+
 
 -   Only one color scheme is currently available, although the code allows different types to be implemented. Suggestions are welcome.
 -   No protein ribbon or cartoon render option is available.
 -   Surface rendering is not implemented.
 
-### Tools / Building
+
 
 -   The fragment library, protein and biomolecule builder features are not implemented yet.
 -   The "click measure" tool does not allow measuring 4-atom dihedral angles. All output is graphical, so it is not currently possible to copy the text to another program.
 -   The AutoOptimize tool causes crashes when mixing it with the Geometric Optimization extension available from the 'Tools' menu.
 
-### Interface
+
 
 -   The atom and bond list on the right side of the window only allows a list. It is not interactive -- for example, selecting an atom in the list will not select it in the view (or vice-versa). Only the atom and bond index are reported, nothing else yet.
 -   Views cannot yet be removed into separate windows. In future releases, you will be able to have separate views of the same molecule in separate windows.
 -   Export graphics will only save the current resolution in the window in bitmap form. Vector formats (SVG, PS, PDF) and other formats (POV-Ray) are intended to be implemented in the future.
 -   No "preferences" are saved (e.g., rendering detail, default colors, etc.).
 
-### Commands
+
 
 A select list of commands is currently available, mostly as examples of what can be done using the Avogadro framework.
 
@@ -128,7 +129,7 @@ A select list of commands is currently available, mostly as examples of what can
 -   A z-matrix builder command is intended for future releases.
 -   A unit cell / crystal builder is intended for future releases.
 
-### Windows Build
+
 
 -   The H2Methyl extension causes crashes always and so it was excluded from this build.
 
@@ -139,5 +140,5 @@ Problem: OpenBabel2 / Eigen libraries are not found.
 
 Solution: Most likely the cause of this problem is due to non-standard install locations. Additionally, the detection system for finding libraries and includes is not flawless. The most likely remedy is manually specify the library location and include directory for the package using the cmake arguments specified above.
 
-<Category:Releases>
+
 

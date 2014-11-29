@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Vibrations
-categories: commands
+categories: Commands
 ---
 
 
 
-![](VibrationsDialog.png "VibrationsDialog.png")
+![](/images/VibrationsDialog.png)

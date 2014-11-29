@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Surface
-category: rendering
+categories: Rendering
 ---
 
 
@@ -17,7 +17,7 @@ The surface display generates the full van der Waals or solvent-accessible surfa
 
 
 
-![](Surface.png "Surface.png")
+![](/images/Surface.png)
 
 
 

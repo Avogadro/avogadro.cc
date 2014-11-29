@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Avogadro 1.1.0
+categories: Releases
 ---
 
-# Avogadro 1.1.0
+
 
 Avogadro 1.1.0 was released on September 12, 2012.
 
@@ -100,5 +101,5 @@ Known Issues & Limitations
 
 None at this time.
 
-<Category:Releases>
+
 

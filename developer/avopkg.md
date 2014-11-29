@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Avopkg
+categories: Developer
 ---
 
-# Avopkg
+
 
 Avopkg is a minimalistic package manager designed for easy distribution of Avogadro plugins. It's written in POSIX shell and requires only standard \*nix tools like `basename`, `cat`, `grep`, `awk`, so it should run on any POSIX-compliant OS, including Linux, \*BSD, Mac OS X, or POSIX subsystem like Cygwin or Windows SFU.
 
@@ -30,7 +31,7 @@ Building Avopkg packages
 
 In order to build package for your Avogadro plugin, you'll need to prepare manifest file. The next instructions assume that current directory in shell is a directory, containing all necessary plugin files (compiled libraries/python scripts, documentation snd so on).
 
-### Wizard mode
+
 
 Run
 
@@ -40,7 +41,7 @@ You'll be asked some questions about your extension, and answers will be written
 
 Wizard is smart enough to propose you some "default" answers in [ ] - you can choose them by hitting Enter with empty input. Finally, wizard will propose you to build package and then to make test installation. However, in some cases you'll need to modify manifest manually (e.g., to fix list of packaged files)
 
-### How to create/edit manifest manually
+
 
 Manifest contains the next fields:
 
@@ -70,7 +71,7 @@ Additional fields (you might need to specify them if you do cross-compilation):
 
 Default values for them are taken from Avopkg configuration on "pack" stage, but if you specify (one of) these fields explicitly, it will not be overridden.
 
-### Pack mode
+
 
 Run
 
@@ -78,7 +79,7 @@ Run
 
 Practically, manifest can have any name, not necessarily your\_package\_name.mf. But using another name will break integration with build system (see later). You'll get ready to use package in current directory.
 
-### Build system integration
+
 
 Avopkg is integrated with CMake and QMake build systems for Avogadro packages. In both cases, you'll have three additional make targets: `manifest`, `package`, `install`. `make manifest` is equivalent to avopkg -wizard package\_name.
 
@@ -89,5 +90,5 @@ Being tuned for Avogadro needs, Avopkg can serve as generic plugin manager for o
 
 Such things as default extensions for manifests and packages, or compression command could be easily changed. The only thing that will require some work is changing of installation paths. If you want to make Avopkg more generic and usable for your application, feel free to contribute.
 
-<Category:User> <Category:Developer>
+
 

@@ -1,9 +1,10 @@
 ---
 layout: default
 title: To Do for 1.1
+categories: Developer
 ---
 
-# To Do for 1.1
+
 
 The upcoming development series 1.1.x will be a series of unstable/beta releases, leading up to the 1.2.0 release. This process will be similar to the 0.9.x releases which lead up to the stable 1.0.x series.
 
@@ -17,7 +18,7 @@ General Ideas
 
 -   New draw tool for templates/fragments (e.g., click to add a benzene ring)
 
-### Open Babel Needs
+
 
 -   Reading multiple geometries and energies from QM codes (e.g., transition state searches, reaction paths, geometry optimizations, relaxed scans).
     -   **(started - Gaussian)**
@@ -30,14 +31,14 @@ General Ideas
     -   optimization of structure for given point group
     -   symmetry order of pre-defined axis (e.g., rotor axis) - port from OpenThermo
 
-### Geoff Hutchison
+
 
 -   Enhancing the "project tree" to highlight multiple molecular fragments independently
 -   Automatic structure -\> name (including searching for multiple molecular fragments)
 -   Support in Open Babel for orbital energies -- and orbital energy diagrams in Avogadro
 -   Integration with new open-source INDO code for simple organic/polymer QM and UV/Vis prediction
 
-### Konstantin Tokarev
+
 
 -   Engines
     -   Display arbitrary axes **(done)**
@@ -81,12 +82,12 @@ General Ideas
 -   New dock for geometry optimization and relaxed scan results
 -   <s>Send image to OpenOffice.org via pipe</s> (not for 1.1)
 
-### Tim Vandermeersch
+
 
 -   Packmol extension
     -   <http://github.com/timvdm/Avogadro-Packmol-Extension>
     -   You always need to specify the number of molecules for a given volume
-        -   Estimating this would be nice: calculate Volume + MW + density -\> \# molecules required
+        -   Estimating this would be nice: calculate Volume + MW + density -\> \
     -   A wizard with some default systems
         -   Protein (or molecule) + solvent + counter ions (make it smart so counter ions are correctly added to make the system charge neutral. Required for Ewald, PME, ...)
         -   (Protein) + Lipid bilayer + solvent
@@ -96,7 +97,7 @@ General Ideas
         -   Use QDesktopServices to obtain temporarily location so it doesn't matter if the files are not in the same dir
         -   Convert the files so they all have the same format (e.g. pdb, required for packmol)
     -   Text editor for experts with syntax highlighting
-        -   Simple parser for this text to give \#atoms/volume hints
+        -   Simple parser for this text to give \
         -   If there is time left: A simple 3D widget with a preview of all described volumes in wireframe might be nice to identify problems early
 -   Gromacs extension
     -   Generate input files
@@ -105,5 +106,5 @@ General Ideas
     -   In progress but code currently not accessible (broken mainboard)
 -   Both these extensions would benefit from better performance for large systems (Marcus? ;) )
 
-<Category:Developer>
+
 

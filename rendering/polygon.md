@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Polygon
-category: rendering
+categories: Rendering
 ---
 
 
@@ -10,7 +10,7 @@ The polygon display will draw tetrahedra, pyramids, octahedra, etc. for atomic c
 
 
 
-![](Polygon.png "Polygon.png")
+![](/images/Polygon.png)
 
 
 

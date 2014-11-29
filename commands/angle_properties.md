@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Angle Properties
-categories: commands
+categories: Commands
 ---
 
 
 
-![](AngleProp.png "AngleProp.png")
+![](/images/AngleProp.png)
 
 
 

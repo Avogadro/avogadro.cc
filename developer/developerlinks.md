@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Developer:Links
+categories: Developer
 ---
 
-# Developer:Links
+
 
 The following are a set of links and bookmarks for developers on a range of useful topics. This includes galleries of example molecular rendering programs,
 
@@ -75,5 +76,5 @@ A **very** incomplete list...
 -   [MPQC](http://mpqc.org/) (includes library for handling orbitals)
 -   [Q-Chem](http://www.q-chem.com/)
 
-<Category:Developer>
+
 

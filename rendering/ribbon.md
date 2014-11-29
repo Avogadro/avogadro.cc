@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ribbon
-category: rendering
+categories: Rendering
 ---
 
 
@@ -16,7 +16,7 @@ The ribbon display adds a protein backbone visualization. Separate chains in the
 
 
 
-![](Ribbons.png "Ribbons.png")
+![](/images/Ribbons.png)
 
 
 

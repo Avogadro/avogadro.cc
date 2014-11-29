@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Tutorials:Making selections
+categories: Tutorials
 ---
 
-# Tutorials:Making selections
+
 
 Introduction
 ============
@@ -53,7 +54,7 @@ Select SMARTS
 `SMARTS      Description`
 `a1aaaa1     select all aromatic atoms in 6 membered rings`
 `A           select all aliphatic atoms`
-`[O,N][#6]   select all ON and NC fragments (O & N are aliphatic, C can be aliphatic or aromatic)`
+`[O,N][
 
 More information on how to write SMILES and SMARTS strings can be found here:
 

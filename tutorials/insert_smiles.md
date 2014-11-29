@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Tutorials:Insert SMILES
+categories: Tutorials
 ---
 
-# Tutorials:Insert SMILES
+
 
 Building with SMILES
 ====================
@@ -53,13 +54,13 @@ cis 2-butene C/C=C/C
 
 trans 2-butene C/C=C\\C
 
-Triple bonds are indicated with a pound sign, \#
+Triple bonds are indicated with a pound sign, \
 
-`   acetylene   C#C`
+`   acetylene   C
 
-`   propyne     C#CC`
+`   propyne     C
 
-`   HCN     C#N`
+`   HCN     C
 
 rings
 -----

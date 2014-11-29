@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Localization
+categories: Developer
 ---
 
-# Localization
+
 
 Launchpad
 ---------
@@ -17,5 +18,5 @@ Mailing List
 
 There is a [mailing list](Contact "wikilink"), avogadro-translate to discuss translation and localization of Avogadro. This is an excellent place to ask questions about the meaning of translation strings, suggest word changes, etc. We are very open to improving Avogadro and making it easier for translation and localization worldwide.
 
-<Category:Developer>
+
 

@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Best Practices
+categories: Developer
 ---
 
-# Best Practices
+
 
 This page is a guide for newcomers to the project. It should gain some insight on how the project has been designed code-wise and save you time in the long run. These are just my (dcurtis) tips on adding new functionality to areas of Avogadro and keeping the API clean and simple.
 
@@ -29,5 +30,5 @@ In general classes should be used to simplify major elements of the project. Mos
 
 A suggestion i would have is that if the data you're putting in a class is one-to-one with another class, then most likely it could be contained in that other class.
 
-<Category:Developer>
+
 

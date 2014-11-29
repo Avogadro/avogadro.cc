@@ -1,16 +1,17 @@
 ---
 layout: default
 title: Tutorials:Console
+categories: Tutorials
 ---
 
-# Tutorials:Console
+
 
 Getting Started
 ===============
 
 In case the python terminal is not visible, it can be made visible by checking the 'Settings \> Toolbars \> Python Terminal' checkbox.
 
-![](Tut_console_1.png "Tut_console_1.png")
+![](/images/Tut_console_1.png)
 
 Once the python terminal is visible, the Avogadro module can be imported:
 
@@ -46,11 +47,11 @@ The molecule will automatically be updated when return is pressed (i.e. molecule
 
 If you need to create a new molecule, you can't directly construct one from python. Instead Avogadro.molecules should be used:
 
-`>>> newMol = Avogadro.Molecule()     `**`#` `error`**
+`>>> newMol = Avogadro.Molecule()     `**`
 `Traceback (most recent call last):`
 `  File "`<string>`", line 1, in `<module>
 `RuntimeError: This class cannot be instantiated from Python`
-`>>> newMol = Avogadro.molecules.addMolecule()   `**`#` `works`**
+`>>> newMol = Avogadro.molecules.addMolecule()   `**`
 
 The Avogadro.molecules object is an instance of the MoleculeList class. This is a python specific class to make sure the molecules are not destroyed by python's garbage collection.
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Label
-category: rendering
+categories: Rendering
 ---
 
 
@@ -28,7 +28,7 @@ Bond labels:
 
 
 
-![](Labels.png "Labels.png")
+![](/images/Labels.png)
 
 
 

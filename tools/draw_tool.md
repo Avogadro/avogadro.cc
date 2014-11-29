@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Draw Tool
+categories: Tools
+image: /images/Draw.png
 ---
 
-# Draw Tool
-
-![](Draw.png "fig:Draw.png") The draw tool is the principal way to build molecules.
+![]({{ page.image }}) The draw tool is the principal way to build molecules.
 
 -   You can select the element to use in a drop down menu. The "Other" option will bring up a full periodic table.
 -   The bond order (single, double, or triple) can be set in a drop down menu.
@@ -22,7 +22,4 @@ You can type element symbols to change to that element, or type 1, 2, or 3 to ch
 Settings
 --------
 
-![](DrawSettings.png "DrawSettings.png")
-
-<Category:Tools>
-
+![](/images/DrawSettings.png)

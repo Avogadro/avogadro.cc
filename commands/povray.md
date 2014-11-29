@@ -1,12 +1,12 @@
 ---
 layout: default
 title: POV-Ray
-categories: commands
+categories: Commands
 ---
 
 
 
-![](POVRayExport.png "POVRayExport.png")
+![](/images/POVRayExport.png)
 
 
 

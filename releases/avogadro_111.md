@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Avogadro 1.1.1
+categories: Releases
 ---
 
-# Avogadro 1.1.1
+
 
 Avogadro 1.1.1 was released on December 11, 2013.
 
@@ -19,7 +20,7 @@ The following list includes some of the changes since [Avogadro 1.1.0](Avogadro 
 Interface
 ---------
 
--   Rudimentary support for retinal display Macs
+-   Rudimentary support for "Retina" display Macs
 
 Tools
 -----
@@ -43,6 +44,3 @@ Known Issues & Limitations
 --------------------------
 
 None at this time.
-
-<Category:Releases>
-

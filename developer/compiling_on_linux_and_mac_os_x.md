@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Compiling on Linux and Mac OS X
+categories: Developer
 ---
 
-# Compiling on Linux and Mac OS X
+
 
 These instructions are intended to help users and contributors build Avogadro from the latest code. Be aware that Avogadro may fail to build or work properly at any given time when built using the instructions below. For the adventurous, there are also [Windows Visual Studio 2008](Compiling_on_Windows "wikilink") instructions, although building on Windows is much more problematic.
 
@@ -17,8 +18,8 @@ You should be able to find most of these dependencies in your distribution's rep
 [Git](http://git-scm.com) (optional, but recommended)
 [CMake](http://www.cmake.org) (\>=2.6.0)
 [Qt4](http://qt.nokia.com/products/) (\>=4.6.x)
-[Eigen2](http://eigen.tuxfamily.org/) (\>=2.0) (more instructions [below](#Installing_Eigen "wikilink"))
-[OpenBabel](http://openbabel.org/) (\>=2.3.0) (more instructions [below](#Building_OpenBabel "wikilink"))  
+[Eigen2](http://eigen.tuxfamily.org/) (\>=2.0) (more instructions [below](
+[OpenBabel](http://openbabel.org/) (\>=2.3.0) (more instructions [below](
 
 For the optional Python console/bindings:
 
@@ -98,9 +99,9 @@ sudo make install
 
 If you set these environment variables Avogadro and OpenBabel will use special directories for runtime plugin loading. Avogadro will search the subdirectories colors, engines, extensions and tools for suitable plugins. The environment variables can point to multiple directories separated by colons, i.e. "$HOME/.avogadro/plugins:/usr/local/lib/avogadro". All of them are optional, if they are installed then there is no need to set any environment variables.
 
-`<pre>export AVOGADRO_TRANSLATIONS=$HOME/build/avogadro/avogadro/src                                       #Avogadro Translations
-export BABEL_LIBDIR=$HOME/src/openbabel/src/formats/.libs:$HOME/src/openbabel/src/formats/xml/.libs  #Openbabel Formats
-export BABEL_DATADIR=$HOME/src/openbabel/data                                                        #Openbabel Data Files</pre>`
+`<pre>export AVOGADRO_TRANSLATIONS=$HOME/build/avogadro/avogadro/src                                       
+export BABEL_LIBDIR=$HOME/src/openbabel/src/formats/.libs:$HOME/src/openbabel/src/formats/xml/.libs  
+export BABEL_DATADIR=$HOME/src/openbabel/data                                                        
 
 **Mac Specific Build Instructions**
 
@@ -173,5 +174,5 @@ Running
 
 **Note:** If you have built Avogadro using the directions in the previous section then run Avogadro using: `<pre>$HOME/build/avogadro/bin/avogadro</pre>`
 
-<Category:User> <Category:Developer>
+
 

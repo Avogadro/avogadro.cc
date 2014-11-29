@@ -1,12 +1,12 @@
 ---
 layout: default
 title: MOPAC
-categories: commands
+categories: Commands
 ---
 
 
 
-![](MOPACInput.png "MOPACInput.png")
+![](/images/MOPACInput.png)
 
 
 

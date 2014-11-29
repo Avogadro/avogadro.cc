@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Dipole
-category: rendering
+categories: Rendering
 ---
 
 
 
 
 
-![](Dipole.png "Dipole.png")
+![](/images/Dipole.png)
 
 
 

@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Cartoon
-category: rendering
+categories: Rendering
 ---
 
 
 
 
 
-![](Cartoon.png "Cartoon.png")
+![](/images/Cartoon.png)
 
 
 

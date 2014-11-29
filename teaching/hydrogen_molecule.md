@@ -1,3 +1,9 @@
+---
+layout: default
+title: Hydrogen Molecule
+categories: Teaching
+---
+
 Task
 ----
 
@@ -30,5 +36,5 @@ See also
 
 [Hydrogen cluster](Hydrogen cluster "wikilink")
 
-<Category:Education>
+
 

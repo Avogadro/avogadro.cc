@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Scripting
+categories: Developer
 ---
 
-# Scripting
+
 
 There are many to use Python in Avogadro. This page gives an overview.
 
@@ -29,7 +30,7 @@ The Avogadro python API resembles the [http://avogadro.cc/api/dev C++ API](http:
     -   Get & set methods which take more than 0 or 1 argument respectively.
     -   Set methods which have no get counterpart.
 
-`>>> print molecule.atomPos(0) # print position of atom with id 0`
+`>>> print molecule.atomPos(0) 
 `[1.  2.  3.]`
 `>>> molecule.setAtomPos(0, array([0.0, 0.0, 0.0])) `
 
@@ -43,14 +44,14 @@ The Avogadro python API resembles the [http://avogadro.cc/api/dev C++ API](http:
 `>>> import numpy`
 `>>> molecule = Avogadro.Molecule()`
 `>>> atom = molecule.newAtom()`
-`>>> a.pos = numpy.array([1, 2, 3]) # Vector3d != Vector3i !`
+`>>> a.pos = numpy.array([1, 2, 3]) 
 `Traceback (most recent call last):`
 `  File "`<stdin>`", line 1, in `<module>
 `Boost.Python.ArgumentError: Python argument types in`
 `    None.None(Atom, numpy.ndarray)`
 `did not match C++ signature:`
 `    None(Avogadro::Atom {lvalue}, Eigen::Matrix`<double, 3, 1, 0, 3, 1>`)`
-`>>> a.pos = numpy.array([1., 2., 3.]) # valid (note the "." after each number to indicate float/double)`
+`>>> a.pos = numpy.array([1., 2., 3.]) 
 
 Getting started
 ===============
@@ -79,5 +80,5 @@ Writing Plugins
 Standalone
 ----------
 
-<Category:Developer>
+
 

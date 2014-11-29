@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ring
-category: rendering
+categories: Rendering
 ---
 
 
@@ -20,7 +20,7 @@ You can control the transparency / opacity of the rings.
 
 
 
-![](Rings.png "Rings.png")
+![](/images/Rings.png)
 
 
 

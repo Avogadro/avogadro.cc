@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Avogadro 1.0.2
+categories: Releases
 ---
 
-# Avogadro 1.0.2
+
 
 Avogadro 1.0.2 was released on 22 April 2011.
 
@@ -38,5 +39,5 @@ Known Issue
 
 Due to a bug in the build system, translations are never built. There is a patch in the 1.0 branch, and a further release will be made shortly to address this issue.
 
-<Category:Releases>
+
 

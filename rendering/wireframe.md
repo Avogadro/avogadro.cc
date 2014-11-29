@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wireframe
-category: rendering
+categories: Rendering
 ---
 
 
@@ -15,7 +15,7 @@ The wireframe view draws a thin line for bonds and a small square dot for atoms.
 
 
 
-![](Wireframe.png "Wireframe.png")
+![](/images/Wireframe.png)
 
 
 

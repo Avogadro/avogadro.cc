@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Avogadro 1.0.3
+categories: Releases
 ---
 
-# Avogadro 1.0.3
+
 
 Avogadro 1.0.3 was released on 25 April 2011. It contains a single fix for building translations.
 
@@ -19,5 +20,5 @@ Translations
 
 Updated translations are included, now with over 19 significant translations and localizations. Thanks to all our translation contributors.
 
-<Category:Releases>
+
 

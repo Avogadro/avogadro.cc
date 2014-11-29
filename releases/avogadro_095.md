@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Avogadro 0.9.5
+categories: Releases
 ---
 
-# Avogadro 0.9.5
+
 
 Avogadro 0.9.5 was released on 2 June 2009. This is the sixth of our final beta series before Avogadro 1.0.0 is released. Please help us by providing feedback. New beta releases are expected roughly once per month until the 1.0.0 release. You can [download this release here](https://sourceforge.net/project/showfiles.php?group_id=165310&package_id=187449).
 
@@ -12,7 +13,7 @@ What's New
 
 The following list includes some of the changes since [Avogadro 0.9.4](Avogadro 0.9.4 "wikilink"). This is mainly a bug fix release with a few new features implemented over the last month of development.
 
-### General
+
 
 -   More build system improvements - external plugins can easily be built against libavogadro on Linux and Mac.
 -   Includes a standard Mac "app bundle" -- completely relocatable disk image
@@ -20,7 +21,7 @@ The following list includes some of the changes since [Avogadro 0.9.4](Avogadro 
 -   Includes improved translations and localization, including localized numbers everywhere and a full translation in Indonesian
 -   More bugs found and fixed.
 
-### Interface
+
 
 -   Updated interface allows more screen space for drawing / viewing
     -   Tools moved to a new toolbar
@@ -30,13 +31,13 @@ The following list includes some of the changes since [Avogadro 0.9.4](Avogadro 
 -   Visual cues can now be disabled for the navigation tool
 -   Moved "insert fragment" to Build menu
 
-### Rendering
+
 
 -   Significantly improved protein "Cartoon" display type
 -   Added a custom color option
 -   Display of forces from geometry optimization is fixed (was broken in previous 0.9 releases)
 
-### Extensions
+
 
 -   Added "Insert Peptide" builder for oligopeptides.
 -   Added visualization of NMR spectra.
@@ -99,14 +100,14 @@ The code currently expects to be editing one 3D molecule per file with one coord
 -   Editing a multi-molecule file will only edit the first molecule. Saving will overwrite all records except the first.
 -   Saving to a 2D format will not necessarily produce correct 2D stereochemistry.
 
-### Tools / Building
+
 
 -   Several builder features are not implemented, including:
     -   Crystal structure builder
     -   Carbon Nanotube builder
     -   Z-matrix editor (early version committed - needs more work)
 
-### Interface
+
 
 -   Views cannot yet be removed into separate windows. In future releases, you will be able to have separate views of the same molecule in separate windows. Early support is in but disabled.
 -   Export graphics will only save the current resolution in the window in bitmap form.
@@ -118,5 +119,5 @@ Problem: OpenBabel2 / Eigen libraries are not found.
 
 Solution: The most likely the cause of this problem is non-standard install locations. Additionally, the detection system for finding libraries and includes is not flawless. The most likely remedy is to manually specify the library location and include directory for the package using the cmake arguments specified above.
 
-<Category:Releases>
+
 

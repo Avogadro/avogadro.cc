@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Bond Properties
-categories: commands
+categories: Commands
 ---
 
 
 
-![](BondProp.png "BondProp.png")
+![](/images/BondProp.png)
 
 
 

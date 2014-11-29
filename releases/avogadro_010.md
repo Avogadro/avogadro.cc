@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Avogadro 0.1.0
+categories: Releases
 ---
 
-# Avogadro 0.1.0
+
 
 Avogadro version 0.1.0 was released on May 18, 2007.
 
@@ -93,7 +94,7 @@ The code currently expects to be editing one 3D molecule per file with one coord
 -   Opening a 2D file will not result in 3D coordinates. Opening a SMILES file will not create 3D coordinates either.
 -   Saving to a 2D format will not necessarily produce correct 2D stereochemistry.
 
-### Rendering
+
 
 -   Only one color scheme is currently available, although the code allows different types to be implemented. Suggestions are welcome.
 -   Only one label scheme (by atom index) is currently available.
@@ -103,7 +104,7 @@ The code currently expects to be editing one 3D molecule per file with one coord
 -   The underlying code supports rendering crystallographic unit cells, but this is not exposed in the interface yet.
 -   Transparent spheres for selected atoms do not always appear transparent.
 
-### Tools / Building
+
 
 -   Not all elements are available through the draw tool. A "periodic table" window will be implemented soon.
 -   A three-button mouse is required to use the tools. Mac users without a three-button mouse (ideally with scroll wheel) will have difficulty.
@@ -111,7 +112,7 @@ The code currently expects to be editing one 3D molecule per file with one coord
 -   The "click measure" tool does not allow measuring 4-atom dihedral angles. All output is graphical, so it is not currently possible to copy the text to another program.
 -   The draw tool cannot delete a bond without deleting atoms.
 
-### Interface
+
 
 -   The Mac interface is not completely "native." A more unified, polished version is intended for the final release, without graphics in the menus and a "unified" toolbar look.
 -   The atom and bond list on the right side of the window only allows a list. It is not interactive -- for example, selecting an atom in the list will not select it in the view (or vice-versa). Only the atom and bond index are reported, nothing else yet.
@@ -119,7 +120,7 @@ The code currently expects to be editing one 3D molecule per file with one coord
 -   Export graphics will only save the current resolution in the window in bitmap form. Vector formats (SVG, PS, PDF) and other formats (POV-Ray) are intended to be implemented in the future.
 -   No "preferences" are saved (e.g., rendering detail, default colors, etc.).
 
-### Commands
+
 
 A select list of commands is currently available, mostly as examples of what can be done using the Avogadro framework.
 
@@ -137,5 +138,5 @@ Problem: OpenBabel2 / Eigen libraries are not found.
 
 Solution: Most likely the cause of this problem is due to non-standard install locations. Additionally, the detection system for finding libraries and includes is not flawless. The most likely remedy is manually specify the library location and include directory for the package using the cmake arguments specified above.
 
-<Category:Releases>
+
 

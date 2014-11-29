@@ -1,9 +1,10 @@
 ---
 layout: default
 title: HCN dipole
+categories: Teaching
 ---
 
-# HCN dipole
+
 
 Task
 ----
@@ -21,5 +22,5 @@ See also
 
 [Water](Water "wikilink") \_\_NOTOC\_\_
 
-<Category:Education>
+
 

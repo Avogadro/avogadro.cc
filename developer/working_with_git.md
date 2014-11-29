@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Working With Git
+categories: Developer
 ---
 
-# Working With Git
+
 
 In December 2008 Avogadro moved its version control system over to [Git](http://git.or.cz/), hosted at [GitHub](http://github.com/cryos/avogadro/). Git is quite different to traditional, centralized version control systems. It is a [DVCS](http://en.wikipedia.org/wiki/Distributed_revision_control) (Distrubuted Version Control System). It was coded by Linus Torvalds and others primarily to handle the Linux kernel's very distributed development model.
 
-There are lots of [guides](http://git.or.cz/#documentation) around that help you to work with Git. A good quick start guide is [everyday Git](http://www.kernel.org/pub/software/scm/git/docs/everyday.html). In a normal workflow we recommend that you sign up for a GitHub account, go to the [Avogadro GitHub](http://github.com/cryos/avogadro/) page and fork Avogadro. You will then get your own copy of the Git repository. You can keep this up to date using the web interface or Git, and can make pull requests when your changes are ready for integration.
+There are lots of [guides](http://git.or.cz/
 
 Configuring Git
 ---------------
@@ -82,5 +83,5 @@ There are lots of guides on using Git, the [everyday Git](http://www.kernel.org/
 
 [Git Wizardy](http://habrahabr.ru/blogs/Git/60347/) - very thorough guide in Russian
 
-<Category:Developer>
+
 

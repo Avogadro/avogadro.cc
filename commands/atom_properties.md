@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Atom Properties
-categories: commands
+categories: Commands
 ---
 
 
 
-![](AtomProp.png "AtomProp.png")
+![](/images/AtomProp.png)
 
 
 

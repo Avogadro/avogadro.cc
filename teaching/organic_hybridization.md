@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Organic Hybridization
+categories: Teaching
 ---
 
-# Organic Hybridization
+
 
 \_\_NOTOC\_\_ Illustrate geometry and bond lengths in sp3, sp2 and sp hybridized carbons.
 
@@ -34,5 +35,5 @@ Further readings
 Issues
 ------
 
-<Category:Education>
+
 

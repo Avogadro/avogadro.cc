@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Getting Involved
+categories: Developer
 ---
 
-# Getting Involved
+
 
 Avogadro has a very open and active development community. Currently there are more than 10 active developers and other various contributers.
 
@@ -31,7 +32,7 @@ Even non-programmers can help out! There is a strong need for documentation, tut
 First Steps
 -----------
 
-If you are interesting in working on or with Avogadro please look at the [Developer](:Category:Developer "wikilink") information that is available and subscribe to the [avogadro-devel](http://lists.sourceforge.net/mailman/listinfo/avogadro-devel) mailing list. Also, join the IRC channel (\#avogadro on irc.freenode.net) and talk with other developers. For information on the internals of Avogadro and LibAvogadro, review the avogadro [developer api](http://avogadro.sourceforge.net/api/dev/).
+If you are interesting in working on or with Avogadro please look at the [Developer](:Category:Developer "wikilink") information that is available and subscribe to the [avogadro-devel](http://lists.sourceforge.net/mailman/listinfo/avogadro-devel) mailing list. Also, join the IRC channel (\
 
 Important Links
 ---------------

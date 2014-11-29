@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sticks
-category: rendering
+categories: Rendering
 ---
 
 
@@ -14,7 +14,7 @@ The sticks (or licorice) display represents only the bonds of the molecule as th
 
 
 
-![](Sticks.png "Sticks.png")
+![](/images/Sticks.png)
 
 
 

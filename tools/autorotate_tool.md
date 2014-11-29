@@ -1,11 +1,12 @@
 ---
 layout: default
 title: AutoRotate Tool
+categories: Tools
+image: /images/Autorotate.png
 ---
 
-# AutoRotate Tool
 
-![](Autorotate.png "fig:Autorotate.png") The AutoRotate tool allows you to continuously rotate a molecule in space, e.g. for a presentation.
+![]({{ page.image }}) The AutoRotate tool allows you to continuously rotate a molecule in space, e.g. for a presentation.
 
 There are two ways to set the rotation:
 
@@ -21,7 +22,7 @@ There are two ways to set the rotation:
 Settings
 --------
 
-![](AutoRotateSettings.png "AutoRotateSettings.png")
+![](/images/AutoRotateSettings.png)
 
-<Category:Tools>
+
 

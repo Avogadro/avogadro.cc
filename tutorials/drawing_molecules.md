@@ -1,17 +1,18 @@
 ---
 layout: default
 title: Tutorials:Drawing molecules
+categories: Tutorials
 ---
 
-# Tutorials:Drawing molecules
+
 
 When you open Avogadro without loading a file it defaults to using the [Draw Tool](Draw Tool "wikilink"). This tool is the main one that will be used when drawing a new molecule. The screen shot below shows Avogadro 0.8.1 (without the Python terminal) on KDE 4.1. The tool dock is located in the top of the left hand of the interface denoted by the pencil icon.
 
-![](Avogadro_default1.png "Avogadro_default1.png")
+![](/images/Avogadro_default1.png)
 
 You can select the element you would like to use by clicking on the drop down menu which says 'Carbon (6)' on the screen shot. Common elements are in the drop down, if the element you would like to use is not in that list then selecting 'Other...' will bring up a full periodic table.
 
-![](Avogadro_periodicTable.png "Avogadro_periodicTable.png")
+![](/images/Avogadro_periodicTable.png)
 
 Left clicking once on an element will bring up more details of the element in the bigger box in the top middle. Double clicking an element will select the element and close the periodic table. You can also keep the periodic table open and click on the element you wish to use, clicking on the central OpenGL view will use the currently selected element.
 
@@ -39,7 +40,7 @@ Optimizing the Geometry
 
 Avogadro has three force fields available which can be used to optimize the structure of the molecules drawn. It defaults to use one called MMFF94 which can handle most common organic structures. If you have used transition metals you might want to use UFF which can handle every element. Simply clicking on 'Extensions-\>Optimize Geometry' is usually enough to give you a reasonably well optimized structure. The settings of the force field can be altered by going to 'Extensions-\>Molecular Mechanics-\>Setup Force Field...'
 
-![](Avogadro MBT.png "Avogadro MBT.png")
+![](/images/Avogadro)
 
 The above image shows a molecule drawn using the [Draw Tool](Draw Tool "wikilink") and then optimized using the default settings of the force field to optimize the geometry of the molecule.
 
@@ -60,5 +61,5 @@ Saving
 
 Once you are satisfied with the molecule you have drawn you can save it using the 'File-\>Save As...' menu item. A large array of file formats are offered. If no extension is supplied Avogadro will default to using CML which is a good default if you are not sure what format to use.
 
-<Category:Tutorials>
+
 

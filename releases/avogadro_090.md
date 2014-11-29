@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Avogadro 0.9.0
+categories: Releases
 ---
 
-# Avogadro 0.9.0
+
 
 Avogadro 0.9.0 was released on 12 January 2009. This is the first of our final beta series before Avogadro 1.0.0 is released. Please help us by providing feedback.
 
@@ -12,20 +13,20 @@ What's New
 
 The following list includes some of the changes since [Avogadro 0.8.1](Avogadro 0.8.1 "wikilink")
 
-### General
+
 
 -   The core API of Avogadro was rewritten -- improved thread safety, Qt-like API.
 -   Rewritten core allows independence from the underlying libraries -- OpenBabel API not exposed.
 -   Initial unit testing added for Molecule class.
 
-### Interface
+
 
 -   POV-Ray export dialog added -- POV-Ray can be called directly.
 -   Export graphics improvements -- should work on more systems.
 -   The navigate tool is now called if tools do not accept the mouse events.
 -   Keyboard events sent to the tools -- arrow keys manipulate the view.
 
-### Rendering
+
 
 -   Mesh generation speeds massively improved.
 -   Mesh rendering improved -- managed by the molecule now.
@@ -37,7 +38,7 @@ The following list includes some of the changes since [Avogadro 0.8.1](Avogadro 
 -   Depth cues using fog have been added.
 -   Quick draw optimizations when moving the view can be turned off.
 
-### Commands / Extensions
+
 
 -   QtConcurrent used to multithread cube calculations.
 -   MO and electron density cubes can be calculated from MOPAC AUX files.
@@ -45,7 +46,7 @@ The following list includes some of the changes since [Avogadro 0.8.1](Avogadro 
 -   Van der Waals surfaces at any distance can be made.
 -   Initial animation support added.
 
-### Scripting
+
 
 -   New Boost Python bindings.
 -   Integration with PyQt4.
@@ -106,7 +107,7 @@ The code currently expects to be editing one 3D molecule per file with one coord
 -   Opening a SMILES file will not create 3D coordinates either (although you can insert SMILES as fragments into an Avogadro window)
 -   Saving to a 2D format will not necessarily produce correct 2D stereochemistry.
 
-### Tools / Building
+
 
 -   Several builder features are not implemented, including:
     -   Protein and biomolecule builders
@@ -114,7 +115,7 @@ The code currently expects to be editing one 3D molecule per file with one coord
     -   Carbon Nanotube builder
     -   Z-matrix editor
 
-### Interface
+
 
 -   Views cannot yet be removed into separate windows. In future releases, you will be able to have separate views of the same molecule in separate windows. Early support is in but disabled -- this should make it into the next release.
 -   Export graphics will only save the current resolution in the window in bitmap form.
@@ -126,5 +127,5 @@ Problem: OpenBabel2 / Eigen libraries are not found.
 
 Solution: The most likely the cause of this problem is non-standard install locations. Additionally, the detection system for finding libraries and includes is not flawless. The most likely remedy is to manually specify the library location and include directory for the package using the cmake arguments specified above.
 
-<Category:Releases>
+
 

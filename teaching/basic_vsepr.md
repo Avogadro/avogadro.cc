@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Basic VSEPR
+categories: Teaching
 ---
 
-# Basic VSEPR
+
 
 \_\_NOTOC\_\_
 
@@ -36,5 +37,5 @@ Issues
 -   Geometries derived from the trigonal bipyramidal geometry are not currently reliable.
 -   When using the Draw tool, you may wish to uncheck the "Adjust Hydrogens" box.
 
-<Category:Education>
+
 

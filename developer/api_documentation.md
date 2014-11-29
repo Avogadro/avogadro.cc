@@ -1,9 +1,10 @@
 ---
 layout: default
 title: API Documentation
+categories: Developer
 ---
 
-# API Documentation
+
 
 The *trunk* version of the Avogadro documentation is available at <http://avogadro.openmolecules.net/api/dev/>.
 
@@ -16,7 +17,7 @@ There are four current interfaces for extending Avogadro
 -   Tools -- These allow user interaction with the mouse, for rotating and translating the view, editing, etc.
 -   Extensions -- These are user-level commands, like selecting atoms, running a force field, or interfacing with an external program.
 
-### Scripts
+
 
 As indicated in the diagram, a scripting interface in Python exists, offering
 
@@ -27,9 +28,9 @@ As indicated in the diagram, a scripting interface in Python exists, offering
 
 Of course in many cases, the engine, painter, and tool interfaces are performance-sensitive. Users want a fast, responsive user interface. Consequently, most of this code will likely be written in C++. However, access will be provided in scripting languages for easy prototyping and for general use.
 
-### Painters
+
 
 The current painter interface is intended to be expanded to allow saving to SVG or other vector graphics formats (PS, PDF) and the use of GLSL shaders on supported systems.
 
-<Category:Developer>
+
 

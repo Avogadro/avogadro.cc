@@ -3,19 +3,24 @@ layout: default
 title: Get Avogadro
 ---
 
-The latest and greatest release of Avogadro is **[Avogadro 1.1.1](http://sourceforge.net/projects/avogadro/files/avogadro/1.1.1/)** as of 11 December 2013, a **[Changelog](Avogadro 1.1.1 "wikilink")** is available. The Avogadro 2 code is a complete rewrite, and can be downloaded [here](https://sourceforge.net/projects/avogadro/files/avogadro2/0.7.2/). Avogadro 1 and 2 install to different locations, and can be installed on the same system without issues.
+The latest and greatest release of Avogadro is
+**[Avogadro {{ site.release.version }}](http://sourceforge.net/projects/avogadro/files/avogadro/1.1.1/)**
+as of {{ site.release.date }}, a **[Changelog](/releases/avogadro_111.html)** is available.
+
+The Avogadro 2 code is a complete rewrite, and can be downloaded [here](https://sourceforge.net/projects/avogadro/files/avogadro2/0.7.2/). Avogadro 1 and 2 install to different locations, and can be installed on the same system without issues.
 
 Since we moved to **[GitHub](http://github.com/)** you can now download the source code of **[development branch](http://github.com/cryos/avogadro/archives/master)** or **[stable 1.0.x branch](http://github.com/cryos/avogadro/archives/1.0)** to check out the very latest developments in Avogadro.
 
-<table>
+<table valign="top">
 <colgroup>
-<col width="30%" />
-<col width="30%" />
-<col width="30%" />
+<col width="30%" valign="top"/>
+<col width="30%" valign="top"/>
+<col width="30%" valign="top"/>
 </colgroup>
 <tbody>
 <tr class="odd">
-<td align="left"><h3 style="background:#FFC435;margin:-2px;padding:4px;">
+<td align="left">
+<h3 style="background:#FFC435;margin:-2px;padding:4px;">
 <p><em>Windows</em></p>
 </h3>
 <div style="padding: 2px 10px 6px;">
@@ -26,7 +31,8 @@ Since we moved to **[GitHub](http://github.com/)** you can now download the sour
 <li><a href="http://avogadro.openmolecules.net/nightly/win/unstable/">Nightly Builds (<strong>Unstable</strong>)</a></li>
 </ul>
 </div></td>
-<td align="left"><h3 style="background:#FFC435;margin:-2px;padding:4px;">
+<td align="left">
+<h3 style="background:#FFC435;margin:-2px;padding:4px;">
 <p><em>Linux / UNIX</em></p>
 </h3>
 <div style="padding: 2px 10px 6px;">
@@ -37,7 +43,8 @@ Since we moved to **[GitHub](http://github.com/)** you can now download the sour
 <li><a href="http://avogadro.openmolecules.net/nightly/linux/">Nightly Builds</a></li>
 </ul>
 </div></td>
-<td align="left"><h3 style="background:#FFC435;margin:-2px;padding:4px;">
+<td align="left">
+<h3 style="background:#FFC435;margin:-2px;padding:4px;">
 <p><em>Mac</em></p>
 </h3>
 <div style="padding: 2px 10px 6px;">

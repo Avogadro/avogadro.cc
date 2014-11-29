@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Insert Peptide
-categories: commands
+categories: Commands
 ---
 
 
 
-![](/images/InsertPeptide.png "InsertPeptide.png")
+![](/images//images/InsertPeptide.png)
 
 A detailed [tutorial](Tutorials:Insert_a_Peptide "wikilink") is also available.

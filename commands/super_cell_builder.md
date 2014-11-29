@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Super Cell Builder
-categories: commands
+categories: Commands
 ---
 
 
 
-![](SuperCellBuilder.png "SuperCellBuilder.png")
+![](/images/SuperCellBuilder.png)
 
 
 

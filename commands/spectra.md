@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Spectra
-categories: commands
+categories: Commands
 ---
 
 
 
-![](Spectra.png "Spectra.png")
+![](/images/Spectra.png)
 
 Spectra Extension
 -----------------

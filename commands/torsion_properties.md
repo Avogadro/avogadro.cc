@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Torsion Properties
-categories: commands
+categories: Commands
 ---
 
 
 
-![](TorsionProp.png "TorsionProp.png")
+![](/images/TorsionProp.png)
 
 
 

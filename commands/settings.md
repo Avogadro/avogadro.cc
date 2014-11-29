@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Settings
-categories: commands
+categories: Commands
 ---
 
 
 
-![](SettingsGeneral.png "SettingsGeneral.png")
+![](/images/SettingsGeneral.png)
 
-![](SettingsPlugins.png "SettingsPlugins.png")
+![](/images/SettingsPlugins.png)
 
-![](SettingsProjectTree.png "SettingsProjectTree.png")
+![](/images/SettingsProjectTree.png)
 
 
 

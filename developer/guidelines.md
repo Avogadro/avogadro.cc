@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Developer:Guidelines
+categories: Developer
 ---
 
-# Developer:Guidelines
+
 
 Developer Guidelines
 --------------------

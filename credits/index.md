@@ -27,7 +27,7 @@ Code:
 -   Konstantin Tokarev
 -   [Tim Vandermeersch](http://timvdm.blogspot.com/)
 
-All the Avogadro [Translators](Translators "wikilink")
+All the Avogadro [Translators](translators.html)
 
 Funding
 -------

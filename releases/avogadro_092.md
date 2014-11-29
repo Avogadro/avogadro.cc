@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Avogadro 0.9.2
+categories: Releases
 ---
 
-# Avogadro 0.9.2
+
 
 Avogadro 0.9.2 was released on 1 March 2009. This is the third of our final beta series before Avogadro 1.0.0 is released. Please help us by providing feedback. New beta releases are expected roughly once per month until the 1.0.0 release. You can [download this release here](https://sourceforge.net/project/showfiles.php?group_id=165310&package_id=187449).
 
@@ -12,7 +13,7 @@ What's New
 
 The following list includes some of the changes since [Avogadro 0.9.1](Avogadro 0.9.1 "wikilink"). This is mainly a bug fix release with a few new features implemented over the last few weeks of development.
 
-### General
+
 
 -   Tool and extension parenting issues fixed, application shutdown is now much smoother.
 -   Forcefields on Windows should now work with any shortcut/run directory.
@@ -22,18 +23,18 @@ The following list includes some of the changes since [Avogadro 0.9.1](Avogadro 
 -   Desktop file and icon in Linux with association of various file types we support.
 -   More bugs found and fixed.
 
-### Interface
+
 
 -   Combined configuration / preferences dialog added.
 
-### Rendering
+
 
 -   New cartoon rendering engine with some inital support for ribbons.
 -   Unit cell rendering can be turned off.
 -   Quick rendering setting now correctly reported.
 -   POV-Ray colored mesh rendering bug fixed.
 
-### Extensions
+
 
 -   New super cell builder that supports building super cells with improved bonding.
 -   Surfaces extension bug fix for electron density calculations.
@@ -92,7 +93,7 @@ The code currently expects to be editing one 3D molecule per file with one coord
 -   Opening a SMILES file will not create 3D coordinates either (although you can insert SMILES as fragments into an Avogadro window)
 -   Saving to a 2D format will not necessarily produce correct 2D stereochemistry.
 
-### Tools / Building
+
 
 -   Several builder features are not implemented, including:
     -   Protein and biomolecule builders
@@ -100,7 +101,7 @@ The code currently expects to be editing one 3D molecule per file with one coord
     -   Carbon Nanotube builder
     -   Z-matrix editor
 
-### Interface
+
 
 -   Views cannot yet be removed into separate windows. In future releases, you will be able to have separate views of the same molecule in separate windows. Early support is in but disabled.
 -   Export graphics will only save the current resolution in the window in bitmap form.
@@ -112,5 +113,5 @@ Problem: OpenBabel2 / Eigen libraries are not found.
 
 Solution: The most likely the cause of this problem is non-standard install locations. Additionally, the detection system for finding libraries and includes is not flawless. The most likely remedy is to manually specify the library location and include directory for the package using the cmake arguments specified above.
 
-<Category:Releases>
+
 

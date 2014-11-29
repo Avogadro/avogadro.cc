@@ -20,10 +20,9 @@
       </header>
       <div class="entry-content">
         {{ content }}
+
+        {% include category-list.html %}
       </div><!-- /.entry-content -->
-      <div class="entry-categories">
-        {% if page.categories %}<strong>Category:</strong>&nbsp; <a href="{{ site.url }}/{{ page.categories | downcase }}">{{ page.categories }}</a>{% endif %}
-      </div><!-- /.entry-categories -->
     </div><!-- /.entry-wrapper -->
   </article>
 </div><!-- /#main -->

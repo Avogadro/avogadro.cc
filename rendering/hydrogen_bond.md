@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hydrogen Bond
-category: rendering
+categories: Rendering
 ---
 
 
@@ -20,7 +20,7 @@ Future work will also allow configuration of the pattern matching used to determ
 
 
 
-![](HydrogenBonds.png "HydrogenBonds.png")
+![](/images/HydrogenBonds.png)
 
 
 

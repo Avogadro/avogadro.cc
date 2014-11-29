@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Avogadro 0.9.7
+categories: Releases
 ---
 
-# Avogadro 0.9.7
+
 
 Avogadro 0.9.7 was released on 18 July 2009. This is the eighth of our final beta series before Avogadro 1.0.0 is released. Please help us by providing feedback. New beta releases are expected roughly once per month until the 1.0.0 release. You can [download this release here](http://sourceforge.net/project/showfiles.php?group_id=165310&package_id=187449).
 
@@ -12,7 +13,7 @@ What's New
 
 The following list includes some of the changes since [Avogadro 0.9.6](Avogadro 0.9.6 "wikilink"). This is a bug fix release with some feature enhancements since our last release.
 
-### General
+
 
 -   Detached 3D views - multiple simultaneous views of the molecule.
 -   Updated user interface and icons.
@@ -89,14 +90,14 @@ The code currently expects to be editing one 3D molecule per file with one coord
 -   Editing a multi-molecule file will only edit the first molecule. Saving will overwrite all records except the first.
 -   Saving to a 2D format will not necessarily produce correct 2D stereochemistry.
 
-### Tools / Building
+
 
 -   Several builder features are not implemented, including:
     -   Crystal structure builder
     -   Carbon Nanotube builder
     -   Z-matrix editor (early version committed - needs more work)
 
-### Interface
+
 
 -   Export graphics will only save the current resolution in the window in bitmap form.
 
@@ -107,5 +108,5 @@ Problem: OpenBabel2 / Eigen libraries are not found.
 
 Solution: The most likely the cause of this problem is non-standard install locations. Additionally, the detection system for finding libraries and includes is not flawless. The most likely remedy is to manually specify the library location and include directory for the package using the cmake arguments specified above.
 
-<Category:Releases>
+
 

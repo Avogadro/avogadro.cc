@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Creating a Third Party Plugin
+categories: Developer
 ---
 
-# Creating a Third Party Plugin
+
 
 Choose plugin type
 ------------------
@@ -37,9 +38,9 @@ In theory, you may use any build system you like (e.g., hand-written Makefile). 
 
 In practice, the simplest way to build plugin is to do it using CMake -- you don't need to worry about placement of Avogadro, OpenBabel and Eigen2 dependencies.
 
-### Building with CMake
 
-### Installation
 
-<Category:Developer>
+
+
+
 

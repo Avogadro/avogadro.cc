@@ -1,3 +1,9 @@
+---
+layout: default
+title: Water
+categories: Teaching
+---
+
 Task
 ====
 
@@ -49,5 +55,5 @@ See also
 
 [HCN dipole](HCN dipole "wikilink") \_\_NOTOC\_\_
 
-<Category:Education>
+
 

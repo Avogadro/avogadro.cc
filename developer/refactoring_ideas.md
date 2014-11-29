@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Refactoring Ideas
+categories: Developer
 ---
 
-# Refactoring Ideas
+
 
 This page contains some ideas about future refactorization of libavogadro. They may seriously break ABI (and possibly API), and should be discussed
 
@@ -51,7 +52,7 @@ Libavogadro contains a lot of APIs for different purposes and tends to grow. I p
 
 For compatibility with previous versions, monolithic libavogadro library is provided
 
-### **AvogadroCore** (done)
+
 
 Generic classes which could be used even by terminal applications to simplify access to OB and make some advanced operations with molecules. <big>
 
@@ -73,7 +74,7 @@ Generic classes which could be used even by terminal applications to simplify ac
 
 </big>
 
-### **AvogadroWidget**
+
 
 (partially done - didn't separate it from Python yet)
 
@@ -105,7 +106,7 @@ Since it's intended to be easy-to-use Qt widget, Designer plugin will be desired
 
 Also, it's needed to create class AvogadroWidget which will allow to choose what subclass of RenderWidget is used
 
-### **AvogadroPython**
+
 
 Everything Python-related <big>
 
@@ -125,7 +126,7 @@ Everything Python-related <big>
 
 -   Add PythonPluginManager, inherited from PluginManager - AvogadroWidget should not be linked with Python or Boost to be lightweight.
 
-### **QPeriodicTable** (done)
+
 
 <big>
 
@@ -137,7 +138,7 @@ Everything Python-related <big>
 
 </big>
 
-### **QPlotWidget** (done)
+
 
 <big>
 
@@ -183,5 +184,5 @@ Current source tree is very complicated and "overpopulated". Extensions director
 
 Of course, everything could be built together as superpackage
 
-<Category:Developer>
+
 

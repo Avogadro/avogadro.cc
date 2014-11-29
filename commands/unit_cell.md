@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Unit Cell
-categories: commands
+categories: Commands
 ---
 
 
 
-![](UnitCell.png "UnitCell.png")
+![](/images/UnitCell.png)
 
 
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Van der Waals Spheres
-category: rendering
+categories: Rendering
 ---
 
 
@@ -14,7 +14,7 @@ The opacity/transparency of spheres can be controlled, allowing this display to 
 
 
 
-![](VdWSpheres.png "VdWSpheres.png")
+![](/images/VdWSpheres.png)
 
 
 

@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Compiling on Windows with MSVC 2008
+categories: Developer
 ---
 
-# Compiling on Windows with MSVC 2008
+
 
 These instructions are to allow users to build Avogadro from the very latest code. Be aware that Avogadro may fail to build or work properly at any given time when built from the instructions below.
 
@@ -31,9 +32,9 @@ Dependencies
 Required:
 
 [CMake](http://www.cmake.org) (\>=2.6.0)
-[Qt4](#Building_Qt4 "wikilink") (\>=4.4.0)
-[Eigen](#Building_Eigen_2 "wikilink")
-[OpenBabel](#Building_OpenBabel_2 "wikilink")  
+[Qt4](
+[Eigen](
+[OpenBabel](
 
 For optional OpenGL shader support:
 
@@ -46,7 +47,7 @@ For the optional Python console/bindings:
 [Boost libraries](http://www.boostpro.com/products/free) (tested with \>=1.36.0, older versions likely work fine)
 [Boost](http://www.boost.org/users/download/)  
 
-### Building Qt4 (required)
+
 
 The instructions below are based on [Qt4 with Visual Studio](http://wiki.qtcentre.org/index.php?title=Qt4_with_Visual_Studio). Extract and build Qt4 in the C:\\src\\qt-\<version\> directory (e.g. C:\\src\\qt-4.5.1 for version 4.5.1).
 
@@ -72,13 +73,13 @@ A full compile & installation could look like (in command prompt):
 -   Add C:\\src\\qt-4.5.1\\lib to your PATH. (Control Panel-\>System-\>Advanced Tab-\>Environment Variables)
 -   Make sure qmake.exe is somewhere in your PATH (needed to build PyQt)
 
-### Building Eigen (required)
+
 
 Download [Eigen 2 here](http://eigen.tuxfamily.org). There is no need to build Eigen since it's a template library consisting of headers only. We simply extract the files to C:\\src\\eigen-2.0.1. You should now have the Eigen headers in C:\\src\\eigen-2.0.1\\Eigen
 
-### Building OpenBabel (required)
 
-#### zlib 1.2.3
+
+
 
 -   Download [zetlib123.zip here](http://www.winimage.com/zLibDll/)
 -   Extract to C:\\src\\zlib-1.2.3
@@ -88,7 +89,7 @@ Download [Eigen 2 here](http://eigen.tuxfamily.org). There is no need to build E
 
 The zlib library files are now in C:\\src\\zlib-1.2.3\\projects\\visualc6\\Win32\_DLL\_Release. The zlib.h header file is in C:\\src\\zlib-1.2.3.
 
-#### libxml2 2.7.3
+
 
 -   Download [libxml2-sources-2.7.3.tar.gz here](ftp://xmlsoft.org/libxml2/)
 -   Extract to C:\\src\\libxml2-2.7.3
@@ -105,15 +106,15 @@ The zlib library files are now in C:\\src\\zlib-1.2.3\\projects\\visualc6\\Win32
 
     nmake /f Makefile.msvc install
 
-### boost libraries (recommended)
+
 
 Although boost is an optional dependency for OpenBabel, it is recommended to compile with boost. OpenBabel only needs headers from the boost libraries and extracting the source package to C:\\src is enough for now. If you intend to build Avogadro with python support you need build boost python later (see below).
 
-#### Running cmake
+
 
 Download openbabel 2.2.1 if you haven't already and extract it to C:\\src
 
-##### Using the Visual Studio 2008 Command Prompt
+
 
 Since we are using cmake 2.6, the installed [boost libraries](http://www.boostpro.com/products/free) will be found automatically. If you downloaded the boost source, make sure to also set Boost\_INCLUDE\_DIR. OpenBabel only uses headers from boost, there is no need to compile any boost libraries before building OpenBabel.
 
@@ -124,7 +125,7 @@ Since we are using cmake 2.6, the installed [boost libraries](http://www.boostpr
 `-DLIBXML2_INCLUDE_DIR=c:\openbabel\include -DLIBXML2_LIBRARIES=c:\openbabel\windows-vc2005\libxml2.lib `
 `-DLIBRARY_OUPUT_PATH=c:\openbabel\output -DEXECUTABLE_OUPUT_PATH=c:\openbabel\output -G "Visual Studio 9 2008" ..`
 
-##### Using the CMake graphical user interface
+
 
 ![openbabel CMake 2.6 setting for windows](Cmake.jpg "openbabel CMake 2.6 setting for windows")
 
@@ -136,7 +137,7 @@ Since we are using cmake 2.6, the installed [boost libraries](http://www.boostpr
 6.  Set the combo box (on the right of the search field) to "Grouped View"
 7.  Edit the ZLIB and LIBXML2 fields so they resemble the screenshot
 
-#### Building
+
 
 1.  Open the C:\\openbabel\\build\\openbabel.sln solution
 2.  Select the **Release** solution configuration.
@@ -185,7 +186,7 @@ GLSL Shader Support (Optional)
 Python Support (Optional)
 -------------------------
 
-### Building Python
+
 
 -   Python 2.6.2: <http://www.python.org/ftp/python/2.6.2/Python-2.6.2.tar.bz2>
     -   Extract to C:\\src
@@ -198,7 +199,7 @@ Python Support (Optional)
 
 Some targets (7 for 2.6.2) fail because they need additional libraries (encryption, sqlite3, ...). This is not a problem since we don't use these parts.
 
-### Building Boost.Python
+
 
 -   bjam precompiled: <http://sourceforge.net/project/showfiles.php?group_id=7586&package_id=72941>
     -   place bjam.exe in a directory in your PATH (e.g. C:\\Windows) (**note:** typing PATH at the MSVC command prompt show your current PATH values)
@@ -209,9 +210,9 @@ Some targets (7 for 2.6.2) fail because they need additional libraries (encrypti
 
 `using python`
 `  : 2.6`
-`  : C:/src/Python-2.6.2/libs/python # cmd`
-`  : C:/src/Python-2.6.2/Include     # include`
-`  : C:/src/Python-2.6.2/libs ;      # libraries`
+`  : C:/src/Python-2.6.2/libs/python 
+`  : C:/src/Python-2.6.2/Include     
+`  : C:/src/Python-2.6.2/libs ;      
 
 In command promt:
 
@@ -223,13 +224,13 @@ You now have the following files in **$BOOST\_ROOT/stage/lib**:
 
 `boost_python-vc90-mt.lib               185kB`
 `boost_python-vc90-mt-1_38.dll          210kB`
-`boost_python-vc90-mt-1_38.lib          185kB  # same as 1`
+`boost_python-vc90-mt-1_38.lib          185kB  
 `libboost_python-vc90-mt.lib            5173kB `
-`libboost_python-vc90-mt-1_38.lib       5173kB # same as 4`
+`libboost_python-vc90-mt-1_38.lib       5173kB 
 
 Copy the files above to **$BOOST\_ROOT/lib**, the CPack script expects to find them there
 
-### Building SIP
+
 
 -   <http://www.riverbankcomputing.co.uk/static/Downloads/sip4/sip-4.7.9.zip>
     -   Extract to C:\\src
@@ -258,7 +259,7 @@ Notes:
 -   sip.exe[.manifest] is only needed to build PyQt4, no need to include it in the installer
 -   sip.h is also needed to build Avogadro
 
-### Building PyQt4
+
 
 Assumes Qt is in C:\\Qt\\4.4.3, change this if needed...
 
@@ -283,7 +284,7 @@ You now have the .pyd files and their manifests in the Qt\* dirs:
 
 You can leave the files there, the CPack script will include them in the package.
 
-### Building numpy
+
 
 -   Numpy 1.3.0: <http://kent.dl.sourceforge.net/sourceforge/numpy/numpy-1.3.0.tar.gz>
     -   Extract to C:\\src
@@ -297,5 +298,5 @@ This will install numpy to the **C:/src/Python-2.6.2/lib/site-packages** directo
 
 numpy/arrayobject.h is in **C:/src/Python-2.6.2/lib/site-packages/numpy/core/include** (You'll need this to build Avogadro)
 
-<Category:Developer>
+
 

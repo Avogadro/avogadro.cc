@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Align Tool
+categories: Tools
+image: /images/Align.png
 ---
 
-# Align Tool
-
-![](Align.png "fig:Align.png") The align tool can be used to align molecules to a particular frame of reference.
+![]({{ page.image }}) The align tool can be used to align molecules to a particular frame of reference.
 
 The first atom selected will be translated to the origin. Selecting only one atom and clicking on align will translate all atoms (or just the fragment, i.e. the molecule) by an amount such that the selected atom is placed at the origin.
 
@@ -14,7 +14,7 @@ The second atom selected forms the line along which the molecule (or all atoms) 
 Settings
 --------
 
-![](AlignSettings.png "AlignSettings.png")
+![](/images/AlignSettings.png)
 
-<Category:Tools>
+
 

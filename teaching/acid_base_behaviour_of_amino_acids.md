@@ -1,3 +1,9 @@
+---
+layout: default
+title: Acid-Base Properties of Amino Acids 
+categories: Teaching
+---
+
 Tasks
 -----
 

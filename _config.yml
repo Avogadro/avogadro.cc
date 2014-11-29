@@ -7,10 +7,13 @@ logo: logo.png
 search: true
 #url: http://avogadro.cc
 url:
+categories:  [Commands, Rendering, Tools, Tutorials, Teaching, Releases, Developer]
+latest:
+   version: "1.1.1"
+   date: "11 December, 2013"
 
 # Jekyll configuration
 
-categories:  [commands, menus, rendering, tools, tutorials, teaching, developer]
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: pygments

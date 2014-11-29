@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Plugins
+categories: Developer
 ---
-
-# Plugins
 
 Avogadro is meant to be extended. The program (and its embedded library) are actually a large set of plugins. This page lists known third-party plugins which can be downloaded and installed separately from Avogadro. Because they are not distributed with the code, we cannot ensure they are up-to-date with the latest releases.
 

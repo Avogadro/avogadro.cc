@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Design
+categories: Developer
 ---
 
-# Design
+
 
 Avogadro started with a single idea. All great editors are improved by plugins.
 
@@ -35,7 +36,7 @@ The program should be international -- localization must be possible.
 
 ![](Architecture.png "Architecture.png")
 
-### Rendering Engines
+
 
 A flexible rendering system should allow "overlays" of multiple rendering engines. For example, some protein views show a ribbon for the amino acid backbone, as well as wireframe of all atoms. Labels, surfaces, colors should all be customized.
 
@@ -61,7 +62,7 @@ Exporting graphics should be easy:
 -   External render methods (PovRay)
 -   Animation / movie formats
 
-### Tool Plugins
+
 
 Mouse action should be extensible. Tools should include standard elements:
 
@@ -73,7 +74,7 @@ Mouse action should be extensible. Tools should include standard elements:
 
 All of these should be extensible via a tool API, not just by changing the code of existing tools, but also by adding new plugins which operate in the Avogadro framework.
 
-### Command Functions
+
 
 Standard user interface conventions should be supported, including undo/redo, cut/copy/paste, etc.
 
@@ -85,5 +86,5 @@ Commands for both quick actions and long computation should be possible. An "ext
 -   Access to external programs
 -   Scripting via Python, Perl, Ruby, etc.
 
-<Category:Developer>
+
 

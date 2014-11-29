@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Release Checklist
+categories: Developer
 ---
 
-# Release Checklist
+
 
 -   Create a draft of the [release notes](Releases "wikilink") on the wiki.
 -   Grab the latest i18n files from [Launchpad](https://translations.launchpad.net/avogadro/+translations) translations.
@@ -33,14 +34,14 @@ title: Release Checklist
 -   Update the [:Category:Releases](:Category:Releases "wikilink") and [Get Avogadro](Get Avogadro "wikilink") pages to mention the new release.
 -   Send out an e-mail to all mailing lists.
 
-### News Websites
+
 
 -   Freshmeat.net
 -   Qt-apps.org
 -   KDE-apps.org
 -   Download.com
 
-### Checklist Before Releasing a Binary
+
 
 -   File writing tests:
     -   Check whether the file is saved.
@@ -64,5 +65,5 @@ title: Release Checklist
 -   Check that i18n works - French and Chinese are good to try.
 -   Ideally check the binaries on one or two other systems.
 
-<Category:Developer>
+
 

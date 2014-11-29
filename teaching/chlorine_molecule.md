@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Chlorine molecule
+title: Chlorine Molecule
+categories: Teaching
 ---
 
-# Chlorine molecule
+
 
 Task
 ----
@@ -15,5 +16,5 @@ Issues
 
 MOPAC force field is not available at this time in Avogadro, possibly this task can be done with GAMESS.
 
-<Category:Education>
+
 

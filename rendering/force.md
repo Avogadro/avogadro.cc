@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Force
-category: rendering
+categories: Rendering
 ---
 
 
@@ -12,7 +12,7 @@ If you have performed molecular mechanics optimization, the display will indicat
 
 
 
-![](Forces.png "Forces.png")
+![](/images/Forces.png)
 
 
 

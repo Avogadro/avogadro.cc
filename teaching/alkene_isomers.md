@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Alkene Isomers
+categories: Teaching
 ---
 
-# Alkene Isomers
+
 
 Task
 ----
@@ -23,5 +24,5 @@ See also
 
 [Markovnikov's rule](Markovnikov's rule "wikilink")
 
-<Category:Education>
+
 

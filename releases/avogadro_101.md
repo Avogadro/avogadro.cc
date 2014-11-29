@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Avogadro 1.0.1
+categories: Releases
 ---
 
-# Avogadro 1.0.1
+
 
 Avogadro 1.0.1 was released on 28 April 2010.
 
@@ -37,5 +38,5 @@ Interface
 
 -   Fixes are provided for several Mac interface bugs, including opening multiple windows upon launching, and discovering and reflecting the system default language.
 
-<Category:Releases>
+
 

@@ -1,11 +1,13 @@
 ---
 layout: default
 title: Bond Centric Manipulate Tool
+categories: Tools
+image: /images/Bondcentric.png
 ---
 
-# Bond Centric Manipulate Tool
 
-![](Bondcentric.png "fig:Bondcentric.png") The bond-centric manipulation tool provides a "chemically-oriented" way to change bond lengths, angles, and dihedral angles.
+
+![]({{ page.image }}) The bond-centric manipulation tool provides a "chemically-oriented" way to change bond lengths, angles, and dihedral angles.
 
 -   Click on a bond. A rectangle will be drawn with the bond at the center. You can rotate this plane about the bond by clicking on the bond and dragging.
 -   Right click on one of the atoms in the selected bond and drag to change the bond length. The current bond length is listed in the bottom left corner.
@@ -19,7 +21,7 @@ The plane used for angle manipulation can be changed. Click on the bond and drag
 Settings
 --------
 
-![](BondCentricSettings.png "BondCentricSettings.png")
+![](/images/BondCentricSettings.png)
 
-<Category:Tools>
+
 

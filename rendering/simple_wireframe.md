@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Simple Wireframe
-category: rendering
+categories: Rendering
 ---
 
 
 
 
 
-![](SimpleWire.png "SimpleWire.png")
+![](/images/SimpleWire.png)
 
 
 

@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Insert Fragment
-categories: commands
+categories: Commands
 ---
 
 
 
-![](InsertFragment.png "InsertFragment.png")
+![](/images/InsertFragment.png)
 
 
 

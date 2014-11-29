@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Screencasts
+categories: Tutorials
 ---
 
-# Screencasts
+
 
 Several screencasts have been made showing Avogadro in action.
 
@@ -43,5 +44,5 @@ Several screencasts have been made showing Avogadro in action.
 
 [Building molecules by naming them](http://molecularmodelingbasics.blogspot.com/2011/03/building-molecules-whats-in-name.html)
 
-<Category:Documentation>
+
 

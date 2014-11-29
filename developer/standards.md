@@ -1,11 +1,12 @@
 ---
 layout: default
 title: Standards
+categories: Developer
 ---
 
-# Standards
 
-When in doubt about standards, consider the policies which KDE has set (see [\#Links](#Links "wikilink")).
+
+When in doubt about standards, consider the policies which KDE has set (see [\
 
 Formatting
 ----------
@@ -100,5 +101,5 @@ Links
 
 [KDE Library Code Policy (include naming conventions)](http://techbase.kde.org/Policies/Library_Code_Policy)
 
-<Category:Developer>
+
 

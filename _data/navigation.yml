@@ -3,5 +3,8 @@
 - title: Download
   url: https://sourceforge.net/projects/avogadro/files/latest/download
 
-- title: Tutorial
-  url: /tutorial/
+- title: Documentation
+  url: /docs/
+
+- title: Thanks
+  url: /credits/

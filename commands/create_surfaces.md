@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Create Surfaces
-categories: commands
+categories: Commands
 ---
 
 
 
-![](Surfaces.png "Surfaces.png")
+![](/images/Surfaces.png)
 
 
 
