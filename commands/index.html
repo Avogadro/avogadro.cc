@@ -1,0 +1,13 @@
+---
+layout: default
+title: Commands
+---
+
+Documentation for commands and extensions are sometimes found in other sections. What follows are more detailed descriptions of command and extensions.
+
+See also the documentation on all [menus](:Category:Menus "wikilink"), which provide brief summaries of all commands.
+
+{% for post in site.categories.commands %}
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+{% endfor %}
+</ul>

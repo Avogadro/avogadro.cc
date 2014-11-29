@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bond Properties
-tags: commands
+categories: commands
 ---
 
 

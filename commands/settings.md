@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Settings
-tags: commands
+categories: commands
 ---
 
 

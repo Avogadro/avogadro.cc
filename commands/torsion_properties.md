@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Torsion Properties
-tags: commands
+categories: commands
 ---
 
 

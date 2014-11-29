@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GAMESS
-tags: commands
+categories: commands
 ---
 
 

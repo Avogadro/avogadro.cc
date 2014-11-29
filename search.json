@@ -2,14 +2,14 @@
 sitemap: false
 ---
 [
-	{% for post in site.posts %}
-		{
-		  "title"      : "{{ post.title | escape }}",
-		  "category"   : "{{ post.category }}",
-      "tags"       : "{{ post.tags | array_to_sentence_string }}",
-		  "url"        : "{{ site.url }}{{ post.url }}",
-		  "date"       : "{{ post.date }}",
-		  "shortdate"  : "{{ post.date | date: '%B %d, %Y' }}"
-		} {% unless forloop.last %},{% endunless %}
-	{% endfor %}
+  {% for node in site.pages %}
+    {
+  	{% if node.title != nil and node.url != '/' %}
+  	{% capture nodediff %}{{ page.url | remove:node.url }}{% endcapture %}
+        "title"   : "{{ node.title | escape }}",
+        "category": "{{ node.category }}",
+        "url"     : "{{ site.url }}{ node.url }}"
+	  {% endif %}
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
 ]

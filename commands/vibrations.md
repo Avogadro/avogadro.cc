@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vibrations
-tags: commands
+categories: commands
 ---
 
 

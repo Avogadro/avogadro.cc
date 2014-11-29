@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Atom Properties
-tags: commands
+categories: commands
 ---
 
 

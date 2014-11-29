@@ -1,7 +1,7 @@
 ---
 layout: default
 title: POV-Ray
-tags: commands
+categories: commands
 ---
 
 

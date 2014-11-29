@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Molecule Properties
-tags: commands
+categories: commands
 ---
 
 

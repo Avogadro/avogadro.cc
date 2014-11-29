@@ -10,6 +10,7 @@ url:
 
 # Jekyll configuration
 
+categories:  [commands, menus, rendering, tools, tutorials, teaching, developer]
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: pygments
@@ -17,7 +18,6 @@ sass:
   sass_dir: _sass
   style: compressed
 gems:
-#  - jekyll-redirect-from
   - jekyll-sitemap
 
 kramdown:

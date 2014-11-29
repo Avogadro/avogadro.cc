@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Unit Cell
-tags: commands
+categories: commands
 ---
 
 

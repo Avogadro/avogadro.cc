@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Create Surfaces
-tags: commands
+categories: commands
 ---
 
 

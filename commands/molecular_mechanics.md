@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Molecular Mechanics
-tags: commands
+categories: commands
 ---
 
 

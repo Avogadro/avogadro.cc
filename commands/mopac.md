@@ -1,7 +1,7 @@
 ---
 layout: default
 title: MOPAC
-tags: commands
+categories: commands
 ---
 
 

@@ -18,17 +18,20 @@ Russian, Spanish, and others, with <a href="https://translations.launchpad.net/a
 <li><strong>Extensible</strong>: Plugin architecture for developers, including rendering, interactive tools, commands, and Python scripts.</li>
 <li><strong>Flexible</strong>: Features include <a href="http://openbabel.org/">Open Babel</a> import of chemical files, input generation for multiple computational chemistry packages, crystallography, and biomolecules.</li>
 <li><strong>How to <a href="cite.html">cite Avogadro</a></strong>: <a href="http://dx.doi.org/10.1186/1758-2946-4-17">The Avogadro Paper</a></li>
-<li><strong>Tell others</strong>: <!-- AddThis Button BEGIN -->
-<a class="addthis_button_compact"><span>Bookmark and Share</span></a>
+<li><strong>Tell others</strong>:
+<!-- AddThis Button BEGIN -->
+<a class="addthis_button_compact" href="http://www.addthis.com/bookmark.php?v=300&amp;pubid=ra-5006c6d451609ed2"><span>Bookmark and Share</span></a>
 <script type="text/javascript">var addthis_config =
 {"data_track_clickback":true};</script>
-<script type="text/javascript"
-src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5006c6d451609ed2&domready=1"
-async="async"></script>
-<!-- AddThis Button END -->. <a href="http://dx.doi.org/10.1186/1758-2946-4-17">Share the paper</a></li>
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5006c6d451609ed2"></script>
+<!-- AddThis Button END -->.
+<a href="http://dx.doi.org/10.1186/1758-2946-4-17">Share the paper</a></li>
 
 <ul class="post-list">
-{% for post in site.posts limit:10 %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+{% for node in site.pages limit:10 %}
+	{% if node.title != nil and node.url != '/' %}
+	{% capture nodediff %}{{ page.url | remove:node.url }}{% endcapture %}
+	<li><a {% if nodediff != page.url %}class="active" {% endif %}href="{{ node.url }}">{{ node.title }}</a></li>
+	{% endif %}
 {% endfor %}
 </ul>

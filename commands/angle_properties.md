@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Angle Properties
-tags: commands
+categories: commands
 ---
 
 
