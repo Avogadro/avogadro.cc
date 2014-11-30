@@ -12,8 +12,7 @@ body {
 
 .navigation-wrapper {
 	text-align: center;
-  position: fixed;
-        top: 0;
+  @include clearfix;
   img { // logo
     height: 1 em;
     border: 2px;
@@ -27,7 +26,7 @@ body {
 		background-color: $grey;
 		@include media($medium) {
 			width: auto;
-			@include rounded(0 0 10px 0);
+			@include rounded(0 0 10px 10px);
 		}
 		@include clearfix;
 	}
@@ -112,7 +111,7 @@ body {
 	visibility: hidden;
 	z-index: 10;
 	&.is-visible {
-		opacity: 0.8;
+		opacity: 1;
 		visibility: visible;
 		&:hover {
 			cursor: pointer;
@@ -211,7 +210,6 @@ body {
 }
 .entry-tags, .entry_categories {
 	display: block;
-	border: 1px solid lighten($black,80);
 	margin-top: 2em;
 	text-transform: uppercase;
 	@include font-size(16);

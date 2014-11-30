@@ -8,7 +8,7 @@ categories: Developer
 
 The *trunk* version of the Avogadro documentation is available at <http://avogadro.openmolecules.net/api/dev/>.
 
-![](Architecture.png "Architecture.png")
+![](/images/Architecture.png)
 
 There are four current interfaces for extending Avogadro
 

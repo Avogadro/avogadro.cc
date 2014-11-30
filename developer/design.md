@@ -34,7 +34,7 @@ The framework should allow features to be added and removed to customize feature
 
 The program should be international -- localization must be possible.
 
-![](Architecture.png "Architecture.png")
+![](/images/Architecture.png)
 
 
 
