@@ -208,17 +208,19 @@ body {
 .entry-header {
 	@include fill-parent;
 }
-.entry-tags, .entry_categories {
+.entry-tags, .entry-categories {
 	display: block;
+  background-color: lighten($black, 90);
+	padding: 0.25em 1.5em;
 	margin-top: 2em;
 	text-transform: uppercase;
 	@include font-size(16);
 	font-weight: 600;
 	a {
 		color: $text-color;
-		border-bottom: 1px dotted lighten($link-color, 50);
+		border-bottom: 1px dotted;
 		&:hover {
-			border-bottom-style: solid;
+			border-bottom: 2px solid;
 		}
   }
 }

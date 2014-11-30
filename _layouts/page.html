@@ -20,10 +20,12 @@
       </header>
       <div class="entry-content">
         {{ content }}
-      </div><!-- /.entry-content -->
+      {% if page.categories %}
       <div class="entry-categories">
-        {% if page.categories %}<strong>Category:</strong>&nbsp; <a href="{{ site.url }}/{{ page.categories | downcase }}">{{ page.categories }}</a>{% endif %}
+        <strong>Category:</strong>&nbsp; <a href="{{ site.url }}/{{ page.categories | downcase }}">{{ page.categories }}</a>
       </div><!-- /.entry-categories -->
+      {% endif %}
+      </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
   </article>
 </div><!-- /#main -->
