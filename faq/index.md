@@ -1,9 +1,7 @@
 ---
 layout: default
-title: FAQ
+title: Frequently Asked Questions
 ---
-
-# FAQ
 
 General
 -------

@@ -3,8 +3,6 @@ layout: default
 title: Contact
 ---
 
-# Contact
-
 Mailing Lists
 -------------
 

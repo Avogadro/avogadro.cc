@@ -3,8 +3,6 @@ layout: default
 title: DebianUbuntuPackages
 ---
 
-# DebianUbuntuPackages
-
 ### Debian
 
 Debian users can install Avogadro from the [*experimental*](http://wiki.debian.org/DebianExperimental) repository.

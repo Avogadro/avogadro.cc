@@ -3,8 +3,6 @@ layout: default
 title: Distribution Packages
 ---
 
-# Distribution Packages
-
 Debian
 ------
 

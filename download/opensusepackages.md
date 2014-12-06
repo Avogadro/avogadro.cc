@@ -3,8 +3,6 @@ layout: default
 title: OpenSUSEPackages
 ---
 
-# OpenSUSEPackages
-
 OpenSUSE 11.0
 -------------
 

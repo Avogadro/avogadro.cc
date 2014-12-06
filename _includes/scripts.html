@@ -13,6 +13,13 @@ $('#slides').slick({
   centerPadding: '40 px',
   focusOnSelect: true
 });
+<!-- captions -->
+$(document).ready(function() {
+$('#slides div').hover(
+function(){$('span', this).slideToggle('slow');},
+function(){$('span', this).slideToggle('slow');}
+);
+});
 </script>
 {% endif %}
 {% if site.search %}

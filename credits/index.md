@@ -3,8 +3,6 @@ layout: default
 title: Credits
 ---
 
-# Credits
-
 Avogadro, like many open source projects is helped by a cast of many. We are fundamentally a community project and aim to offer open development, responsive to users and contributors alike. Our hope is that many will build plugins on top of the core Avogadro framework, so we are very grateful to all contributors:
 
 Code:
