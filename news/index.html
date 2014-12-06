@@ -1,0 +1,10 @@
+---
+layout: default
+title: Recent News
+categories: News
+---
+
+{% for post in site.posts %}
+  <li><article><span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}"><strong>{{ post.date | date: "%B %d, %Y" }}</strong></time></span>:&nbsp;
+<a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></article></li>
+{% endfor %}
