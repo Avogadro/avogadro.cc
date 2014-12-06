@@ -35,3 +35,10 @@ Russian, Spanish, and others, with <a href="https://translations.launchpad.net/a
 <li><strong>How to <a href="cite.html">cite Avogadro</a></strong>: <a href="http://dx.doi.org/10.1186/1758-2946-4-17">The Avogadro Paper</a></li>
 <li><strong>Tell others</strong>:
 <a class="addthis_button_compact" href="http://www.addthis.com/bookmark.php?v=300&amp;pubid=ra-5006c6d451609ed2"><span>Bookmark and Share</span></a></li>
+
+<h2>News</h2>
+
+{% for post in site.posts limit:4 %}
+  <li><article><span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}"><strong>{{ post.date | date: "%B %d, %Y" }}</strong></time></span>:&nbsp;
+<a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></article></li>
+{% endfor %}
