@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Tutorials:Console
+title: Python Console
 categories: Tutorials
+description: Manipulating molecules in Avogadro, using the Python console
 ---
 
 
@@ -78,4 +79,3 @@ Iterating over atoms, bonds and so on is easy as can be seen below. When a ':' c
 
 Examples
 ========
-

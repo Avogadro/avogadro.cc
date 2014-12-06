@@ -3,13 +3,15 @@
 title: Avogadro
 locale: en_US
 description: Avogadro - the advanced molecular editor and visualizer
-logo: logo.png
+#logo: logo.png
+logo: avogadro.svg
 search: true
 #url: http://avogadro.cc
 url:
 categories:  [Commands, Rendering, Tools, Tutorials, Teaching, Releases, Developer]
 latest:
    version: "1.1.1"
+   changelog: /releases/avogadro_111.html
    date: "11 December, 2013"
 
 # Jekyll configuration

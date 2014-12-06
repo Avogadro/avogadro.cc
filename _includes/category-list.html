@@ -4,9 +4,9 @@
               {% for pc in node.categories %}
                 {% if pc == page.categories %}
                   {% if node.image %}
-                    <li><a href="{{ site.url }}{{ node.url }}"><img src="{{ node.image }}">&nbsp;{{ node.title }}</a></li>
+                    <li><a href="{{ site.url }}{{ node.url }}"><img src="{{ node.image }}">&nbsp;{{ node.title }}</a> {{ node.description }}</li>
                   {% else %}
-                    <li><a href="{{ site.url }}{{ node.url }}">{{ node.title }}</a></li>
+                    <li><a href="{{ site.url }}{{ node.url }}">{{ node.title }}</a> {{ node.description }}</li>
                   {% endif %} <!-- node.image -->
                 {% endif %}   <!-- cat-match-p -->
               {% endfor %}  <!-- page-category -->

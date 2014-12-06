@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Tutorials:Getting started
+title: Getting Started
 categories: Tutorials
+description: Opening files, navigating, changing the display
 ---
-
-
 
 When you initially open Avogadro you will be presented with a screen such as the one shown below (Avogadro 0.8.1 on KDE 4.1).
 
@@ -37,11 +36,10 @@ Note: if your mouse only has one or two buttons you can also use the modifier ke
 Rendering Quality
 -----------------
 
-![](/images/Avogadro_ethanol_lo.png)
+|Low Quality | Normal Quality | High Quality
+|----------|-------------|------------
+|![](/images/Avogadro_ethanol_lo.png){:.some-css-class style="width:200px"} |![](/images/Avogadro_ethanol_navigate.png){:.some-css-class style="width: 200px"} |![](/images/Avogadro_ethanol_hi.png){:.some-css-class style="width: 200px"} |
 
 The screen shots above were produced by exporting the graphics (File-\>Export-\>Export Graphics). The first image (leftmost) shows the scene after navigation at the lowest quality setting. The middle image shows it at medium quality setting and the final image (rightmost/bottom) shows the molecule rendered using the highest quality setting.
 
 The quality of rendering can be adjusted in the Settings menu by selecting 'Configure Avogadro...' The slider has five quality levels. As the quality is increased the global quality of all rendering is increased. At the highest two quality levels a second light source is also used. The higher the quality the more CPU/GPU power will be used to render the scene.
-
-
-
