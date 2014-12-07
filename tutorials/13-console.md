@@ -10,7 +10,7 @@ description: Manipulating molecules in Avogadro, using the Python console
 Getting Started
 ===============
 
-In case the python terminal is not visible, it can be made visible by checking the 'Settings \> Toolbars \> Python Terminal' checkbox.
+In case the python terminal is not visible, it can be made visible by checking the `Settings` &rarr; Toolbars \> Python Terminal' checkbox.
 
 ![](/images/Tut_console_1.png)
 

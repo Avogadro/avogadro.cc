@@ -21,7 +21,9 @@
       <div class="entry-content">
         {{ content }}
 
+        {% unless page.nolist %}
         {% include category-list.html %}
+        {% endunless %}
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
   </article>

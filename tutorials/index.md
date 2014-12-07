@@ -1,5 +1,7 @@
 ---
 layout: category
-title: Tutorials
+title: Tutorials and Walkthroughs
 categories: Tutorials
+#Eventually build up a manual index
+#nolist: true
 ---
