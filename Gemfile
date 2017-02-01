@@ -1,9 +1,5 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'jekyll'
-gem 'jekyll-sitemap'
-gem 'octopress'
-
-group :test do
-  gem 'html-proofer'
-end
+gem "jekyll"
+gem "jekyll-sitemap"
+gem "jekyll-feed"

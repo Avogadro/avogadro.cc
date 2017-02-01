@@ -3,16 +3,15 @@
 title: Avogadro
 locale: en_US
 description: Avogadro - the advanced molecular editor and visualizer
-#logo: logo.png
 logo: avogadro.svg
 search: true
 #url: http://avogadro.cc
 url:
 categories:  [Commands, Rendering, Tools, Tutorials, Teaching, Releases, Developer]
 latest:
-   version: "1.1.1"
-   changelog: /releases/avogadro_111.html
-   date: "11 December, 2013"
+   version: "1.2.0"
+   changelog: /releases/avogadro_120.html
+   date: "15 June, 2016"
 
 # Jekyll configuration
 
@@ -30,7 +29,6 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..2
-  use_coderay: false
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]

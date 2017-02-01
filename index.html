@@ -40,7 +40,7 @@ Russian, Spanish, and others, with <a href="https://translations.launchpad.net/a
 <h2>News</h2>
 
 <ul>
-{% for post in site.posts limit:4 %}
+{% for post in site.posts limit:5 %}
   <li><span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}"><strong>{{ post.date | date: "%B %d, %Y" }}:&nbsp;</strong></time></span>
 <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
