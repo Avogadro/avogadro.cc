@@ -3,8 +3,10 @@ layout: default
 title: Frequently Asked Questions
 ---
 
-General
--------
+* Table of Contents
+{:toc}
+
+#General
 
 1.  Does Avogadro work on platform X?
 
@@ -14,8 +16,7 @@ General
 
     Many of these programs are our favorites too. We use them. But PyMol and VMD are largely limited to being viewers. If you view biomolecules, use PyMol. If you do molecular dynamics, use VMD. If you need to build a molecule, protein, or crystal, please consider Avogadro.
 
-Scripting
----------
+#Scripting
 
 1.  Does Avogadro support scripting?
 
@@ -29,8 +30,7 @@ Scripting
 
     We're currently working on how to package Python support for the Mac, since Apple changes versions of Python with every OS release.
 
-Known Issues
-------------
+# Known Issues
 
 1.  Avogadro crashes when clicking inside draw area in Linux
 
