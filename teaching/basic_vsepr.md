@@ -4,10 +4,6 @@ title: Basic VSEPR
 categories: Teaching
 ---
 
-
-
-\_\_NOTOC\_\_
-
 Task
 ----
 
@@ -19,7 +15,7 @@ examples: methane, water, ammonia, etc.
 
 -   For octahedral-based geometries, use the UFF forcefield which is optimized for all elements.
 
-examples: SF6, IF5, XeF4, etc.
+examples: $$\alpha$$, $$\pi$$, $$\ce{SF6}$$, $$\ce{IF5}$$, $$\ce{XeF4}$$, etc.
 
 See also
 --------
