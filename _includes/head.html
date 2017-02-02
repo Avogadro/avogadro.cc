@@ -8,15 +8,15 @@
 
 {% include open-graph.html %}
 
-{% if site.owner.google.verify %}<meta name="google-site-verification" content="{{ site.owner.google.verify }}">{% endif %}
+{% if site.owner.google.verify %}<!-- Webmaster Tools verfication -->
+<meta name="google-site-verification" content="{{ site.owner.google.verify }}">{% endif %}
 {% if site.owner.bing-verify %}<meta name="msvalidate.01" content="{{ site.owner.bing-verify }}">{% endif %}
 
 {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
 <link rel="canonical" href="{{ canonical }}">
 <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-{% if site.owner.google.plus %}<link rel="author" href="//plus.google.com/+{{ site.owner.google.plus }}?rel=author">{% endif %}
 
-<!-- http://t.co/dKP3o1e -->
+<!-- https://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,11 +24,7 @@
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
 <!-- Webfonts -->
-<script src="//use.edgefonts.net/source-sans-pro:n4,i4,n6,i6;source-code-pro:n4;volkhov.js"></script>
-<!-- Slick carosel -->
-{% if page.slides %}
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.3.15/slick.css"/>
-{% endif %}
+<script src="https://use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
 
 <meta http-equiv="cleartype" content="on">
 
@@ -41,27 +37,26 @@
 <!-- Modernizr -->
 <script src="{{ site.url }}/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
 
+{% if site.mathjax == true %}
 <!-- MathJax -->
-{% if page.mathjax %}
-<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["[Contrib]/mhchem/mhchem.js"]
+  });
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 {% endif %}
 
 <!-- Icons -->
-<link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="114x114" href="{{ site.url }}/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="144x144" href="{{ site.url }}/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="60x60" href="{{ site.url }}/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="120x120" href="{{ site.url }}/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="76x76" href="{{ site.url }}/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/apple-touch-icon-180x180.png">
-<meta name="apple-mobile-web-app-title" content="Avogadro">
-<link rel="icon" type="image/png" href="{{ site.url }}/favicon-192x192.png" sizes="192x192">
-<link rel="icon" type="image/png" href="{{ site.url }}/favicon-160x160.png" sizes="160x160">
-<link rel="icon" type="image/png" href="{{ site.url }}/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="{{ site.url }}/favicon-16x16.png" sizes="16x16">
-<link rel="icon" type="image/png" href="{{ site.url }}/favicon-32x32.png" sizes="32x32">
-<meta name="msapplication-TileColor" content="#2d89ef">
-<meta name="msapplication-TileImage" content="{{ site.url }}/mstile-144x144.png">
-<meta name="application-name" content="Avogadro">
+<!-- 16x16 -->
+<link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="{{ site.url }}/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/apple-touch-icon-144x144-precomposed.png">
