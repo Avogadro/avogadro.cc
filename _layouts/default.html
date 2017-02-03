@@ -1,42 +1,28 @@
+---
+---
+
 <!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
-<head>
-{% include head.html %}
-</head>
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
-<body id="page">
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
 
-{% include navigation.html %}
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-<div id="main" role="main">
-  <article class="entry">
-    {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" {% if site.logo == null %}style="margin-top:0;"{% endif %}>{% if page.image.credit %}<p class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>{% endif %}{% endif %}
-    <div class="entry-wrapper">
-      <header class="entry-header">
-        <h1 class="entry-title">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}</h1>{% endif %}
-      </header>
-      <div class="entry-content">
-        {{ content }}
-      {% if page.categories %}
-      <div class="entry-categories">
-        <strong>Category:</strong>&nbsp; <a href="{{ site.url }}/{{ page.categories | downcase }}">{{ page.categories }}</a>
-      </div><!-- /.entry-categories -->
-      {% endif %}
-      </div><!-- /.entry-content -->
-    </div><!-- /.entry-wrapper -->
-  </article>
-</div><!-- /#main -->
+    {{ content }}
 
-<div class="footer-wrapper">
-  <footer role="contentinfo" class="entry-wrapper">
-    {% include footer.html %}
-  </footer>
-</div><!-- /.footer-wrapper -->
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
 
-{% include scripts.html %}
+    {% include scripts.html %}
 
-</body>
+  </body>
 </html>
