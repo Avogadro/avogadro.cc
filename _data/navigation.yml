@@ -1,13 +1,14 @@
 # Site navigation links
 
+main:
 - title: Download
   url: https://sourceforge.net/projects/avogadro/files/latest/download
 
-- title: Documentation
+- title: Manual
   url: /docs/
 
-- title: FAQ
-  url: /faq/
+- title: Discuss
+  url: https://discuss.avogadro.cc
 
 - title: Thanks
   url: /credits/

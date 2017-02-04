@@ -1,12 +1,7 @@
 ---
-layout: post
 title: "Avogadro 1.90.0 Released"
-modified:
 categories: News
-excerpt:
-tags: []
-image:
-  feature:
+author: cryos
 date: 2016-12-02
 ---
 

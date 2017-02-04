@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: Align Tool
 categories: Tools
 image: /images/Align.png

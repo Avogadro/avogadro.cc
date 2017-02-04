@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: single
 title: Basic VSEPR
 categories: Teaching
+mathjax: true
 ---
 
 Task
@@ -15,7 +16,7 @@ examples: methane, water, ammonia, etc.
 
 -   For octahedral-based geometries, use the UFF forcefield which is optimized for all elements.
 
-examples: $$\alpha$$, $$\pi$$, $$\ce{SF6}$$, $$\ce{IF5}$$, $$\ce{XeF4}$$, etc.
+examples: $$\ce{SF6}$$, $$\ce{IF5}$$, $$\ce{XeF4}$$, etc.
 
 See also
 --------

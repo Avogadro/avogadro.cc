@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: single
 title: Van der Waals Spheres
 categories: Rendering
+header:
+  teaser: /assets/thumbs/200px/VdWSpheres.png
 ---
 
 

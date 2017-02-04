@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: AutoRotate Tool
 categories: Tools
 image: /images/Autorotate.png

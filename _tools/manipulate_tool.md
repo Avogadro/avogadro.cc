@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: Manipulate Tool
 categories: Tools
 image: /images/Manipulate.png

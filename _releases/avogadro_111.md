@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Avogadro 1.1.1
 categories: Releases
+date: 2013-12-11
+author: ghutchis
 ---
 
 

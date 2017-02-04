@@ -1,22 +1,21 @@
 ---
-layout: default
+layout: single
 title: Hydrogen Molecule
 categories: Teaching
+mathjax: true
 ---
 
 Task
 ----
 
--   Create H<sub>2</sub> molecule using drawing tool.
+-   Create $$\ce{H2}$$ molecule using drawing tool.
 -   Minimize energy, measure length of bond.
 -   Enable display of it's orbitals.
 
 Solution
 --------
 
-![](Hydrogen molecule.png "Hydrogen molecule.png")
-
-\_\_NOTOC\_\_
+![]("/images/Hydrogen molecule.png")
 
 Issues
 ------
@@ -34,7 +33,7 @@ According to [1](http://hyperphysics.phy-astr.gsu.edu/hbase/molecule/hmol.html),
 See also
 --------
 
-[Hydrogen cluster](Hydrogen cluster "wikilink")
+[Hydrogen cluster](Hydrogen cluster)
 
 
 

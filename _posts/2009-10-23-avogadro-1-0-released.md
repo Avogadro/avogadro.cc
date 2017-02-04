@@ -1,8 +1,8 @@
 ---
-layout: post
 title: "Avogadro 1.0 Released"
 categories: News
-date: 2009-10-23T00:00:00-04:00
+author: ghutchis
+date: 2009-10-23
 ---
 
 We are very proud to announce the availability of Avogadro 1.0

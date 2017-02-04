@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: single
 title: Surface
 categories: Rendering
+header:
+  teaser: /assets/thumbs/200px/Surface.png
 ---
 
 

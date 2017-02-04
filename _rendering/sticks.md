@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: single
 title: Sticks
 categories: Rendering
+header:
+  teaser: /assets/thumbs/200px/Sticks.png
 ---
 
 

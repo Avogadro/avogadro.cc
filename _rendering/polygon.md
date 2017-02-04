@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: single
 title: Polygon
 categories: Rendering
+header:
+  teaser: /assets/thumbs/200px/Polygon.png
 ---
 
 

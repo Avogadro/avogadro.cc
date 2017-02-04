@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: single
 title: Citation
+permalink: /cite/
 ---
 
 The preferred way to cite Avogadro is:

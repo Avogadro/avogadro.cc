@@ -1,13 +1,8 @@
 ---
-layout: post
 title: "Featured on SourceForge Blog"
-modified:
 categories: News
-excerpt:
-tags: []
-image:
-  feature:
-date: 2009-10-23T00:00:00-04:00
+author: ghutchis
+date: 2009-10-23
 ---
 
 Avogadro was featured on the [SourceForge community blog](http://sourceforge.net/blog/avogadro-the-tyra-of-molecular-modeling/):

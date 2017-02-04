@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: single
 title: Hydrogen Bond
 categories: Rendering
+header:
+  teaser: /assets/thumbs/200px/HydrogenBonds.png
 ---
 
 

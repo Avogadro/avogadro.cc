@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: Python Tool
 categories: Tools
 image: /images/Python.png

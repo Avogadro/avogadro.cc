@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: single
 title: Translators
+permalink: /translators/
 ---
 
 Many people have contributed to the open translations for Avogadro at [LaunchPad](http://translations.launchpad.net/avogadro/). This list is automatically generated directly from the Launchpad translation files. Consequently, some people are anonymous.

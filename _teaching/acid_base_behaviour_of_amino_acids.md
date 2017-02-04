@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: single
 title: Acid-Base Properties of Amino Acids
 categories: Teaching
+mathjax: true
 ---
 
 Tasks

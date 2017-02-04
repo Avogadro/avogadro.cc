@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: single
 title: Wireframe
 categories: Rendering
+header:
+  teaser: /assets/thumbs/200px/Wireframe.png
 ---
 
 

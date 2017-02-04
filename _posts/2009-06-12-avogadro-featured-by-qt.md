@@ -1,13 +1,7 @@
 ---
-layout: post
 title: "Avogadro Featured by Qt"
-modified:
 categories: News
-excerpt:
-tags: []
-image:
-  feature:
-slides: false
+author: cryos
 date: 2009-06-12
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: single
 title: Ribbon
 categories: Rendering
+header:
+  teaser: /assets/thumbs/200px/Ribbons.png
 ---
 
 

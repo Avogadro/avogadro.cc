@@ -1,12 +1,7 @@
 ---
-layout: post
 title: "Avogadro 1.2 Released"
-modified:
+author: ghutchis
 categories: News
-excerpt:
-tags: []
-image:
-  feature:
 date: 2016-06-15
 ---
 

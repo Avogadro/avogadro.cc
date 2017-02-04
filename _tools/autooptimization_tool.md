@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: AutoOptimization Tool
 categories: Tools
 image: /images/Autoopttool.png

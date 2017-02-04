@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: Alkene Isomers
 categories: Teaching
 ---

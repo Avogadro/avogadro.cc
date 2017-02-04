@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: single
 title: Contact
+permalink: /contact/
 ---
 
-Mailing Lists
--------------
+# Mailing Lists
 
 -   [avogadro-announce @ lists.sourceforge.net](http://lists.sourceforge.net/mailman/listinfo/avogadro-announce) - Announcements about Avogadro, including new releases.
 

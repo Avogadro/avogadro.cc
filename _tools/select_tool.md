@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: Selection Tool
 categories: Tools
 image: /images/Select.png

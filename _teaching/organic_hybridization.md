@@ -1,12 +1,12 @@
 ---
-layout: default
+layout: single
 title: Organic Hybridization
 categories: Teaching
+mathjax: true
 ---
 
 
-
-\_\_NOTOC\_\_ Illustrate geometry and bond lengths in sp3, sp2 and sp hybridized carbons.
+Illustrate geometry and bond lengths in $$\ce{sp3}$$, $$\ce{sp2}$$ and $$\ce{sp}$$ hybridized carbons.
 
 Task
 ----
@@ -31,9 +31,4 @@ Further readings
 ----------------
 
 [Wikipedia: Orbital hybridisation](http://en.wikipedia.org/wiki/Orbital_hybridisation)
-
-Issues
-------
-
-
 

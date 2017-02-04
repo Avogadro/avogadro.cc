@@ -1,11 +1,7 @@
 ---
-layout: post
 title: "Avogadro 2 Beta 0.8 Released"
 categories: News
-excerpt:
-tags: []
-image:
-  feature:
+author: cryos
 date: 2015-08-17
 ---
 

@@ -1,13 +1,7 @@
 ---
-layout: post
 title: "Avogadro Part of Google Summer of Code 2016"
-modified:
 categories: News
-excerpt:
-tags: []
-image:
-  feature:
-slides: false
+author: ghutchis
 date: 2016-04-22
 ---
 

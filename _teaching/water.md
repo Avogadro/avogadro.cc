@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: Water
 categories: Teaching
 ---
@@ -53,7 +53,7 @@ other methods.
 See also
 --------
 
-[HCN dipole](HCN dipole "wikilink") \_\_NOTOC\_\_
+[HCN dipole](HCN dipole "wikilink")
 
 
 

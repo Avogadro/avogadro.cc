@@ -1,13 +1,8 @@
 ---
-layout: post
 title: "Avogadro 2 Beta 0.7.0 Released"
-modified:
 categories: News
-excerpt:
-tags: []
-image:
-  feature:
-date: 2013-12-02T00:00:00-05:00
+author: cryos
+date: 2013-12-02
 ---
 
 We are very proud to announce the availability of Avogadro 2, Beta 0.7.0.

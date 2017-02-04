@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Avogadro 0.8.1
 categories: Releases
+date: 2008-06-07
 ---
 
 

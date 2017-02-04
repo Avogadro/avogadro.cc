@@ -1,13 +1,7 @@
 ---
-layout: post
 title: "Avogadro 1.0.2 Released"
-modified:
 categories: News
-excerpt:
-tags: []
-image:
-  feature:
-date: 2011-04-24T00:00:00-04:00
+date: 2011-04-24
 ---
 
 We are very proud to announce the availability of Avogadro 1.0.2

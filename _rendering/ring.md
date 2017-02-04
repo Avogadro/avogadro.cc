@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: single
 title: Ring
 categories: Rendering
+header:
+  teaser: /assets/thumbs/200px/Rings.png
 ---
 
 

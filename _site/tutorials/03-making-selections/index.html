@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Making Selections - Avogadro</title>
+
+
+
+
+<meta name="description" content="Introduction">
+
+
+
+
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Avogadro">
+<meta property="og:title" content="Making Selections">
+
+
+  <link rel="canonical" href="http://localhost:4000/tutorials/03-making-selections/">
+  <meta property="og:url" content="http://localhost:4000/tutorials/03-making-selections/">
+
+
+
+  <meta property="og:description" content="Introduction">
+
+
+
+  <meta name="twitter:site" content="@AvogadroChem">
+  <meta name="twitter:title" content="Making Selections">
+  <meta name="twitter:description" content="Introduction">
+  <meta name="twitter:url" content="http://localhost:4000/tutorials/03-making-selections/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2017-02-04T11:18:53-05:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Avogadro Chemistry",
+      "url" : "http://localhost:4000",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Avogadro Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    <!-- start custom head snippets -->
+
+
+
+
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--default">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Avogadro</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://sourceforge.net/projects/avogadro/files/latest/download">Download</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/docs/">Manual</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://discuss.avogadro.cc">Discuss</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/credits/">Thanks</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <h1 id="introduction">Introduction</h1>
+
+<p>Making selections is an important operation when using Avogadro.</p>
+
+<ul>
+  <li>Deleting the selection</li>
+  <li>Using Display Types for parts of the molecule</li>
+  <li>Adding hydrogens to only the selected atoms</li>
+  <li>Moving the selected items in space</li>
+</ul>
+
+<p>There are several ways to make selections. However, the easiest or quickest way often depends on the task you are trying to accomplish. While the selection methods in this tutorial are organised in 3 sections, you can (and are encouraged) to mix these methods while working with Avogadro.</p>
+
+<h1 id="selections-menu">Selections Menu</h1>
+
+<p><img src="/images/tut_select_menu.png" alt="Figure 1: The Select menu." /> Many selection methods accessible through the <code class="highlighter-rouge">Select</code> menu. Since the first two items are frequently needed, short-cuts are provided.</p>
+
+<p><code class="highlighter-rouge">Select All  </code><strong><code class="highlighter-rouge">Ctrl+A</code></strong>
+<code class="highlighter-rouge">Select None  </code><strong><code class="highlighter-rouge">Ctrl+Shift+A</code></strong></p>
+
+<p>At any point, you can <strong>delete</strong> the currently selected items by pressing the <strong>Backspace</strong> key.</p>
+
+<h2 id="invert-selection">Invert Selection</h2>
+
+<p>Inverting the current selection is often useful when making selecting which will be assigned to display types (see next tutorial). For example, if you have selected all ligands in a protein complex and assigned it to a display type (e.g. Stick). Inverting the selection will select the protein which can then be assigned to a different display type (e.g. Simple Wireframe)</p>
+
+<h2 id="select-smarts">Select SMARTS</h2>
+
+<p><a href="http://www.daylight.com/dayhtml/doc/theory/theory.smarts.html">SMARTS</a> are usually used for subgraph searching. The select SMARTS function in Avogadro selects all matched atoms in the molecule. All <a href="http://www.daylight.com/dayhtml/doc/theory/theory.smiles.html">SMILES</a> are also valid <a href="http://www.daylight.com/dayhtml/doc/theory/theory.smarts.html">SMARTS</a>:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>SMILES      Description
+C(=O)O      select all carboxylic acids, esters, etc...
+N           select all aliphatic nitrogen atoms
+n           select all aromatic nitrogen atoms
+n1ccccc1    select all atoms in pyridine rings
+</code></pre>
+</div>
+
+<p><a href="http://www.daylight.com/dayhtml/doc/theory/theory.smarts.html">SMARTS</a> are much more powerful though. Here are some examples using SMARTS that cannot be expressed as a single SMILES:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>SMARTS      Description
+a1aaaa1     select all aromatic atoms in 6 membered rings
+A           select all aliphatic atoms
+[O,N][#6]   select all ON and NC fragments (O &amp; N are aliphatic, C can be aliphatic or aromatic)
+</code></pre>
+</div>
+
+<p>More information on how to write SMILES and SMARTS strings can be found here:</p>
+
+<ul>
+  <li><a href="http://www.daylight.com/dayhtml/doc/theory/theory.smiles.html">SMILES - A Simplified Chemical Language</a></li>
+  <li><a href="http://www.daylight.com/dayhtml/doc/theory/theory.smarts.html">SMARTS - A Language for Describing Molecular Patterns</a></li>
+</ul>
+
+<h2 id="select-by-element">Select by Element</h2>
+
+<p><img src="/images/tut_select_element.png" alt="Figure 2: Select by Element." /> Clicking the <code class="highlighter-rouge">Select by Element...</code> action will show a periodic table. Clicking any of the elements in the table will select all atoms for which the atomic number matches the clicked element.</p>
+
+<h2 id="select-by-residue">Select by Residue</h2>
+
+<p><img src="/images/tut_select_residue.png" alt="Figure 3: Select by Residue." /> This option allows you to select all residues with a specified residue name (e.g. <strong>“VAL”</strong>, <strong>“TYR”</strong>, …). While the VAL and TYR example might not be of great value, this option can often be useful for selecting ligands with a known name. For example, the 1DRF.pdb protein contains a folate molecule with residue name “FOL.”</p>
+
+<p>1DRF.pdb:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>...
+HET    **FOL**  A 187      32                                                       
+...
+HETNAM     **FOL** FOLIC ACID                                                       
+...
+FORMUL   4  FOL    C19 H19 N7 O6                                                
+...
+ATOM   1508  N1  **FOL** A 187      26.779  12.325  -3.996  1.00  0.00           N  
+ATOM   1509  C2  **FOL** A 187      27.684  12.453  -5.033  1.00  0.00           C  
+ATOM   1510  NA2 **FOL** A 187      27.113  12.270  -6.218  1.00  0.00           N  
+...
+</code></pre>
+</div>
+
+<p>Using the select by residue option, it is easy to select the ligand. Once selected, a display type can be assigned to the ligand. When using the cartoon display type for proteins, selections are rendered as wireframe in the selection color (Figure 3).</p>
+
+<h2 id="select-solvent">Select Solvent</h2>
+
+<p>Currently, only residues with the name <strong>HOH</strong> are selected. Improved selection of solvent is planned.</p>
+
+<h1 id="selection-tool">Selection Tool</h1>
+
+<p>While all previous select methods didn’t involve the 3D view directly, clicking on atoms and bonds to make selections is possible using the <a href="/tools/select_tool.html">Selection Tool</a>. The selection tool has <strong>3 modes</strong>:</p>
+
+<ul>
+  <li><strong>Atom/Bond</strong>: Select the clicked atom/bond</li>
+  <li><strong>Residue</strong>: Select the residue to which to clicked atom/bond belongs. This only works for molecules with residues like proteins for example. Both the atoms and the bonds of the residue will be selected.</li>
+  <li><strong>Molecule</strong>: Select all atoms and bonds connected to the clicked atom/bond.</li>
+</ul>
+
+<p>The <strong>Atom/Bond</strong> mode is exclusive without using modifier keys. This means when you click various atoms consecutively, only the last will be selected. This behaviour can be changed by holding the <strong>Shift</strong> (or <strong>Ctrl</strong>) modifier key while clicking the atom/bond.</p>
+
+<ul>
+  <li><strong>Shift</strong> (Add modifier): Select additional atom/bond without deselecting any previous selection. When clicking on an already selected atom, this has no effect.</li>
+  <li><strong>Ctrl</strong> (Toggle modifier): Same as <strong>Shift</strong> but deselects a selected atom/bond when clicking on it.</li>
+</ul>
+
+<p>Both <strong>Residue</strong> and <strong>Molecule</strong> mode work in a toggle like way. Clicking a previously unselected residue/molecule will select it, clicking it again will deselect it. (note: these modes don’t use modifier keys)</p>
+
+<p>There is one more option for making selections using this tool. Left clicking on an empty space in the 3D widget and moving the mouse cursor will draw a <strong>selection box</strong>. When the mouse button is released, all atoms and bonds inside the box will be selected. The modifier keys can also be used with selection boxes:</p>
+
+<ul>
+  <li><strong>Shift</strong> (Add modifier): Select additional atom/bond without deselecting any previous selection.</li>
+  <li><strong>Ctrl</strong> (Exclusive modifier): Select only the atoms and bonds within the box. Previous selections will be deselected.</li>
+</ul>
+
+<p>Right click on empty space clears the selection.</p>
+
+<h1 id="named-selections">Named Selections</h1>
+
+<p><img src="/images/tut_select_projecttree2.png" alt="Figure 4: Named selections in the project tree." /> Once a selection has been made, it can often be useful to make it a named selection using <code class="highlighter-rouge">Select</code>→<code class="highlighter-rouge">Add Named Selection...</code>. This allows for quick reselection later, and designating particular portions of a molecule should be treated separately by external programs (e.g., using quantum mechanics (QM) instead of molecular mechnics (MM) in a QM/MM calculation).</p>
+
+<h1 id="selecting-and-the-project-tree">Selecting and the Project Tree</h1>
+
+<p><img src="/images/tut_select_projecttree1.png" alt="Figure 5: Configuring the project tree." /> <img src="/images/tut_select_projecttree3.png" alt="Figure 6: Named selections in the project tree." /> If the project tree is not visible, it can always be made visible again using <code class="highlighter-rouge">Settings</code>→<code class="highlighter-rouge">Toolbars</code>→<code class="highlighter-rouge">Project Tree</code>. If the project tree is empty, items can be added using <code class="highlighter-rouge">Settings</code>→<code class="highlighter-rouge">Configure Avogadro..</code> (Figure 5). This only needs to be done once, the settings will be stored for later sessions. Some of the items you can add are <strong>User Selections</strong>, <strong>Molecule</strong>, <strong>Atoms</strong>. In the real project tree, these items will expand and contain the actual selections, residues, items and so on. Double clicking an item will select the matching atoms, bonds, … (Figure 6).</p>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="//github.com/avogadro/Avogadro.github.io/edit/master/_tutorials/03-making-selections.md">Edit this on GitHub</a>
+<!-- end custom footer snippets -->
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="https://twitter.com/AvogadroChem"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+    
+      <li><a href="http://github.com/avogadro"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2017 Avogadro Chemistry. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+      </footer>
+    </div>
+
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+
+
+  
+
+<script type="text/javascript">
+    DiscourseEmbed = { discourseUrl: '//discuss.avogadro.cc/',
+                       discourseEmbedUrl: 'http://localhost:4000/tutorials/03-making-selections/' };
+   (function () {
+     var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+     d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+   })();
+</script>
+<noscript>Please enable JavaScript to view the comments powered by <a href="https://www.discourse.org/">Discourse.</a></noscript>
+
+
+
+
+
+
+
+  </body>
+</html>

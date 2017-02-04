@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: Navigate Tool
 categories: Tools
 image: /images/Navigate.png

@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: single
 title: Label
 categories: Rendering
+header:
+  teaser: /assets/thumbs/200px/Labels.png
 ---
 
 

@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: single
 title: Force
 categories: Rendering
+header:
+  teaser: /assets/thumbs/200px/Forces.png
 ---
 
 

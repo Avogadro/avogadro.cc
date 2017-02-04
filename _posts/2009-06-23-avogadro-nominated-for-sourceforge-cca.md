@@ -1,14 +1,9 @@
 ---
-layout: post
 title: "Avogadro Nominated for SourceForge CCA"
-modified:
 categories: News
-excerpt:
-tags: []
-image:
-  feature:
+author: ghutchis
 slides: true
-date: 2009-06-23T00:00:00-04:00
+date: 2009-06-23
 ---
 
 Thanks to many nominations, Avogadro has been nominated for a 2009 SourceForge Community Choice Award in the "Best Project for Academia" category.

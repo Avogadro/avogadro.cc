@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: Measure Tool
 categories: Tools
 image: /images/Measure.png

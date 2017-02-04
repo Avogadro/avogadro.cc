@@ -1,12 +1,18 @@
 # Authors
 
-billy_rick:
-  name: Billy Rick
-  web: http://thewhip.com
-  email: billy@rick.com
-  bio: "What do you want, jewels? I am a very extravagant man."
-  avatar: bio-photo-2.jpg
-  twitter: extravagantman
-  google:
-    plus: BillyRick
+ghutchis:
+  name: Geoff Hutchison
+  uri: https://hutchison.chem.pitt.edu/
+  email: geoffh@pitt.edu
+  bio: "Associate Professor, University of Pittsburgh"
+  avatar: /assets/images/bio-photo.jpg
+  twitter: ghutchis
+  github: ghutchis
+  location: "Pittsburgh, PA, USA"
 
+cryos:
+  name: Marcus Hanwell
+  uri: https://www.kitware.com/
+  bio: "Kitware, Inc."
+  github: cryos
+  avatar: /assets/images/bio-photo.jpg

@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Tutorials:Force fields - Avogadro</title>
+
+
+
+
+<meta name="description" content="The OpenBabel library provides several force fields which can be used in Avogadro. For good results, it is important to select the right force field for a given molecule. Below you can find a list with the available force fields and the chemical families for which they were parameterized.">
+
+
+
+
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Avogadro">
+<meta property="og:title" content="Tutorials:Force fields">
+
+
+  <link rel="canonical" href="http://localhost:4000/tutorials/11-force-fields/">
+  <meta property="og:url" content="http://localhost:4000/tutorials/11-force-fields/">
+
+
+
+  <meta property="og:description" content="The OpenBabel library provides several force fields which can be used in Avogadro. For good results, it is important to select the right force field for a given molecule. Below you can find a list with the available force fields and the chemical families for which they were parameterized.">
+
+
+
+  <meta name="twitter:site" content="@AvogadroChem">
+  <meta name="twitter:title" content="Tutorials:Force fields">
+  <meta name="twitter:description" content="The OpenBabel library provides several force fields which can be used in Avogadro. For good results, it is important to select the right force field for a given molecule. Below you can find a list with the available force fields and the chemical families for which they were parameterized.">
+  <meta name="twitter:url" content="http://localhost:4000/tutorials/11-force-fields/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2017-02-04T11:18:53-05:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Avogadro Chemistry",
+      "url" : "http://localhost:4000",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Avogadro Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    <!-- start custom head snippets -->
+
+
+
+
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--default">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Avogadro</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://sourceforge.net/projects/avogadro/files/latest/download">Download</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/docs/">Manual</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://discuss.avogadro.cc">Discuss</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/credits/">Thanks</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <p>The OpenBabel library provides several force fields which can be used in Avogadro. For good results, it is important to select the right force field for a given molecule. Below you can find a list with the available force fields and the chemical families for which they were parameterized.</p>
+
+<ul>
+  <li>MMFF94(s): organic chemistry and drug-like molecules.</li>
+  <li>UFF: This force field can be used across the entire periodic table.</li>
+  <li>Ghemical: simple organic molecules</li>
+</ul>
+
+<p>More information (links, references to articles, …) can also be found on the <a href="http://openbabel.org/wiki/Molecular_mechanics">OpenBabel wiki</a></p>
+
+<h1 id="common-problems">Common problems</h1>
+
+<p>If you get strange geometries after optimizing, you should always check to make sure your using the right force field (see above). It is also important to realize that each force field has it’s limitations. If you want to know more about each force fields strengths or weaknesses, you can</p>
+
+<h2 id="uff">UFF</h2>
+
+<h2 id="mmff94s">MMFF94(s)</h2>
+
+<p>Among “monofunctional” chemical families, MMFF94 has been parameterized for alkanes, alkenes, alcohols, phenols, ethers, aldehydes, ketones, ketals, acetals, hemiketals, hemiacetals, amines, amides, peptide analogs, ureas, imides, carboxylic acids, esters, carboxylate anions, ammonium cations, thiols, mercaptans, disulfides, halides (chlorides and fluorides), imines, iminium cations, amine N-oxides, hydroxylamines, hydroxamic acids, amidines, guanidines, amidinium cations, guanidinium cations, imidazolium cations, aromatic hydrocarbons, and heteroaromatic compounds.</p>
+
+<p>MMFF94 and MMFF94s both use the same functional form to calculate the potential energy. They only differ in the Torsion and Out-Of-Plane bending parameters used. The ‘s’ in MMFF94s stands for static and this set of parameters is more suited for tasks where the output is static. This can easily be remembered when you think of the output of an energy minimization as a static result (only one geometry). A dynamic result would be a the trajectory of a molecular dynamics simulation.</p>
+
+<p>Nitro groups have to be drawn using a single and double bond. If you draw a double bond to both oxygen atoms, force field setup will fail. <img src="nitromethane.png" alt="nitromethane" title="fig:nitromethane" />
+ –figure nitro –</p>
+
+<p>The S-O bonds in sulfone groups have to be single. <img src="sulfone.png" alt="dimethylsulfone" title="fig:dimethylsulfone" />
+– figure sulfone –</p>
+
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="//github.com/avogadro/Avogadro.github.io/edit/master/_tutorials/11-force-fields.md">Edit this on GitHub</a>
+<!-- end custom footer snippets -->
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="https://twitter.com/AvogadroChem"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+    
+      <li><a href="http://github.com/avogadro"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2017 Avogadro Chemistry. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+      </footer>
+    </div>
+
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+
+
+  
+
+<script type="text/javascript">
+    DiscourseEmbed = { discourseUrl: '//discuss.avogadro.cc/',
+                       discourseEmbedUrl: 'http://localhost:4000/tutorials/11-force-fields/' };
+   (function () {
+     var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+     d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+   })();
+</script>
+<noscript>Please enable JavaScript to view the comments powered by <a href="https://www.discourse.org/">Discourse.</a></noscript>
+
+
+
+
+
+
+
+  </body>
+</html>

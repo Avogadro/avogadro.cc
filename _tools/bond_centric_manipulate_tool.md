@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: Bond Centric Manipulate Tool
 categories: Tools
 image: /images/Bondcentric.png

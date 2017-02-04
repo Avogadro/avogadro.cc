@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Avogadro 1.0.0
 categories: Releases
+date: 2009-10-23
 ---
 
 

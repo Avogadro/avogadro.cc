@@ -1,13 +1,8 @@
 ---
-layout: post
 title: "Avogadro 1.1.1 Released"
-modified:
 categories: News
-excerpt:
-tags: []
-image:
-  feature:
-date: 2013-12-11T00:00:00-05:00
+author: ghutchis
+date: 2013-12-11
 ---
 
 We are very proud to announce the availability of Avogadro 1.1.1.

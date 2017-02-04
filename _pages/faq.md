@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: single
 title: Frequently Asked Questions
+permalink: /faq/
 ---
 
-* Table of Contents
-{:toc}
+{% include toc %}
 
 # General
 

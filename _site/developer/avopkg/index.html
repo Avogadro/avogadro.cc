@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Avopkg - Avogadro</title>
+
+
+
+
+<meta name="description" content="Avopkg is a minimalistic package manager designed for easy distribution of Avogadro plugins. It’s written in POSIX shell and requires only standard *nix tools like basename, cat, grep, awk, so it should run on any POSIX-compliant OS, including Linux, *BSD, Mac OS X, or POSIX subsystem like Cygwin or Windows SFU.">
+
+
+
+
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Avogadro">
+<meta property="og:title" content="Avopkg">
+
+
+  <link rel="canonical" href="http://localhost:4000/developer/avopkg/">
+  <meta property="og:url" content="http://localhost:4000/developer/avopkg/">
+
+
+
+  <meta property="og:description" content="Avopkg is a minimalistic package manager designed for easy distribution of Avogadro plugins. It’s written in POSIX shell and requires only standard *nix tools like basename, cat, grep, awk, so it should run on any POSIX-compliant OS, including Linux, *BSD, Mac OS X, or POSIX subsystem like Cygwin or Windows SFU.">
+
+
+
+  <meta name="twitter:site" content="@AvogadroChem">
+  <meta name="twitter:title" content="Avopkg">
+  <meta name="twitter:description" content="Avopkg is a minimalistic package manager designed for easy distribution of Avogadro plugins. It’s written in POSIX shell and requires only standard *nix tools like basename, cat, grep, awk, so it should run on any POSIX-compliant OS, including Linux, *BSD, Mac OS X, or POSIX subsystem like Cygwin or Windows SFU.">
+  <meta name="twitter:url" content="http://localhost:4000/developer/avopkg/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2017-02-04T11:18:53-05:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Avogadro Chemistry",
+      "url" : "http://localhost:4000",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Avogadro Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    <!-- start custom head snippets -->
+
+
+
+
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--default">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Avogadro</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://sourceforge.net/projects/avogadro/files/latest/download">Download</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/docs/">Manual</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://discuss.avogadro.cc">Discuss</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/credits/">Thanks</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <p>Avopkg is a minimalistic package manager designed for easy distribution of Avogadro plugins. It’s written in POSIX shell and requires only standard *nix tools like <code class="highlighter-rouge">basename</code>, <code class="highlighter-rouge">cat</code>, <code class="highlighter-rouge">grep</code>, <code class="highlighter-rouge">awk</code>, so it should run on any POSIX-compliant OS, including Linux, *BSD, Mac OS X, or POSIX subsystem like Cygwin or Windows SFU.</p>
+
+<p>Avopkg is preprocessed in time of compilation and contains installation path of Avogadro, OpenBabel, and some information about target system.</p>
+
+<p>You can get brief information about Avopkg usage by running <code class="highlighter-rouge">avopkg</code> without arguments. Also, manpage for avopkg is available.</p>
+
+<h2 id="installation-of-avopkg-packages">Installation of Avopkg packages</h2>
+
+<p>To install Avogadro plugin, packaged with Avopkg (typically has “.avo” extension), run</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>avopkg [-f] filename
+</code></pre>
+</div>
+
+<p>Avopkg will check if plugin is native or Python.</p>
+
+<ul>
+  <li>If it’s Python plugin, Avopkg will check whether Avogadro was compiled with Python support. If not, installation fails.</li>
+  <li>If it’s native library, Avopkg will check OS and CPU architecture, failing on mismatch. However, you can force installation using <code class="highlighter-rouge">-f</code> key (e.g., it’s possible to run Linux plugin on FreeBSD).</li>
+</ul>
+
+<p>You can add file association for “.avo” files to install package by clicking it in your favourite file manager. Probably it will require creation of new MIME type.</p>
+
+<h2 id="building-avopkg-packages">Building Avopkg packages</h2>
+
+<p>In order to build package for your Avogadro plugin, you’ll need to prepare manifest file. The next instructions assume that current directory in shell is a directory, containing all necessary plugin files (compiled libraries/python scripts, documentation snd so on).</p>
+
+<p>Run</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>avopkg -wizard
+</code></pre>
+</div>
+
+<p>You’ll be asked some questions about your extension, and answers will be written to manifest file (your_package_name.mf). If this file already exists, you’ll be asked if you want it to be overwritten.</p>
+
+<p>Wizard is smart enough to propose you some “default” answers in [ ] - you can choose them by hitting Enter with empty input. Finally, wizard will propose you to build package and then to make test installation. However, in some cases you’ll need to modify manifest manually (e.g., to fix list of packaged files)</p>
+
+<p>Manifest contains the next fields:</p>
+
+<ul>
+  <li><strong>Name</strong> - Long name of plugin</li>
+  <li><strong>Author</strong> - Full name of author</li>
+  <li><strong>Package</strong> - short unix name of plugin</li>
+  <li><strong>Files</strong> - space separated list of files (not including manifest)</li>
+  <li><strong>Category</strong> - one of available plugin categories</li>
+  <li><strong>Python</strong> - present if plugin is written in Python</li>
+</ul>
+
+<p>Currently, only ‘Package’ and ‘Files’ are used by package manager.</p>
+
+<p>Field names are separated from their values with colon(:). Example:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Name: OpenThermo Extension for Avogadro
+Author: Konstantin Tokarev
+Package: OpenthermoGui
+Files: libopenthermo.so COPYING
+Category: extensions
+</code></pre>
+</div>
+
+<p><strong>Python</strong> field is special - it has not to have any value or colon. But if you accidentally specify something like <code class="highlighter-rouge">Python: yes</code>, it’s fine too, but <code class="highlighter-rouge">Python: no</code> will not work as you expect.</p>
+
+<p>Additional fields (you might need to specify them if you do cross-compilation):</p>
+
+<ul>
+  <li><strong>System</strong> - OS name</li>
+  <li><strong>SizeofVoidP</strong> - 4 for 32-bit, 8 for 64-bit, etc.</li>
+</ul>
+
+<p>Default values for them are taken from Avopkg configuration on “pack” stage, but if you specify (one of) these fields explicitly, it will not be overridden.</p>
+
+<p>Run</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>avopkg -pack manifest
+</code></pre>
+</div>
+
+<p>Practically, manifest can have any name, not necessarily your_package_name.mf. But using another name will break integration with build system (see later). You’ll get ready to use package in current directory.</p>
+
+<p>Avopkg is integrated with CMake and QMake build systems for Avogadro packages. In both cases, you’ll have three additional make targets: <code class="highlighter-rouge">manifest</code>, <code class="highlighter-rouge">package</code>, <code class="highlighter-rouge">install</code>. <code class="highlighter-rouge">make manifest</code> is equivalent to avopkg -wizard package_name.</p>
+
+<h2 id="avopkg-in-other-applications">Avopkg in other applications</h2>
+
+<p>Being tuned for Avogadro needs, Avopkg can serve as generic plugin manager for other applications. Actually, it’s generic minimalistic package management system without handling of package interdependencies. For example, it could be used to install plugin JARs/classes for Java applications.</p>
+
+<p>Such things as default extensions for manifests and packages, or compression command could be easily changed. The only thing that will require some work is changing of installation paths. If you want to make Avopkg more generic and usable for your application, feel free to contribute.</p>
+
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="//github.com/avogadro/Avogadro.github.io/edit/master/_developer/avopkg.md">Edit this on GitHub</a>
+<!-- end custom footer snippets -->
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="https://twitter.com/AvogadroChem"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+    
+      <li><a href="http://github.com/avogadro"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2017 Avogadro Chemistry. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+      </footer>
+    </div>
+
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+
+
+  
+
+<script type="text/javascript">
+    DiscourseEmbed = { discourseUrl: '//discuss.avogadro.cc/',
+                       discourseEmbedUrl: 'http://localhost:4000/developer/avopkg/' };
+   (function () {
+     var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+     d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+   })();
+</script>
+<noscript>Please enable JavaScript to view the comments powered by <a href="https://www.discourse.org/">Discourse.</a></noscript>
+
+
+
+
+
+
+
+  </body>
+</html>

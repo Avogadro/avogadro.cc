@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Getting Started - Avogadro</title>
+
+
+
+
+<meta name="description" content="Opening files, navigating, changing the display">
+
+
+
+
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Avogadro">
+<meta property="og:title" content="Getting Started">
+
+
+  <link rel="canonical" href="http://localhost:4000/tutorials/01-getting-started/">
+  <meta property="og:url" content="http://localhost:4000/tutorials/01-getting-started/">
+
+
+
+  <meta property="og:description" content="Opening files, navigating, changing the display">
+
+
+
+  <meta name="twitter:site" content="@AvogadroChem">
+  <meta name="twitter:title" content="Getting Started">
+  <meta name="twitter:description" content="Opening files, navigating, changing the display">
+  <meta name="twitter:url" content="http://localhost:4000/tutorials/01-getting-started/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2017-02-04T11:18:53-05:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Avogadro Chemistry",
+      "url" : "http://localhost:4000",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Avogadro Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    <!-- start custom head snippets -->
+
+
+
+
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--default">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Avogadro</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://sourceforge.net/projects/avogadro/files/latest/download">Download</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/docs/">Manual</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://discuss.avogadro.cc">Discuss</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/credits/">Thanks</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <p>When you initially open Avogadro you will be presented with a screen such as the one shown below (Avogadro 0.8.1 on KDE 4.1).</p>
+
+<p><img src="/images/Avogadro_default.png" alt="" /></p>
+
+<p>You will probably not need the Python terminal and so can safely close it by clicking on the small cross in the top right of the Python terminal dock window. You should be left with something like the screen shot below.</p>
+
+<p><img src="/images/Avogadro_default1.png" alt="" /></p>
+
+<h2 id="opening-a-file">Opening a File</h2>
+
+<p>The first thing you will probably want to do is open a file and navigate around the molecule. To do this click on the <code class="highlighter-rouge">File</code> menu and select <code class="highlighter-rouge">Open</code>.</p>
+
+<p><img src="/images/Avogadro_filemenu.png" alt="" /></p>
+
+<p>You can then look through the files on your disk and find an appropriate chemical file. Thanks to Open Babel, a large number of file types are supported including CML, xyz, PDB etc. Several example molecules are supplied with Avogadro.</p>
+
+<p><img src="/images/Avogadro_ethanol.png" alt="" /></p>
+
+<p>The screen shot above shows the ethanol.cml file opened up and displayed using the default <a href="/rendering/ball_and_stick.html">Ball and Stick</a> display type. Notice that when a new file is opened Avogadro switches from the <a href="/tools/draw_tool.html">Draw Tool</a> to the <a href="/tools/navigate_tool.html">Navigate Tool</a>.</p>
+
+<h2 id="navigation">Navigation</h2>
+
+<p>You can zoom in/out using the scroll wheel on your mouse or holding down the middle mouse button and moving the mouse cursor up/down. You can rotate the view by holding down the left mouse button and moving the mouse cursor. You can also translate the view by holding down the right mouse button and moving the mouse cursor.</p>
+
+<p>Note: if your mouse only has one or two buttons you can also use the modifier keys (shift and control) along with the left mouse button to perform actions where you would normally use the middle or right mouse buttons respectively.</p>
+
+<h2 id="rendering-quality">Rendering Quality</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Low Quality</th>
+      <th style="text-align: center">Normal Quality</th>
+      <th style="text-align: center">High Quality</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="/images/Avogadro_ethanol_lo.png" alt="" class="some-css-class" style="width:200px" /></td>
+      <td style="text-align: center"><img src="/images/Avogadro_ethanol_navigate.png" alt="" class="some-css-class" style="width: 200px" /></td>
+      <td style="text-align: center"><img src="/images/Avogadro_ethanol_hi.png" alt="" class="some-css-class" style="width: 200px" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The screen shots above were produced by exporting the graphics (<code class="highlighter-rouge">File</code>→<code class="highlighter-rouge">Export</code>→<code class="highlighter-rouge">Export Graphics</code>). The first image (leftmost) shows the scene after navigation at the lowest quality setting. The middle image shows it at medium quality setting and the final image (rightmost/bottom) shows the molecule rendered using the highest quality setting.</p>
+
+<p>The quality of rendering can be adjusted in the <code class="highlighter-rouge">Settings</code> menu by selecting <code class="highlighter-rouge">Configure Avogadro...</code> (<code class="highlighter-rouge">Preferences...</code> on the Mac). The slider has five quality levels. As the quality is increased the global quality of all rendering is increased. At the highest two quality levels a second light source is also used. The higher the quality the more CPU/GPU power will be used to render the scene.</p>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="//github.com/avogadro/Avogadro.github.io/edit/master/_tutorials/01-getting-started.md">Edit this on GitHub</a>
+<!-- end custom footer snippets -->
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="https://twitter.com/AvogadroChem"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+    
+      <li><a href="http://github.com/avogadro"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2017 Avogadro Chemistry. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+      </footer>
+    </div>
+
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+
+
+  
+
+<script type="text/javascript">
+    DiscourseEmbed = { discourseUrl: '//discuss.avogadro.cc/',
+                       discourseEmbedUrl: 'http://localhost:4000/tutorials/01-getting-started/' };
+   (function () {
+     var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+     d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+   })();
+</script>
+<noscript>Please enable JavaScript to view the comments powered by <a href="https://www.discourse.org/">Discourse.</a></noscript>
+
+
+
+
+
+
+
+  </body>
+</html>

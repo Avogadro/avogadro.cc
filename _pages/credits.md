@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Credits
+permalink: /credits/
 ---
 
 Avogadro, like many open source projects is helped by a cast of many. We are fundamentally a community project and aim to offer open development, responsive to users and contributors alike. Our hope is that many will build plugins on top of the core Avogadro framework, so we are very grateful to all contributors:
@@ -25,14 +25,14 @@ Code:
 -   Konstantin Tokarev
 -   [Tim Vandermeersch](http://timvdm.blogspot.com/)
 
-All the Avogadro [Translators](translators.html)
+All the Avogadro [Translators](/translators)
 
 Funding
 -------
 
 Financial support for Avogadro and its contributors has come from many sources. We would particularly like to thank:
 
--   [Google Summer of Code](http://code.google.com/soc/) -- Support in 2007, 2008, and 2011
+-   [Google Summer of Code](http://code.google.com/soc/) -- Support in 2007, 2008, 2011, and 2016
 -   [Kitware, Inc.](http://www.kitware.com/)
 -   [University of Pittsburgh](http://www.chem.pitt.edu/)
 -   US Department of Defense (DoD) through the PETTT program
@@ -56,4 +56,3 @@ Avogadro relies on a number of projects for dependencies and other "infrastructu
 -   Andrey Ponomarenko and [ISPRAS](http://ispras.linux-foundation.org/index.php/ISP_RAS_Company_Profile) for the [Upstream Tracker](http://linuxtesting.org/upstream-tracker/)
 
 And of course, we'd like to thank [Johann Loschmidt](http://en.wikipedia.org/wiki/Johann_Josef_Loschmidt) and [Amedeo Avogadro](http://en.wikipedia.org/wiki/Amedeo_Avogadro) for their fundamental work in chemistry.
-

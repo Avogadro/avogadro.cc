@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: Draw Tool
 categories: Tools
 image: /images/Draw.png

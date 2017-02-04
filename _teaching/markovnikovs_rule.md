@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: Markovnikov's Rules
 categories: Teaching
 ---
