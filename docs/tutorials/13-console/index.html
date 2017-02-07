@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Python Console - Avogadro</title>
+
+
+
+
+<meta name="description" content="Manipulating molecules in Avogadro, using the Python console">
+
+
+
+
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Avogadro">
+<meta property="og:title" content="Python Console">
+
+
+  <link rel="canonical" href="https://avogadro.org/tutorials/13-console/">
+  <meta property="og:url" content="https://avogadro.org/tutorials/13-console/">
+
+
+
+  <meta property="og:description" content="Manipulating molecules in Avogadro, using the Python console">
+
+
+
+  <meta name="twitter:site" content="@AvogadroChem">
+  <meta name="twitter:title" content="Python Console">
+  <meta name="twitter:description" content="Manipulating molecules in Avogadro, using the Python console">
+  <meta name="twitter:url" content="https://avogadro.org/tutorials/13-console/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2017-02-07T12:58:16-05:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Avogadro Chemistry",
+      "url" : "https://avogadro.org",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://avogadro.org/feed.xml" type="application/atom+xml" rel="alternate" title="Avogadro Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://avogadro.org/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    <!-- start custom head snippets -->
+
+
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--default">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://avogadro.org/"><img src="/images/AvogadroMast.png" alt="Avogadro" style="height:2.1em;" /></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://sourceforge.net/projects/avogadro/files/latest/download">Download</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://avogadro.org/docs/">Manual</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://discuss.avogadro.cc">Discuss</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://avogadro.org/credits/">Thanks</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <h1 id="getting-started">Getting Started</h1>
+
+<p>In case the python terminal is not visible, it can be made visible by checking the <code class="highlighter-rouge">Settings</code> → Toolbars &gt; Python Terminal’ checkbox.</p>
+
+<p><img src="/images/Tut_console_1.png" alt="" /></p>
+
+<p>Once the python terminal is visible, the Avogadro module can be imported:</p>
+
+<p><code class="highlighter-rouge">&gt;&gt;&gt; import Avogadro</code></p>
+
+<p>What to do next depends on what you are trying to achieve. However, we will go over some examples to cover the basics.</p>
+
+<h1 id="the-avogadro-module">The Avogadro module</h1>
+
+<h2 id="pythons-help">python’s help(…)</h2>
+
+<p>The python terminal resembles a real python terminal as much as possible. This means that you can always use help(…) to list classes, methods, data etc.</p>
+
+<p><code class="highlighter-rouge">&gt;&gt;&gt; help(Avogadro)</code>
+<code class="highlighter-rouge">Help on module Avogadro:</code>
+<code class="highlighter-rouge">...</code>
+<code class="highlighter-rouge">DATA</code>
+<code class="highlighter-rouge">    molecule = </code>&lt;Avogadro.Molecule object at 0x2128130&gt;
+<code class="highlighter-rouge">    molecules = </code>&lt;Avogadro.MoleculeList object at 0x20a33d0&gt;
+<code class="highlighter-rouge">&gt;&gt;&gt; help (Avogadro.Molecule)</code>
+<code class="highlighter-rouge">...</code></p>
+
+<h2 id="avogadromolecule-and-avogadromolecules">Avogadro.molecule and Avogadro.molecules</h2>
+
+<p>As can be seen in the output of help(Avogadro) above, the Avogadro python module has 2 DATA members. The first, Avogadro.molecule is the current molecule (i.e. the visible molecule). In many situations, you can directly use this to perform your task. For example, to clear the molecule:</p>
+
+<p><code class="highlighter-rouge">&gt;&gt;&gt; Avogadro.molecule.clear()</code></p>
+
+<p>The molecule will automatically be updated when return is pressed (i.e. molecule.update() is called automatically).</p>
+
+<p>If you need to create a new molecule, you can’t directly construct one from python. Instead Avogadro.molecules should be used:</p>
+
+<p><code class="highlighter-rouge">&gt;&gt;&gt; newMol = Avogadro.Molecule()     </code>**<code class="highlighter-rouge">
+</code>Traceback (most recent call last):<code class="highlighter-rouge">
+</code>  File ”<code class="highlighter-rouge">&lt;string&gt;</code>”, line 1, in <code class="highlighter-rouge">&lt;module&gt;
+</code>RuntimeError: This class cannot be instantiated from Python<code class="highlighter-rouge">
+</code>»&gt; newMol = Avogadro.molecules.addMolecule()   <code class="highlighter-rouge">**</code></p>
+
+<p>The Avogadro.molecules object is an instance of the MoleculeList class. This is a python specific class to make sure the molecules are not destroyed by python’s garbage collection.</p>
+
+<h2 id="iterating-over-atoms-bonds-">Iterating over atoms, bonds, …</h2>
+
+<p>Iterating over atoms, bonds and so on is easy as can be seen below. When a ‘:’ character is found at the end of a line, the python terminal automatically indents the next line(s) and displays ‘…’ instead of ‘&gt;&gt;&gt;’. To exit the loop, press return, leaving one row ‘…’.</p>
+
+<p><code class="highlighter-rouge">&gt;&gt;&gt; for atom in Avogadro.molecule.atoms:</code>
+<code class="highlighter-rouge">...   print atom.atomicNumber</code>
+<code class="highlighter-rouge">...   </code>
+<code class="highlighter-rouge">6</code>
+<code class="highlighter-rouge">6</code>
+<code class="highlighter-rouge">6</code>
+<code class="highlighter-rouge">1</code>
+<code class="highlighter-rouge">1</code>
+<code class="highlighter-rouge">1</code>
+<code class="highlighter-rouge">1</code>
+<code class="highlighter-rouge">1</code>
+<code class="highlighter-rouge">1</code>
+<code class="highlighter-rouge">1</code>
+<code class="highlighter-rouge">1</code>
+<code class="highlighter-rouge">&gt;&gt;&gt;</code></p>
+
+<h1 id="examples">Examples</h1>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="//github.com/avogadro/Avogadro.github.io/edit/master/_tutorials/13-console.md">Edit this on GitHub</a>
+<!-- end custom footer snippets -->
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="https://twitter.com/AvogadroChem"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+    
+      <li><a href="http://github.com/avogadro"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="https://avogadro.org/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2017 Avogadro Chemistry. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+      </footer>
+    </div>
+
+    <script src="https://avogadro.org/assets/js/main.min.js"></script>
+
+
+
+
+
+  
+
+<script type="text/javascript">
+    DiscourseEmbed = { discourseUrl: '//discuss.avogadro.cc/',
+                       discourseEmbedUrl: 'https://avogadro.org/tutorials/13-console/' };
+   (function () {
+     var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+     d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+   })();
+</script>
+<noscript>Please enable JavaScript to view the comments powered by <a href="https://www.discourse.org/">Discourse.</a></noscript>
+
+
+
+
+
+
+
+  </body>
+</html>

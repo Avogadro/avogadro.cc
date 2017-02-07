@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Tutorials:Polymer Unit Cell - Avogadro</title>
+
+
+
+
+<meta name="description" content="Building a Unit Cell">
+
+
+
+
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Avogadro">
+<meta property="og:title" content="Tutorials:Polymer Unit Cell">
+
+
+  <link rel="canonical" href="https://avogadro.org/tutorials/14-polymer-unit-cell/">
+  <meta property="og:url" content="https://avogadro.org/tutorials/14-polymer-unit-cell/">
+
+
+
+  <meta property="og:description" content="Building a Unit Cell">
+
+
+
+  <meta name="twitter:site" content="@AvogadroChem">
+  <meta name="twitter:title" content="Tutorials:Polymer Unit Cell">
+  <meta name="twitter:description" content="Building a Unit Cell">
+  <meta name="twitter:url" content="https://avogadro.org/tutorials/14-polymer-unit-cell/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2017-02-07T12:58:16-05:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Avogadro Chemistry",
+      "url" : "https://avogadro.org",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://avogadro.org/feed.xml" type="application/atom+xml" rel="alternate" title="Avogadro Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://avogadro.org/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    <!-- start custom head snippets -->
+
+
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--default">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://avogadro.org/"><img src="/images/AvogadroMast.png" alt="Avogadro" style="height:2.1em;" /></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://sourceforge.net/projects/avogadro/files/latest/download">Download</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://avogadro.org/docs/">Manual</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://discuss.avogadro.cc">Discuss</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://avogadro.org/credits/">Thanks</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <h2 id="building-a-unit-cell">Building a Unit Cell</h2>
+
+<p>A walk-through on creating a unit cell (of a polymer) using Avogadro and the Align tool.</p>
+
+<p><img src="/images/media_1260118979959.png" alt="" /></p>
+
+<p>Build out the molecule for the unit cell. Notice that while the repeat unit here is 2 rings, we have built 3 rings. This way, we will properly model the bond which spans two unit cells.</p>
+
+<p><img src="/images/media_1260119377141.png" alt="" /></p>
+
+<p>Optimize the geometry of the molecule.</p>
+
+<p><img src="/images/media_1260119456591.png" alt="" /></p>
+
+<p>Switch to the Align tool to translate and orient the unit cell coordinates.</p>
+
+<p><img src="/images/media_1260119601872.png" alt="" /></p>
+
+<p>Make sure to open the Tool Settings window, which will allow you to work with the Align tool.</p>
+
+<p><img src="/images/media_1260119685502.png" alt="" /></p>
+
+<p>First click on the “start” atom of the polythiophene. This atom will be translated to the origin (0, 0, 0). Then click on the corresponding atom in the “next” unit cell. The distance between these two atoms will define one axis in the unit cell.</p>
+
+<p><img src="/images/media_1260119852731.png" alt="" /></p>
+
+<p>In the “Align Settings” window, define an axis for the unit cell. Then click the Align button. This will change the coordinate set to have atom \</p>
+
+<p><img src="/images/media_1260120107101.png" alt="" /></p>
+
+<p>Open the Cartesian Editor window to verify the results of the Align operation.</p>
+
+<p><img src="/images/Screen_shot_2009-12-06_at_12.23.01_PM.png" alt="" /></p>
+
+<p>Notice that atom \</p>
+
+<p><img src="/images/media_1260120454671.png" alt="" /></p>
+
+<p>Now delete “extra” atoms which should not be included in the unit cell calculations. This includes the third ring (including atom 11) and the “end” hydrogen atoms. For example, you can use the select tool and drag over the atoms to be deleted to pick them.</p>
+
+<p><img src="/images/media_1260120552391.png" alt="" /></p>
+
+<p>Once selected, you can use the “Clear” menu command to delete the atoms.</p>
+
+<p><img src="/images/media_1260120773167.png" alt="" /></p>
+
+<p>If you wish to submit the unit cell to Gaussian, pick the Gaussian input extension.</p>
+
+<p><img src="/images/Screen_shot_2009-12-06_at_12.36.05_PM.png" alt="" /></p>
+
+<p>Set options as you desire. Make sure to add a “TV 7.806 0.0 0.0” line at the bottom of the preview text. This will enable the unit cell calculation by setting the translation vector for the unit cell.</p>
+
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="//github.com/avogadro/Avogadro.github.io/edit/master/_tutorials/14-polymer-unit-cell.md">Edit this on GitHub</a>
+<!-- end custom footer snippets -->
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="https://twitter.com/AvogadroChem"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+    
+      <li><a href="http://github.com/avogadro"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="https://avogadro.org/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2017 Avogadro Chemistry. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+      </footer>
+    </div>
+
+    <script src="https://avogadro.org/assets/js/main.min.js"></script>
+
+
+
+
+
+  
+
+<script type="text/javascript">
+    DiscourseEmbed = { discourseUrl: '//discuss.avogadro.cc/',
+                       discourseEmbedUrl: 'https://avogadro.org/tutorials/14-polymer-unit-cell/' };
+   (function () {
+     var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+     d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+   })();
+</script>
+<noscript>Please enable JavaScript to view the comments powered by <a href="https://www.discourse.org/">Discourse.</a></noscript>
+
+
+
+
+
+
+
+  </body>
+</html>

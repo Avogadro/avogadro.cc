@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Working With Git - Avogadro</title>
+
+
+
+
+<meta name="description" content="In December 2008 Avogadro moved its version control system over to Git, hosted at GitHub. Git is quite different to traditional, centralized version control systems. It is a DVCS (Distrubuted Version Control System). It was coded by Linus Torvalds and others primarily to handle the Linux kernel’s very distributed development model.">
+
+
+
+
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Avogadro">
+<meta property="og:title" content="Working With Git">
+
+
+  <link rel="canonical" href="https://avogadro.org/developer/working_with_git/">
+  <meta property="og:url" content="https://avogadro.org/developer/working_with_git/">
+
+
+
+  <meta property="og:description" content="In December 2008 Avogadro moved its version control system over to Git, hosted at GitHub. Git is quite different to traditional, centralized version control systems. It is a DVCS (Distrubuted Version Control System). It was coded by Linus Torvalds and others primarily to handle the Linux kernel’s very distributed development model.">
+
+
+
+  <meta name="twitter:site" content="@AvogadroChem">
+  <meta name="twitter:title" content="Working With Git">
+  <meta name="twitter:description" content="In December 2008 Avogadro moved its version control system over to Git, hosted at GitHub. Git is quite different to traditional, centralized version control systems. It is a DVCS (Distrubuted Version Control System). It was coded by Linus Torvalds and others primarily to handle the Linux kernel’s very distributed development model.">
+  <meta name="twitter:url" content="https://avogadro.org/developer/working_with_git/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2017-02-07T12:58:16-05:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Avogadro Chemistry",
+      "url" : "https://avogadro.org",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://avogadro.org/feed.xml" type="application/atom+xml" rel="alternate" title="Avogadro Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://avogadro.org/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    <!-- start custom head snippets -->
+
+
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--default">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://avogadro.org/"><img src="/images/AvogadroMast.png" alt="Avogadro" style="height:2.1em;" /></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://sourceforge.net/projects/avogadro/files/latest/download">Download</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://avogadro.org/docs/">Manual</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://discuss.avogadro.cc">Discuss</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://avogadro.org/credits/">Thanks</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <p>In December 2008 Avogadro moved its version control system over to <a href="http://git.or.cz/">Git</a>, hosted at <a href="http://github.com/cryos/avogadro/">GitHub</a>. Git is quite different to traditional, centralized version control systems. It is a <a href="http://en.wikipedia.org/wiki/Distributed_revision_control">DVCS</a> (Distrubuted Version Control System). It was coded by Linus Torvalds and others primarily to handle the Linux kernel’s very distributed development model.</p>
+
+<p>There are lots of [guides](http://git.or.cz/</p>
+
+<h2 id="configuring-git">Configuring Git</h2>
+
+<p>The first thing you will want to do is tell Git who you are. This will be used in commit messages and attributions.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>git config --global user.name "Your Name"
+git config --global user.email "you@yourdomain.com"
+</code></pre>
+</div>
+
+<p>If you are like me you may also want to add some color to the Git output.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>git config --global color.branch true
+git config --global color.diff true
+git config --global color.interactive true
+git config --global color.pager true
+git config --global color.status true
+</code></pre>
+</div>
+
+<h2 id="one-or-two-patches">One or Two Patches</h2>
+
+<p>If you just have one or two patches you would like to submit you probably just want to clone our repository.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>git clone git://github.com/cryos/avogadro.git
+</code></pre>
+</div>
+
+<p>Make any changes you like, commit them to your local repository and then use git format-patch to make a patch. When the patch is applied it goes into Git just like any other commit and you get full credit. For this reason you should ensure you set up your name and email correctly before committing anything.</p>
+
+<h2 id="contributing-to-avogadro">Contributing to Avogadro</h2>
+
+<p>If you would like to get more involved with Avogadro, and begin making contributions to our code on a longer term basis, you should take the following steps:</p>
+
+<ul>
+  <li>Create an account on <a href="http://github.com/">GitHub</a>.</li>
+  <li>Go to the <a href="http://github.com/cryos/avogadro/">Avogadro repository</a> and click on the fork button.</li>
+  <li>Clone your forked repository to your local machine.</li>
+  <li>It is often convenient to make a topic branch for individual features or fixes, <code class="highlighter-rouge">git checkout -b newfeaturebranch master</code>.</li>
+  <li>Make any changes you want to make, commit them and do a <code class="highlighter-rouge">git push</code>.</li>
+  <li>Make a pull request to cryos, see the <a href="http://github.com/guides/pull-requests">GitHub guide to pull requests</a>.</li>
+</ul>
+
+<p>While getting used to Git there are several guides such as <a href="http://github.com/guides/git-cheat-sheet">the Git cheat sheet</a>, <a href="http://github.com/guides/fork-a-project-and-submit-your-modifications">forking and submitting modifications</a>, and <a href="http://github.com/guides/keeping-a-git-fork-in-sync-with-the-forked-repo">keeping a git fork in sync with upstream</a>. You can also ask questions on IRC or our mailing list.</p>
+
+<h2 id="managing-multiple-remotes-integrating">Managing Multiple Remotes, Integrating</h2>
+
+<p>In order to integrate the changes of other developers we can either use the <a href="http://github.com/cryos/avogadro/forkqueue">fork queue</a> or manage things on the command line. The command line is often quicker once you get the hang of it, but it can take a little getting used to. Once you have your clone of the repository you can add multiple remotes and fetch their data.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>git remote add timvdm git://github.com/timvdm/avogadro.git
+git fetch
+</code></pre>
+</div>
+
+<p>Once a developer makes some commits and requests that they are pulled into the repository you first need to update your copy of their repository, merge the changes and push to the master.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>git checkout master
+git fetch timvdm
+git merge timvdm/master
+git log -p
+git push
+</code></pre>
+</div>
+
+<p>You can also use <code class="highlighter-rouge">git cherry-pick</code> to pick off individual commits to apply. Never rebase anything that has been pushed as this will break history for other people’s checkouts. When using private feature/topic branches rebasing is preferable, but not in public branches. This also applies to commits which you later decide are not appropriate - once they have been pushed they must be reverted rather than edited.</p>
+
+<h2 id="using-multiple-branches">Using multiple branches</h2>
+
+<p>In Git it is very easy to have several branches. Usually, you keep one branch per feature, so called “Topic Branches”.</p>
+
+<p>Because git tracks merges, output from “git log master..$topic” gives all you need to know about $topic. The command lists changes that are still not merged to master on the $topic branch. If the list is empty, $topic is already merged fully to master.</p>
+
+<p>For more details refer to one of the linked tutorials.</p>
+
+<h1 id="further-information">Further information</h1>
+
+<p>There are lots of guides on using Git, the <a href="http://www.kernel.org/pub/software/scm/git/docs/everyday.html">everyday Git</a> guide is a very good summary covering different roles you might take.</p>
+
+<p><a href="http://habrahabr.ru/blogs/Git/60347/">Git Wizardy</a> - very thorough guide in Russian</p>
+
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="//github.com/avogadro/Avogadro.github.io/edit/master/_developer/working_with_git.md">Edit this on GitHub</a>
+<!-- end custom footer snippets -->
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="https://twitter.com/AvogadroChem"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+    
+      <li><a href="http://github.com/avogadro"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="https://avogadro.org/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2017 Avogadro Chemistry. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+      </footer>
+    </div>
+
+    <script src="https://avogadro.org/assets/js/main.min.js"></script>
+
+
+
+
+
+  
+
+<script type="text/javascript">
+    DiscourseEmbed = { discourseUrl: '//discuss.avogadro.cc/',
+                       discourseEmbedUrl: 'https://avogadro.org/developer/working_with_git/' };
+   (function () {
+     var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+     d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+   })();
+</script>
+<noscript>Please enable JavaScript to view the comments powered by <a href="https://www.discourse.org/">Discourse.</a></noscript>
+
+
+
+
+
+
+
+  </body>
+</html>
