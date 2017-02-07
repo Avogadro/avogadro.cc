@@ -13,3 +13,4 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
   - USERNAME: ghutchis
   - EMAIL: geoff.hutchison@gmail.com
+  - secure: ov1SugA+u0yVAUrcSeWZkwXMYwRInTcoD0hUlGV0zbT6kNhu+5f2xQeVzjYx5bKIw68iBX/6jEsc2uhuG1M9OGaS/YeudFQC81ZVX/laFKnx3R6y8H7RvEwgNH4bImgLCWAlyMedNmPCmjYcOHeun4PTjPVHiE2Ep70xaO+xB6E=
