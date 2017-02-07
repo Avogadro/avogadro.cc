@@ -18,6 +18,7 @@ repository               : "avogadro/Avogadro.github.io" # GitHub username/repo-
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 150
+masthead                 : "/images/AvogadroMast.png"
 comments:
   provider               : discourse # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   discourse:
@@ -81,7 +82,7 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
-incremental: true
+incremental: false
 
 
 # Markdown Processing
@@ -224,7 +225,6 @@ defaults:
       author_profile: false
       nav: manual
 
-logo: avogadro.svg
 latest:
    version: "1.2.0"
    changelog: /releases/avogadro_120.html

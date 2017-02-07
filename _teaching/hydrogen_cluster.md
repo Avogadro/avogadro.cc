@@ -28,7 +28,7 @@ Melting of this cluster is poorely controllable.
 
 Cluster is a bit deformed, with long optimization some molecules tend to rotate and stand skew to neighbours.
 
-Given configuration differs greatly from one shown at [2](http://webelements.com/hydrogen/crystal_structure.html). I can see no cause for it, so it's possible that webelements has wrong picture.
+Since UFF does not properly include quantum mechanical effects and hydrogen bonding, the configuration and size of the unit cell are somewhat different than the experimental configuration.
 
 See also
 --------

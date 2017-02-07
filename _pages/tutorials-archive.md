@@ -1,7 +1,14 @@
 ---
-layout: category
+layout: archive
 title: Tutorials and Walkthroughs
 categories: Tutorials
-#Eventually build up a manual index
-#nolist: true
+permalink: /tutorials/
+author_profile: false
 ---
+
+{% for post in site.tutorials %}
+  {% include archive-single.html %}
+{% endfor %}
+---
+
+

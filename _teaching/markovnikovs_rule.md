@@ -7,12 +7,12 @@ categories: Teaching
 Task
 ----
 
-Build a propene molecule and optimize its geometry. Compare the relative energy of bromine-hydrogen substitution in either 1°-carbon or 2°-carbon of the carbon-carbon double bond. Which of these two bromopropane compounds will be the major product of a propene bromination reaction? ![](Markovnikov's rule.png "fig:Markovnikov's rule.png")
+Build a propene molecule and optimize its geometry. Compare the relative energy of bromine-hydrogen substitution in either 1°-carbon or 2°-carbon of the carbon-carbon double bond. Which of these two bromopropane compounds will be the major product of a propene bromination reaction? ![](/images/Markovnikov's_rule.png)
 
 Solution
 --------
 
-![](Markovnikov's rule mechanistic.png "Markovnikov's rule mechanistic.png")
+![](/images/Markovnikov's_rule_mechanistic.png)
 
 Results of relative energies expressed in kJ/mol (need confirmation in literature)
 
@@ -36,6 +36,4 @@ See also
 --------
 
 [Alkene Isomers](Alkene Isomers "wikilink")
-
-[Category: Education](Category: Education "wikilink")
 

@@ -39,9 +39,9 @@ length is 95.84nm and the interior H-H angle is 104.5°.
 
 ![Hydrogen bond (yellow dashed line) between the two water molecules,
 pay attention to the molecules
-orientation](Water molecules.png "fig:Hydrogen bond (yellow dashed line) between the two water molecules, pay attention to the molecules orientation")
+orientation](Water_molecules.png "fig:Hydrogen bond (yellow dashed line) between the two water molecules, pay attention to the molecules orientation")
 ![Electrostatic potential surface shows the bipolar nature of
-water](Water molecules with electrostatic potential.png "fig:Electrostatic potential surface shows the bipolar nature of water")
+water](Water_molecules_with_electrostatic_potential.png "fig:Electrostatic potential surface shows the bipolar nature of water")
 
 Issues
 ------
@@ -53,7 +53,7 @@ other methods.
 See also
 --------
 
-[HCN dipole](HCN dipole "wikilink")
+[HCN dipole]
 
 
 
