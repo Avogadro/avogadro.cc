@@ -9,6 +9,10 @@ main:
   url: https://discuss.avogadro.cc
 - title: Thanks
   url: /credits/
+- title: Contribute
+  url: /devel/
+- title: Teach
+  url: /teaching/
 
 docs:
 - title: Preface
@@ -59,7 +63,7 @@ docs:
   children:
    - title: "Importing Molecules"
      url: /docs/building-molecules/importing-molecules-by-name/
-   - title: "Importing from the PDB"
+   - title: "Importing from PDB"
      url: /docs/building-molecules/importing-from-the-pdb/
    - title: "Building a Peptide"
      url: /docs/building-molecules/building-a-peptide/
@@ -121,3 +125,17 @@ docs:
      url: /docs/extensions/abinit-generator/
    - title: "LAMMPS Input"
      url: /docs/extensions/lammps-input-for-water/
+
+devel:
+- title: How to Help
+  url: /devel/contribute/
+- title: API
+  url: /devel/api_documentation/
+- title: Design
+  url: /devel/design/
+- title: Compiling
+  children:
+  - title: Linux and Mac
+    url: /devel/compiling/
+  - title: Windows
+    url: /deve/compiling-windows/

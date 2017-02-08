@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Creating a Third Party Plugin
-categories: Developer
+categories: Devel
 ---
 
 
@@ -21,7 +21,7 @@ In addition, Avogadro 1.1.x branch will provide
 
 -   **DockExtension**: special type of extension, providing additional options for dock
 
-All you need is to choose proper interface and inherit your plugin class from it. For more information look through [API Documentation](http://avogadro.openmolecules.net/api/dev/)
+All you need is to choose proper interface and inherit your plugin class from it. For more information look through [API Documentation](http://avogadro.cc/api/dev/)
 
 Prepare a repository
 --------------------

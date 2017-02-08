@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Localization
-categories: Developer
+categories: Devel
 ---
 
 

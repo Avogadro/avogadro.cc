@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Developer:Links
-categories: Developer
+title: Links
+categories: Devel
 ---
 
 

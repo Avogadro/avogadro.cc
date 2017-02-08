@@ -1,5 +1,5 @@
 ---
-title: Using Atoms-In-Molecules (Bader) Analysis: QTAIM and WFN
+title: Using Atoms-In-Molecules (Bader) Analysis - QTAIM and WFN
 ---
 
 Avogadro now includes support for the QTAIM analysis developed by Prof. Richard Bader and his group. This technique allows Avogadro to determine bond connections and bond orders directly from the quantum mechanical electron density.

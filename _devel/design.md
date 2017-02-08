@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Design
-categories: Developer
+categories: Devel
 ---
 
 

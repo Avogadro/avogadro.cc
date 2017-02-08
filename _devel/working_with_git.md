@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Working With Git
-categories: Developer
+categories: Devel
 ---
 
 

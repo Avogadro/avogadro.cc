@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Developer:Guidelines
-categories: Developer
+categories: Devel
 ---
 
 

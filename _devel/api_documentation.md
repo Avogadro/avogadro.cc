@@ -1,12 +1,12 @@
 ---
 layout: single
 title: API Documentation
-categories: Developer
+categories: Devel
 ---
 
 
 
-The *trunk* version of the Avogadro documentation is available at <http://avogadro.openmolecules.net/api/dev/>.
+The *trunk* version of the Avogadro documentation is available at <http://avogadro.cc/api/dev/>.
 
 ![](/images/Architecture.png)
 

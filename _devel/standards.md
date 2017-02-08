@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Standards
-categories: Developer
+categories: Devel
 ---
 
 

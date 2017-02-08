@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Compiling on Linux and Mac OS X
-categories: Developer
+categories: Devel
 ---
 
 

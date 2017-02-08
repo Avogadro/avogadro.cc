@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Release Checklist
-categories: Developer
+categories: Devel
 ---
 
 

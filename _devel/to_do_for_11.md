@@ -1,7 +1,7 @@
 ---
 layout: single
 title: To Do for 1.1
-categories: Developer
+categories: Devel
 ---
 
 

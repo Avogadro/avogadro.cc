@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Refactoring Ideas
-categories: Developer
+categories: Devel
 ---
 
 

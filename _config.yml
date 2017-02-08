@@ -175,16 +175,10 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
-  rendering:
-    output: true
-    permalink: /:collection/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
   install:
-    output: true
-    permalink: /:collection/:path/
-  tools:
     output: true
     permalink: /:collection/:path/
 
@@ -222,6 +216,13 @@ defaults:
       author_profile: false
       sidebar:
         nav: docs
+  - scope:
+      path: ""
+      type: devel
+    values:
+      share: true
+      sidebar:
+        nav: devel
 
 latest:
    version: "1.2.0"

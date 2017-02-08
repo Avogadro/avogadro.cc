@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Best Practices
-categories: Developer
+categories: Devel
 ---
 
 

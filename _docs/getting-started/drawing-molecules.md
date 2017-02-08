@@ -1,7 +1,6 @@
 ---
+title: Drawing Molecules
 ---
-# Drawing Molecules
-
 
 Molecules are built and edited with the draw tool.
 
