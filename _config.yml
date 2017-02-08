@@ -16,8 +16,8 @@ url                      : "https://avogadro.org" # the base hostname & protocol
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "avogadro/Avogadro.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-breadcrumbs              : true # true, false (default)
-words_per_minute         : 150
+breadcrumbs              : false # true, false (default)
+words_per_minute         : 200
 masthead                 : "/images/AvogadroMast.png"
 comments:
   provider               : discourse # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -169,16 +169,10 @@ collections:
   releases:
     output: true
     permalink: /:collection/:path/
-  developer:
+  devel:
     output: true
     permalink: /:collection/:path/
-  install:
-    output: true
-    permalink: /:collection/:path/
-  tools:
-    output: true
-    permalink: /:collection/:path/
-  tutorials:
+  docs:
     output: true
     permalink: /:collection/:path/
   rendering:
@@ -187,7 +181,10 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  manual:
+  install:
+    output: true
+    permalink: /:collection/:path/
+  tools:
     output: true
     permalink: /:collection/:path/
 
@@ -198,7 +195,7 @@ defaults:
       path: ""
     values:
       layout: single
-      comments: true
+      comments: false
       share: true
   # _posts
   - scope:
@@ -208,6 +205,7 @@ defaults:
       author_profile: true
       read_time: false
       related: false
+      comments: true
   # _pages
   - scope:
       path: ""
@@ -217,17 +215,17 @@ defaults:
       related: true
   - scope:
       path: ""
-      type: manual
+      type: docs
     values:
-      read_time: true
       share: true
       comments: false
       author_profile: false
-      nav: manual
+      sidebar:
+        nav: docs
 
 latest:
    version: "1.2.0"
-   changelog: /releases/avogadro_120.html
+   changelog: /releases/avogadro_120
    date: "15 June, 2016"
 
 # Reading Files
@@ -259,8 +257,10 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+  - _docs/LICENSE.md
+  - _docs/README.md
+  - _docs/SUMMARY.md
+  - _docs/book.json
 keep_files:
   - .git
   - .svn

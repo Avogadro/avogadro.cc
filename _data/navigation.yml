@@ -3,12 +3,121 @@
 main:
 - title: Download
   url: https://sourceforge.net/projects/avogadro/files/latest/download
-
 - title: Manual
   url: /docs/
-
 - title: Discuss
   url: https://discuss.avogadro.cc
-
 - title: Thanks
   url: /credits/
+
+docs:
+- title: Preface
+  url: /docs/
+- title: Getting Started
+  children:
+   - title: "Introduction"
+     url: /docs/getting-started/introduction/
+   - title: "Drawing Molecules"
+     url: /docs/getting-started/drawing-molecules/
+   - title: "Making Selections"
+     url: /docs/getting-started/making-selections/
+- title: Tools
+  children:
+   - title: "Draw Tool"
+     url: /docs/tools/draw-tool/
+   - title: "Navigate Tool"
+     url: /docs/tools/navigate-tool/
+   - title: "Bond-Centric Manipulate Tool"
+     url: /docs/tools/bond-centric-manipulate-tool/
+   - title: "Manipulate Tool"
+     url: /docs/tools/manipulate-tool/
+   - title: "Selection Tool"
+     url: /docs/tools/selection-tool/
+   - title: "Auto-Rotate Tool"
+     url: /docs/tools/auto-rotate-tool/
+   - title: "Auto-Optimize Tool"
+     url: /docs/tools/auto-optimize-tool/
+   - title: "Measure Tool"
+     url: /docs/tools/measure-tool/
+   - title: "Align Tool"
+     url: /docs/tools/align-tool/
+- title: Menus
+  children:
+   - title: "File Menu"
+     url: /docs/menus/file-menu/
+   - title: "Edit Menu"
+     url: /docs/menus/edit-menu/
+   - title: "View Menu"
+     url: /docs/menus/view-menu/
+   - title: "Build Menu"
+     url: /docs/menus/build-menu/
+   - title: "Select Menu"
+     url: /docs/menus/select-menu/
+   - title: "Extension Menu"
+     url: /docs/menus/extensions-menu/
+- title: Building Molecules
+  children:
+   - title: "Importing Molecules"
+     url: /docs/building-molecules/importing-molecules-by-name/
+   - title: "Importing from the PDB"
+     url: /docs/building-molecules/importing-from-the-pdb/
+   - title: "Building a Peptide"
+     url: /docs/building-molecules/building-a-peptide/
+   - title: "Building DNA or RNA"
+     url: /docs/building-molecules/building-dna-rna/
+   - title: "Building Nanotubes"
+     url: /docs/building-molecules/building-carbon-nanotubes/
+   - title: "Insert Fragments"
+     url: /docs/building-molecules/insert-fragments/
+   - title: "Building with SMILES"
+     url: /docs/building-molecules/building-with-smiles/
+- title: Building Materials
+  children:
+   - title: "Building a Supercell"
+     url: /docs/building-materials/supercell/
+   - title: "Making a Crystal Slab"
+     url: /docs/building-materials/building-a-crystal-slab/
+   - title: "Building a Polymer"
+     url: /docs/building-materials/building-a-polymer-unit-cell/
+   - title: "Perceiving Symmetry"
+     url: /docs/building-materials/crystal-symmetry-perception/
+   - title: "Reducing Crystals"
+     url: /docs/building-materials/reducing-crystals-to-primitive-cells/
+   - title: "Scaling Crystal Cells"
+     url: /docs/building-materials/scaling-crystal-volumes/
+   - title: "Molecule-Surface Interactions"
+     url: /docs/building-materials/molecule-surface-interactions/
+- title: Optimizing Geometry
+  children:
+   - title: "Introduction"
+     url: /docs/optimizing-geometry/molecular-mechanics/
+   - title: "Finding Conformers"
+     url: /docs/optimizing-geometry/conformers/
+   - title: "Geometry Constraints"
+     url: /docs/optimizing-geometry/constraints/
+- title: Display Types
+  children:
+   - title: "Different Display Styles"
+     url: /docs/display-types/
+   - title: "Coloring Part of a Molecules"
+     url: /docs/display-types/coloring-part-of-a-molecule/
+- title: Tutorials
+  children:
+   - title: "Naming a Molecule"
+     url: /docs/tutorials/naming-a-molecule/
+   - title: "Viewing Molecular Orbitals"
+     url: /docs/tutorials/viewing-molecular-orbitals/
+   - title: "Viewing Electrostatics"
+     url: /docs/tutorials/viewing-electrostatic-potential/
+   - title: "Viewing Vibrations"
+     url: /docs/tutorials/viewing-vibrations/
+   - title: "Viewing Spectra"
+     url: /docs/tutorials/viewing-vibrational-spectra/
+   - title: "Using QTAIM Analysis"
+     url: /docs/tutorials/using-qtaim-and-wfn/
+- title: Extensions
+  children:
+   - title: "ABINIT Input Generator"
+     url: /docs/extensions/abinit-generator/
+   - title: "LAMMPS Input"
+     url: /docs/extensions/lammps-input-for-water/
