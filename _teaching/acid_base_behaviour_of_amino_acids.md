@@ -3,6 +3,8 @@ layout: single
 title: Acid-Base Properties of Amino Acids
 categories: Teaching
 mathjax: true
+author: Romanov
+date: 1 December 2009‎
 ---
 
 Investigate the pH-dependent protonation of amino acids.

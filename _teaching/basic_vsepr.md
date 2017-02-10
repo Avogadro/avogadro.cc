@@ -3,6 +3,8 @@ layout: single
 title: Basic VSEPR
 categories: Teaching
 mathjax: true
+author: Romanov
+date: 26 November 2009‎
 ---
 
 Investigate atom geometries using VSEPR rules.

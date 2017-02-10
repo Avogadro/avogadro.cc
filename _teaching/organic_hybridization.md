@@ -4,6 +4,8 @@ title: Organic Hybridization
 categories: Teaching
 mathjax: true
 excerpt: Illustrate the geometry and bond lengths in sp3, sp2 and sp hybridized carbons.
+author: Romanov
+date: 26 November 2009‎
 ---
 
 

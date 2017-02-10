@@ -2,6 +2,8 @@
 layout: single
 title: Hydrogen Clusters
 categories: Teaching
+author: Romanov
+date: 26 November 2009‎
 ---
 
 Investigate the intermolecular interactions of solid hydrogen.

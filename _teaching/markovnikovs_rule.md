@@ -2,6 +2,8 @@
 layout: single
 title: Markovnikov's Rules
 categories: Teaching
+author: Romanov
+date: 26 November 2009‎
 ---
 
 Investigate the stability of reactions using Markovnikov's rule.

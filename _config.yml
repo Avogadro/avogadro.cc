@@ -12,9 +12,9 @@ title_separator          : "-"
 name                     : "Avogadro Chemistry"
 description              : "Avogadro - the advanced molecular editor and visualizer"
 #theme                    : "minimal-mistakes-jekyll"
-url                      : "https://avogadro.org" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://avogadro.cc" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "avogadro/avogadro.cc" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : avogadro/avogadro.cc # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
@@ -112,6 +112,7 @@ timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_ti
 
 # Plugins
 gems:
+  - jekyll-redirect-from
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -120,6 +121,7 @@ gems:
 
 # mimic GitHub Pages with --safe
 whitelist:
+  - jekyll-redirect-from
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist

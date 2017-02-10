@@ -3,6 +3,8 @@ layout: single
 title: Hydrogen Molecule
 categories: Teaching
 mathjax: true
+author: Romanov
+date: 26 November 2009‎
 ---
 
 Investigate the hydrogen molecule and bond length using different force fields.

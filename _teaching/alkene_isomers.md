@@ -2,6 +2,8 @@
 layout: single
 title: Alkene Isomers
 categories: Teaching
+author: Romanov
+date: 26 November 2009‎
 ---
 
 Investigate the stability of alkene isomers due to steric interactions.

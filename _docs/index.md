@@ -2,6 +2,8 @@
 layout: single
 title: Preface
 permalink: /docs/
+redirect_from:
+ - /tutorials/
 ---
 
 # Avogadro: Molecular Editor and Visualization
@@ -21,8 +23,6 @@ This book would not be possible without the help and effort of many people, incl
 
 Funding for the Avogadro manual was provided by the [University of Pittsburgh Department of Chemistry](http://www.chem.pitt.edu/).
 
--Taylor Cornell and Geoffrey Hutchison
-
-Summer 2015
-
+-Taylor Cornell and Geoffrey Hutchison<br>
+Summer 2015<br>
 Pittsburgh, Pennsylvania

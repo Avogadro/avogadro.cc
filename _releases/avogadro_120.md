@@ -3,6 +3,8 @@ title: Avogadro 1.2.0
 categories: Releases
 date: 2016-06-15
 author: ghutchis
+redirect_from:
+- /Avogadro_1.2.0/
 ---
 
 Avogadro 1.2.0 was released on June 15, 2016.

@@ -2,6 +2,8 @@
 layout: single
 title: Water
 categories: Teaching
+author: Romanov
+date: 26 November 2009‎
 ---
 
 Investigate the geometry of water and hydrogen bonding between molecules.
