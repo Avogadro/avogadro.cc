@@ -1,7 +1,9 @@
 source "https://rubygems.org"
 
 gem "jekyll"
-gem "minimal-mistakes-jekyll"
+#gem "minimal-mistakes-jekyll"
+
+gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -10,6 +12,4 @@ group :jekyll_plugins do
   gem "jekyll-gist"
   gem "jekyll-feed"
   gem "jemoji"
-  gem "jekyll-archives"
-  gem "jekyll-compose"
 end
