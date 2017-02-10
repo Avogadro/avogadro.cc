@@ -4,6 +4,8 @@ title: Markovnikov's Rules
 categories: Teaching
 ---
 
+Investigate the stability of reactions using Markovnikov's rule.
+
 Task
 ----
 
@@ -35,5 +37,4 @@ Issues
 See also
 --------
 
-[Alkene Isomers](Alkene Isomers "wikilink")
-
+[Alkene Isomers](../alkene_isomers/)

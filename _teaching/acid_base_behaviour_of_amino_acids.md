@@ -5,12 +5,13 @@ categories: Teaching
 mathjax: true
 ---
 
+Investigate the pH-dependent protonation of amino acids.
+
 Tasks
 -----
 
-1.  Create and optimize a glycine molecule ($$\ce{H2N-CH2-COOH}$$). Open **[Build Menu](Build Menu "wikilink")** and select '''Add Hydrogens for pH... ''' Choose different values of pH : 1,2,3,...,13 and note the effect of pH shift on electrical charge of glycine.
-2.  In a new View, create a (Glutamic acid - Lysine) dipeptide using **[Build Menu](Build Menu "wikilink")** \> **Insert** \>**Peptides...** Set pH to 3 and calculate the correspondent electrical charge of the dipeptide. Do the same for pH=7 and 13.
-
+1.  Create and optimize a glycine molecule ($$\ce{H2N-CH2-COOH}$$). Open [`Build Menu`](/docs/menus/build-menu/) and select `Add Hydrogens for pH...` Choose different values of pH : 1,2,3,...,13 and note the effect of pH shift on electrical charge of glycine.
+2.  In a new View, create a (Glutamic acid - Lysine) dipeptide using [`Build Menu`](/docs/menus/build-menu/) \> `Insert` \> `Peptides...` Set pH to 3 and calculate the correspondent electrical charge of the dipeptide. Do the same for pH=7 and 13.
 
 When performing a paper electrophoresis at these pHs, in which direction will the dipeptide move (anode or cathode) ?
 
@@ -24,11 +25,11 @@ Solution
 2. Glu-Lys dipeptide:
 
 |---
-| pH              | ![]("Glu-Lys dipeptideatph3.png") | ![]("Glu-Lys dipeptideatph7.png") | ![]("Glu-Lys dipeptideat13.png") |
+| pH              | ![](/images/Glu-Lys_dipeptideatph3.png) | ![](/images/Glu-Lys_dipeptideatph7.png) | ![](/images/Glu-Lys_dipeptideat13.png) |
 |-----------------|--------------------------------------------------------------|--------------------------------------------------------------|------------------------------------------------------------|
 | Net charge      | `+1`                                                         | `-1`                                                         | `-2`                                                       |
 | Electrophoresis | → cathode (−)                                                | → anode (+)                                                  | →→ anode (+)                                               |
-||
+
 
 Further readings
 ----------------

@@ -20,7 +20,4 @@ Issues
 See also
 --------
 
-[Water](Water) 
-
-
-
+[Water](../water) 

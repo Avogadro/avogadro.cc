@@ -5,6 +5,8 @@ categories: Teaching
 mathjax: true
 ---
 
+Investigate atom geometries using VSEPR rules.
+
 Task
 ----
 
@@ -18,10 +20,12 @@ examples: methane, water, ammonia, etc.
 
 examples: $$\ce{SF6}$$, $$\ce{IF5}$$, $$\ce{XeF4}$$, etc.
 
+- Try even 7, 8, or 9 atoms around a central metal - how do the VSEPR rules extend beyond octahedral molecules?
+
 See also
 --------
 
-[Organic Hybridization](Organic Hybridization "wikilink")
+[Organic Hybridization](../organic_hybridization)
 
 Further readings
 ----------------
@@ -33,6 +37,3 @@ Issues
 
 -   Geometries derived from the trigonal bipyramidal geometry are not currently reliable.
 -   When using the Draw tool, you may wish to uncheck the "Adjust Hydrogens" box.
-
-
-

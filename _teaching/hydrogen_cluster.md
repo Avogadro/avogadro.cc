@@ -4,6 +4,8 @@ title: Hydrogen Clusters
 categories: Teaching
 ---
 
+Investigate the intermolecular interactions of solid hydrogen.
+
 Task
 ----
 
@@ -24,7 +26,7 @@ Solution
 Issues
 ------
 
-Melting of this cluster is poorely controllable.
+Melting of this cluster is poorly controllable.
 
 Cluster is a bit deformed, with long optimization some molecules tend to rotate and stand skew to neighbours.
 
@@ -33,7 +35,4 @@ Since UFF does not properly include quantum mechanical effects and hydrogen bond
 See also
 --------
 
-[Hydrogen molecule](Hydrogen molecule "wikilink")
-
-
-
+[Hydrogen molecule](../hydrogen_molecule)
