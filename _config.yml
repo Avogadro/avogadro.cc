@@ -219,6 +219,13 @@ defaults:
         nav: docs
   - scope:
       path: ""
+      type: teaching
+    values:
+      share: true
+      comments: true
+      author_profile: true
+  - scope:
+      path: ""
       type: devel
     values:
       share: true

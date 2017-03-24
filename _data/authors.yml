@@ -9,7 +9,7 @@ ghutchis:
   uri: https://hutchison.chem.pitt.edu/
   email: geoffh@pitt.edu
   bio: "Associate Professor, University of Pittsburgh"
-  avatar: /assets/images/bio-photo.jpg
+  avatar: /images/ghutchis.jpg
   twitter: ghutchis
   github: ghutchis
   location: "Pittsburgh, PA, USA"
@@ -18,5 +18,8 @@ cryos:
   name: Marcus Hanwell
   uri: https://www.kitware.com/
   bio: "Kitware, Inc."
+  twitter: mhanwell
   github: cryos
-  avatar: /assets/images/bio-photo.jpg
+  google_plus: MarcusHanwell
+  avatar: /images/mhanwell.jpg
+

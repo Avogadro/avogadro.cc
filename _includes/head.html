@@ -14,6 +14,9 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}">
-
+<link rel="stylesheet" type="text/css" href="{{ '/assets/css/main.css' | absolute_url }}">
+{% if page.slides %}
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+{% endif %}
 <meta http-equiv="cleartype" content="on">
