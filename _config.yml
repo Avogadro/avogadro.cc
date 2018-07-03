@@ -11,7 +11,7 @@ title                    : "Avogadro"
 title_separator          : "-"
 name                     : "Avogadro Chemistry"
 description              : "Avogadro - the advanced molecular editor and visualizer"
-#theme                    : "minimal-mistakes-jekyll"
+remote_theme             : "mmistakes/minimal-mistakes"
 url                      : "https://avogadro.cc" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : avogadro/avogadro.cc # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -111,7 +111,8 @@ timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_ti
 
 
 # Plugins
-gems:
+plugins:
+  - jekyll-remote-theme
   - jekyll-redirect-from
   - jekyll-paginate
   - jekyll-sitemap

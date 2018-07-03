@@ -3,6 +3,7 @@ title: "Results from 2018 Community Survey"
 categories: News
 author: ghutchis
 date: 2018-07-01
+toc: true
 ---
 
 We recently posted our first "community survey" to gather feedback. Over a week,
@@ -43,14 +44,14 @@ avogadro mailing lists.
 How do we make it easy to contribute in some way to Avogadro? We had over 60 responses, but over 80% have never even submitted a bug report..  Yet, it's clear that you want to give suggestions and ideas. We'll be talking about this at the [2018 Avogadro User's Meeting](http://bit.ly/avo2018ugm) - please consider coming on August 25th if you're able.
 
 - We want to make it easy to report bugs and suggest features at http://github.com/openchemistry/avogadrolibs
-- We want to encourage the new forum http://discuss.avogadro.cc
+- We want to encourage the new forum [discuss.avogadro.cc](https://discuss.avogadro.cc/)
 - We'll use the [@AvogadroChem](http://twitter.com/AvogadroChem/) account more to share tips and take feedback.
 - We want to make it super easy to add and edit the features you want and share them with others.
 
 > Would it be possible to become involved in order to improve coding skills? (Ie contribution via pedagogy)
 
 Yes, absolutely. We're working to make clear projects - both for ourselves and new contributors. Please e-mail avogadro-devel at lists.sourceforge.net
-or post to https://discuss.avogadro.cc and introduce yourself. We're always happy to work with new contributors! More details on both smaller and larger projects will be coming over the course of the summer.
+or post to [discuss.avogadro.cc](https://discuss.avogadro.cc/) and introduce yourself. We're always happy to work with new contributors! More details on both smaller and larger projects will be coming over the course of the summer.
 
 Others mentioned grant support -- we're happy to write letters of support if you'd like to contribute to Avogadro as part of a proposed project. Moreover, some departments, notably the [University of Pittsburgh](http://www.chem.pitt.edu/) have hired undergraduates or staff programmers to develop specific features for teaching or research.
 
@@ -136,11 +137,11 @@ Crashes or stability were mentioned 16 times (>25% of responses). As stated abov
 
 > mouse control & mode switching from draw and view
 
-Suggestions or ideas for discussion are *always* welcome. Please shoot off an idea for how to improve on our forum: http://discuss.avogadro.cc/
+Suggestions or ideas for discussion are *always* welcome. Please shoot off an idea for how to improve on our forum: [discuss.avogadro.cc](https://discuss.avogadro.cc/)/
 
 > stability, expose more internal settings, fix loads of bugs,
 
-Not quite sure what 'internal settings' need to be exposed, but feel free to give us some ideas: http://discuss.avogadro.cc/
+Not quite sure what 'internal settings' need to be exposed, but feel free to give us some ideas: [discuss.avogadro.cc](https://discuss.avogadro.cc/)/
 
 > customizable keyboard shortcuts, esp to switch b/w the modes (building, rotation, etc.); existing Fxx bindings are not very convenient
 
@@ -152,7 +153,7 @@ Obviously, suggestions on tweaks are welcome - especially on how to separate key
 
 > port all features of A1 to A2 including plugins
 
-Absolutely! Suggestions as far as priority features for 2.0 are definitely welcome: http://discuss.avogadro.cc/
+Absolutely! Suggestions as far as priority features for 2.0 are definitely welcome: [discuss.avogadro.cc](https://discuss.avogadro.cc/)/
 
 We're working on a public roadmap that should be released in July.
 
@@ -170,7 +171,7 @@ The Hutchison group is currently developing multiple methods to allow a wider va
 
 > good conformer searching. Either I'm not doing it right or it's not moving enough stuff. It would also be nice to keep the lower energy structures as an ensemble.
 
-If you have examples where the conformer searching isn't "good," please send a message. We can't fix what we don't know is lacking. (Thus the reason for the survey.) http://discuss.avogadro.cc/
+If you have examples where the conformer searching isn't "good," please send a message. We can't fix what we don't know is lacking. (Thus the reason for the survey.) [discuss.avogadro.cc](https://discuss.avogadro.cc/)/
 
 > GPU support for geometry optimization
 
@@ -232,7 +233,7 @@ We think you'll be pleased by Avogadro 2: for handling multiple files, stability
 
 While Avogadro 1.x has an orbital table giving a list of MOs with energies, we're hoping to add an MO diagram feature to Avogadro 2 this summer.
 
-As for potential energy surfaces, that probably needs some discussion for how to display or integrate that feature: http://discuss.avogadro.cc/
+As for potential energy surfaces, that probably needs some discussion for how to display or integrate that feature: [discuss.avogadro.cc](https://discuss.avogadro.cc/)/
 
 > being able to display the atom numbering as it would be in an xyz file on the actual structure (the 5th atom in the xyz file line shows with a little “5” label over it in the structure in avogadro)
 
@@ -240,15 +241,15 @@ We already have this! The [label option](https://avogadro.cc/docs/display-types/
 
 > Precision of xyz output
 
-In general, coordinates are printed to 0.00001Å, which we felt was a reasonable default. Input into the need for higher precision is welcome (i.e., what format do you want)? http://discuss.avogadro.cc/
+In general, coordinates are printed to 0.00001Å, which we felt was a reasonable default. Input into the need for higher precision is welcome (i.e., what format do you want)? [discuss.avogadro.cc](https://discuss.avogadro.cc/)/
 
 > Finding the features I'm looking for can be challenging sometimes; no specific ideas how to do that, though. :-/ Maybe I haven't found the right help/docs yet.
 
-Well, feel free to post questions in the forum: http://discuss.avogadro.cc/
+Well, feel free to post questions in the forum: [discuss.avogadro.cc](https://discuss.avogadro.cc/)/
 
 > The AIM tool is not good at all and all input builders are in need of improvement
 
-It would help to understand your concerns with the QTAIM analysis - http://discuss.avogadro.cc/ As to the input generators, stay tuned.
+It would help to understand your concerns with the QTAIM analysis - [discuss.avogadro.cc](https://discuss.avogadro.cc/)/ As to the input generators, stay tuned.
 
 > Probably I'm not keen enough, but I don't know anything about automatizing work in Avogadro.
 
