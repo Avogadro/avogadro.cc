@@ -2,7 +2,7 @@
 title: "2018 Avogadro User Meeting"
 categories: News
 author: ghutchis
-date: 2018-04-23
+date: 2018-05-01
 ---
 
 We're excited to announce the first annual Avogadro User Group meeting.
