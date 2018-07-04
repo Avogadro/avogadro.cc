@@ -122,6 +122,7 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
+  - jekyll-remote-theme
   - jekyll-redirect-from
   - jekyll-paginate
   - jekyll-sitemap
