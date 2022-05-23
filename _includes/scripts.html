@@ -9,12 +9,12 @@
   {% endfor %}
 {% else %}
   <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
-  <script src="https://use.fontawesome.com/releases/v5.0.11/js/all.js"></script>
+  <script src="https://kit.fontawesome.com/2820b5b524.js" crossorigin="anonymous"></script>
 {% endif %}
 
 {% if page.slides %}
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script type="text/javascript">
 window.addEventListener('DOMContentLoaded', function() {
         (function($) {
