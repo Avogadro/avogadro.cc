@@ -15,9 +15,9 @@ including new input generators, molecule fragments, and build and analysis
 commands. These scripts make it much easier to integrate Avogadro with many
 open source chemistry Python tools, including RDKit, ASE, etc.
 
-Draft developer documentation can be found at https://two.avogadro.cc
+Draft developer documentation can be found at <https://two.avogadro.cc>
 
-If you have comments or suggestions, please join us at https://discuss.avogadro.cc
+If you have comments or suggestions, please join us at <https://discuss.avogadro.cc>
 
 We anticipate several more releases over the summer and early fall 2021.
 

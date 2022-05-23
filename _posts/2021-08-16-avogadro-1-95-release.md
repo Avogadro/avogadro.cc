@@ -15,9 +15,9 @@ Thanks to many for suggestions, bug reports, and discussions.
 This release includes many new features, including new protein ribbon / cartoon renderings and the new "Layer"
 system as part of Google Summer of Code by @serk12.
 
-Draft developer documentation can be found at https://two.avogadro.cc
+Draft developer documentation can be found at <https://two.avogadro.cc>
 
-If you have comments or suggestions, please join us at https://discuss.avogadro.cc and as always, help and contributions
+If you have comments or suggestions, please join us at <https://discuss.avogadro.cc> and as always, help and contributions
 in many forms are very welcome, **particularly if you'd like to help with user documentation.**
 
 

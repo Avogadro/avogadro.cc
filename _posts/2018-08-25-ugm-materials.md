@@ -7,7 +7,7 @@ date: 2018-08-25
 
 ![2018 UGM Title](/images/2018UGM.png)
 
-Materials from our first User Group Meeting are available through GitHub: https://github.com/openchemistry/avogadro-ugm2018
+Materials from our first User Group Meeting are available through GitHub: <https://github.com/openchemistry/avogadro-ugm2018>
 
 ## Talks
 
@@ -20,14 +20,14 @@ Materials from our first User Group Meeting are available through GitHub: https:
 
 ## Tutorials
 
-- Sending RPC calls: https://github.com/OpenChemistry/avogadro-ugm2018/blob/master/tutorials/JSON-RPC.md
-- Input Generators: https://github.com/OpenChemistry/avogadro-ugm2018/blob/master/tutorials/Generators.md
-- Command Scripts: https://github.com/OpenChemistry/avogadro-ugm2018/blob/master/tutorials/Scripts.md 
+- Sending RPC calls: <https://github.com/OpenChemistry/avogadro-ugm2018/blob/master/tutorials/JSON-RPC.md>
+- Input Generators: <https://github.com/OpenChemistry/avogadro-ugm2018/blob/master/tutorials/Generators.md>
+- Command Scripts: <https://github.com/OpenChemistry/avogadro-ugm2018/blob/master/tutorials/Scripts.md>
 
 ## Example Input Generators
 
-- https://github.com/OpenChemistry/avogadro-ugm2018/tree/master/generators
+- <https://github.com/OpenChemistry/avogadro-ugm2018/tree/master/generators>
 
 ## Example Command Scripts
 
-- https://github.com/OpenChemistry/avogadro-ugm2018/tree/master/commands 
+- <https://github.com/OpenChemistry/avogadro-ugm2018/tree/master/commands>

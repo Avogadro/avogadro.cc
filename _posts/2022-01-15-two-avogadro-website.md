@@ -7,7 +7,7 @@ date: 2022-01-15
 
 There is now a website to coordinate development on Avogadro2:
 
-https://two.avogadro.cc/
+<https://two.avogadro.cc/>
 
 Developer documentation on Avogadro2, including download links for beta releases and nightly 
 builds, as well as Python plugin documentation and C++ API are now available.
