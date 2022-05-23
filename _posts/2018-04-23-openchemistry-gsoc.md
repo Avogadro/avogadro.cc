@@ -9,4 +9,4 @@ Avogadro and [Open Chemistry](http://openchemistry.org) are part of Google Summe
 
 https://summerofcode.withgoogle.com/archive/2018/organizations/6513013473935360/
 
-I think I speak for everyone that we’re excited to see more progress on Avogadro 2 this summer - and hopefully the first official release of Avogadro 2.0 this fall.
+I think I speak for everyone that we’re excited to see more progress on Avogadro 2 this summer.
